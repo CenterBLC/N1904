@@ -28,18 +28,18 @@ See also the following related features:
 
 The following image shows the relation between these features.
 
-<img src="images/details_surface_features.png" width="400">
+<img src="images/details_surface_features.png" width="450">
 
 The following [text-formating options](../textformats.md#start) are defined in this dataset using this feature:
 <pre>
-  A.showFormats()
-     format              level    template
-     lex-orig-plain      word     {lemma}{punctuation}
-     lex-translit-plain  word     {lextranslit}{punctuation}
-     text-orig-full      word     {before}{text}{after}
-     text-orig-plain     word     {text}{punctuation}
-     text-translit-plain word     {translit}{punctuation}
-     text-unaccent-plain word     {unaccent}{punctuation}
+A.showFormats()
+   format               level  template
+   lex-orig-plain       word   {lemma}{punctuation}
+   lex-translit-plain   word   {lextranslit}{punctuation}
+   text-orig-full       word   {before}{text}{after}
+   text-orig-plain      word   {text}{punctuation}
+   text-translit-plain  word   {translit}{punctuation}
+   text-unaccent-plain  word   {unaccent}{punctuation}
 </pre>
 
 
