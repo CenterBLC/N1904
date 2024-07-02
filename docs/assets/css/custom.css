@@ -17,3 +17,24 @@ code {
     border-radius: 4px;
     color: #000000;
 }
+
+header {
+    width: 250px;
+    float: left;
+    position: fixed;
+    -webkit-font-smoothing: subpixel-antialiased
+}
+
+footer {
+    width: 250px;
+    float: left;
+    position: fixed;
+    bottom: 50px;
+    -webkit-font-smoothing: subpixel-antialiased
+}
+
+section {
+    width: 600px;
+    float: right;
+    padding-bottom: 50px
+}
