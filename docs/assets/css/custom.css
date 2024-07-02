@@ -1,9 +1,9 @@
-// Custom styles
+/* Hide elements with the hidden-content class */
 .hidden-content {
     display: none;
 }
 
-/* Adjust the width of the sidebar */
+/* Adjust the width of the header */
 .header {
     width: 250px; 
 }
@@ -12,6 +12,8 @@
 .section {
     min-width: 650px;
     width: 100%;
+    max-width: 100%;
+    box-sizing: border-box; /* Ensure padding and borders are included in the width */
 }
 
 /* Adjust the width of the footer area */
@@ -22,13 +24,14 @@
 /* Add borders to the tables */
 table, th, td {
     border: 1px solid #ddd;
+    border-collapse: collapse; /* Ensure borders don't double */
 }
 
-/* mimick the backticks in Markdown */
+/* Mimic the backticks in Markdown for code elements */
 code {
     font-family: Consolas, "Courier New", monospace;
     background-color: #f9f2f4;
     padding: 2px 4px;
     border-radius: 4px;
-   color: #c7254e;
+    color: #c7254e;
 }
