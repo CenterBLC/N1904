@@ -1,12 +1,5 @@
-# Nestle 1904 GNT - Documentation Overview
+# Nestle 1904 GNT - Welcome
 
-The dataset for this corpus is accompanied by extensive documentation, which is organized in the following way:
+This Github repository houses a comprehensive dataset for the Greek New Testament (Nestle 1904), enabling  linguistic and textual analytics through the Python package [Text-Fabric](tf.md). One of the main features is the ability to present the Greek text as a [syntax tree](syntaxtrees.md), reflecting the hierarchical arrangement of grammatical elements within the sentence.
 
-* [Transcription](transcription.md#start): An overview of how the corpus data is organized.
-* [Features](features/README.md#start): lists of features by different groupings.
-* [Viewtypes](viewtypes.md#start): The viewtypes in this dataset.
-* [Textformats](textformats.md#start): the textformats used in this dataset.
-* [Syntaxtrees](syntaxtrees.md#start): info on syntaxtrees.
-* [Tutorial](../tutorial/README.md#start): starting to use this dataset.
-* [Usecases](usecases/README.md#start): Usecase examples. 
-* [About](about.md#start): provenance, sources, legal.
+This dataset was created as part of the conversion of Eberhard Nestle's 1904 Greek New Testment (British Foreign Bible Society 1904) into TextFabric dataformat. Input to these conversions are the XML node files representing the MACULA-greek, formatted according to Syntax diagram markup by the Global Bible Initiative (GBI). The source data is Low-Fat XML. The most recent source data can be found in [this Github repository](https://github.com/Clear-Bible/macula-greek/tree/main/Nestle1904/lowfat).
