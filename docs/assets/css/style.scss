@@ -28,7 +28,10 @@ table, th, td {
     border: 1px solid #ddd;
 }
 
-/* Backlight items like nodes and values */
-.plaintext.highlighter-rouge {
-    background-color: lightgrey;
+code {
+    font-family: Consolas, "Courier New", monospace;
+    background-color: #f9f2f4;
+    padding: 2px 4px;
+    border-radius: 4px;
+   color: #c7254e;
 }
