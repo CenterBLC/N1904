@@ -5,15 +5,17 @@
 
 /* Adjust the width of the header */
 header {
-    width: 250px; 
+    width: 250px;
+    float: left;
+    position: fixed;
+    -webkit-font-smoothing: subpixel-antialiased
 }
 
 /* Adjust the width of the content area */
 section {
-    min-width: 650px;
-    width: 100%;
-    max-width: 100%;
-    box-sizing: border-box; /* Ensure padding and borders are included in the width */
+    width: 600px;
+    float: right;
+    padding-bottom: 50px
 }
 
 /* Adjust the width of the footer area */
