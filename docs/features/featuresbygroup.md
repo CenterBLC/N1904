@@ -79,6 +79,7 @@ Name |  Data type |Feature type | Available on nodes | Description | Examples
 
 ## Morphological features
 <sup>These features are related to the morphological form of words.</sup>
+
 Name |  Data type | Feature type | Available on nodes | Description | Examples
 --- | --- | --- | --- | --- | ---
 [case](case.md#start) | [`string`](featuresbydatatype.md#string-datatype) | [`Node`](featuresbyfeaturetype.md#node-features) | [`word`](featuresbynodetype.md#word-nodes) [`subphrase`](featuresbynodetype.md#subphrase-nodes) [`phrase`](featuresbynodetype.md#phrase-nodes) | Gramatical case | `nominative`&nbsp`genitive`&nbsp`dative`
