@@ -1,4 +1,4 @@
-MIT License
+# MIT License
 
 Copyright (c) 2024 Center of Biblical Languages and Computing (CBLC)
 
