@@ -1,0 +1,34 @@
+// Custom styles
+.hidden-content {
+    display: none;
+}
+
+/* Adjust the width of the sidebar */
+.header {
+    width: 250px; 
+}
+
+/* Adjust the width of the content area */
+.section {
+    min-width: 650px;
+    width: 100%;
+}
+
+/* Adjust the width of the footer area */
+.footer {
+    width: 200px;
+}
+
+/* Add borders to the tables */
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+/* mimick the backticks in Markdown */
+code {
+    font-family: Consolas, "Courier New", monospace;
+    background-color: #f9f2f4;
+    padding: 2px 4px;
+    border-radius: 4px;
+   color: #c7254e;
+}
