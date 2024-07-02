@@ -27,3 +27,8 @@
 table, th, td {
     border: 1px solid #ddd;
 }
+
+/* Backlight items like nodes and values */
+plaintext.highlighter-rouge {
+    background-color: lightgrey;
+}

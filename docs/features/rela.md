@@ -19,7 +19,7 @@ This feature is also populated for `phrase` or `subphrase`, but only if they con
 
 Value | Description | Frequency
 ---  | --- | --- 
-` ` |  This entity forms no apposition | 
+`&nbsp` |  This entity forms no apposition | 
 `Appo` | This entity forms an apposition | 1958
 
 ## Note

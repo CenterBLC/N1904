@@ -20,4 +20,4 @@ The main functionalities of Text-Fabric include:
 
 Detailed information regarding Text-Fabric can be found at:
 * [Text-Fabric Package description](https://annotation.github.io/text-fabric/tf/index.html)
-* [Text-Fabric Handbook](https://annotation.github.io/text-fabric-book)
+

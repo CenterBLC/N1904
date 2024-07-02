@@ -19,7 +19,7 @@ This feature is also populated for `phrase` or `subphrase`, but only if they con
 
 value | description | Frequency<sup>1</sup>
 ---  | --- | --- 
-` ` | no discontinuation | 
+`&nbsp` | no discontinuation | 
 `1` |  discontinuation | 12068
 
 <sup>1</sup> Frequency figures are listed for word nodes only.

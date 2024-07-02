@@ -25,7 +25,7 @@ mood | Comment | Frequency<sup>1</sup>
 `participle` | (pseudo mood) | 6653
 `optative` | expresses something is possible | 69
 `subjunctive` | expresses a probable or desired action | 1856
-` ` | Any other wordtype | 109422
+`&nbsp` | Any other wordtype | 109422
 
 <sup>1</sup> Frequency figures are listed for word nodes only. 
 

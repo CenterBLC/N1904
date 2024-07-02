@@ -19,7 +19,7 @@ This feature is also populated for `phrase` or `subphrase`, but only if they con
 
 Value | Description | Unicode codepoint | Frequency<sup>1</sup>
 ---  |  --- | --- | ---
-` ` | Space | [`&#32`](https://www.codetable.net/decimal/32)  |  238522
+`&nbsp` | Space | [`&#32`](https://www.codetable.net/decimal/32)  |  238522
 `, ` | Comma |  [`&#44`](https://www.codetable.net/decimal/44)   | 18878
 `. ` | Full Stop | [`&#46`](https://www.codetable.net/decimal/46) | 11408
 `· ` | Midle Dot | [`&#183`](https://www.codetable.net/decimal/183) | 4710
