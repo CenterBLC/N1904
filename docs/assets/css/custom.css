@@ -4,12 +4,12 @@
 }
 
 /* Adjust the width of the header */
-.header {
+header {
     width: 250px; 
 }
 
 /* Adjust the width of the content area */
-.section {
+section {
     min-width: 650px;
     width: 100%;
     max-width: 100%;
