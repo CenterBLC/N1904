@@ -1,5 +1,7 @@
 <a name="start"></a>
-[`Transcription`](transcription.md#start) | [`Features`](features/README.md#start) | [`Viewtypes`](viewtypes.md#start) | [`Textformats`](textformats.md#start) | `Syntaxtrees`</small> | [<small>`Tutorial`](../tutorial/README.md#start) | [`Usecases`](usecases/README.md#start) | [`About`](about.md#start)
+<div class="hidden-content">
+<a href="transcription.md">Transcription</a> | <a href="features/README.md#start">Features</a> | <a href="viewtypes.md#start">Viewtypes</a> | <a href="textformats.md#start">Textformats</a> | Syntaxtrees | <a href="../tutorial/README.md#start">Tutorial</a> | <a href="../usecases/README.md#start">Usecases</a> | <a href="about.md#start">About</a>
+</div>
 
 # Nestle 1904 GNT - Syntaxtrees
 
