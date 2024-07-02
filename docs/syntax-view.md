@@ -10,6 +10,7 @@ The syntax viewtype displays the syntax tree using separate node types for claus
 Swithing to a specific viewtype can be done by providing the proper argument to command A.viewtype(). This command is specific to this dataset and automaticaly loaded upon invocation of the TF dataset.
 
 The relation between node types and view types is shown in the following table.
+
 Viewtype | Invocation | Associated node types | 
 --- | --- | ---
 [`wg-view`](wg-view.md#start) | A.viewtype('wg') |  [`wg`](features/featuresbynodetype.md#wordgroup-nodes) 
