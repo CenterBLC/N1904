@@ -45,5 +45,5 @@ This Text-Fabric conversion is based on the datasets from Clear, [MACULA linguis
 
 <sup>1</sup> Dirk Roorda. "Coding the Hebrew Bible" in *Research Data Journal for the Humanities and Social Sciences Volume 3: Issue 1*, 30 [DOI: doi.org/10.1163/24523666-01000011](https://doi.org/10.1163/24523666-01000011)
 
-DOI: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11657750.svg)](https://doi.org/10.5281/zenodo.11657750)
+DOI: TBD
 
