@@ -57,5 +57,5 @@ For mapping to OSIS Book abbreviations, see [OSIS Book Abbreviations](https://wi
 This feature is based upon the XML attribute `id` of the tag `book`.
 
 ---
-###### *Browse all features by [node type](featuresbynodetype.md#start), [data type](featuresbydatatype.md#start), [feature group](featuresbygroup.md#start) or [feature type](featuresbyfeaturetype.md#start).*
+##### *Browse all features by [node type](featuresbynodetype.md#start), [data type](featuresbydatatype.md#start), [feature group](featuresbygroup.md#start) or [feature type](featuresbyfeaturetype.md#start).*
 

@@ -34,5 +34,5 @@ See also the related feature [person](person.md) available for `word` node where
 This feature is derived from the XML attribute `number` of the tag `w` (word).
 
 ---
-###### *Browse all features by [node type](featuresbynodetype.md#start), [data type](featuresbydatatype.md#start), [feature group](featuresbygroup.md#start) or [feature type](featuresbyfeaturetype.md#start).*
+##### *Browse all features by [node type](featuresbynodetype.md#start), [data type](featuresbydatatype.md#start), [feature group](featuresbygroup.md#start) or [feature type](featuresbyfeaturetype.md#start).*
 

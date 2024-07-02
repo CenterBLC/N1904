@@ -21,6 +21,7 @@ This is the key to the meaning of the features in this TextFabric dataset. The a
 ## Grid features
 
 <sup>These features pertains to the arrangement and organization of the database.</sup>
+
 Name |  Feature type | Available on nodes | Description| Examples
 ---|---| ---|--- | ---
 [oslots](oslots.md#start) | [`Edge`](featuresbyfeaturetype.md#edge-features) | *not applicable*  | slot containment | `1` `1-11` `2010-2015,2020-2030`
@@ -30,6 +31,7 @@ Name |  Feature type | Available on nodes | Description| Examples
 ## Sectional features
 
 <sup>These features are related to structural divisions within the text.</sup>
+
 Name | Data type | Feature type | Available on nodes | Description | Examples
 ---|---|---|---|---|---
 [book](book.md#start) | [`string`](featuresbydatatype.md#string-datatype) | [`Node`](featuresbyfeaturetype.md#node-features) | [`word`](featuresbynodetype.md#word-nodes) [`subphrase`](featuresbynodetype.md#subphrase-nodes) [`phrase`](featuresbynodetype.md#phrase-nodes) [`group`](featuresbynodetype.md#group-nodes) [`wg`](featuresbynodetype.md#wg-nodes) [`sentence`](featuresbynodetype.md#sentence-nodes) [`verse`](featuresbynodetype.md#verse-nodes)  [`book`](featuresbynodetype.md#book-nodes) | Full book name | `Matthew` `Mark` ... `Revelation`
@@ -44,6 +46,7 @@ Name | Data type | Feature type | Available on nodes | Description | Examples
 ## Orthograpic features
 
 <sup>These features are related to the visual representation of the text.</sup>
+
 Name |  Data type |Feature type | Available on nodes| Description | Examples
 --- | --- | --- | --- | --- | ---
 [after](after.md#start) | [`string`](featuresbydatatype.md#string-datatype) | [`Node`](featuresbyfeaturetype.md#node-features) | [`word`](featuresbynodetype.md#word-nodes) [`subphrase`](featuresbynodetype.md#subphrase-nodes) [`phrase`](featuresbynodetype.md#phrase-nodes) | All material found after a word | ` ` `. ` `; `
@@ -58,6 +61,7 @@ Name |  Data type |Feature type | Available on nodes| Description | Examples
 ## Lexical features
 
 <sup>These features are related to individual words and their lexical properties.</sup>
+
 Name |  Data type |Feature type | Available on nodes | Description | Examples
 ---|---|---|--- | ---| ---
 [gloss](gloss.md#start) | [`string`](featuresbydatatype.md#string-datatype) | [`Node`](featuresbyfeaturetype.md#node-features) | [`word`](featuresbynodetype.md#word-nodes) | English gloss (cf. BGVB) | `and, also, likewise` `the`
@@ -68,6 +72,7 @@ Name |  Data type |Feature type | Available on nodes | Description | Examples
 
 ## Textcritical features
 <sup>These features are related to textual critical issues</sup>
+
 Name |  Data type |Feature type | Available on nodes | Description | Examples
 ---|---|---|--- | ---| ---
 [criticalsign](criticalsign.md#start) | [`string`](featuresbydatatype.md#string-datatype) | [`Node`](featuresbyfeaturetype.md#node-features) | [`word`](featuresbynodetype.md#word-nodes) [`subphrase`](featuresbynodetype.md#subphrase-nodes) [`phrase`](featuresbynodetype.md#phrase-nodes) | text-critical signs | `(` `[` `)` `]`
@@ -89,6 +94,7 @@ Name |  Data type | Feature type | Available on nodes | Description | Examples
 
 ## Syntactic features
 <sup>These features are related to the syntactical arrangement of words and phrases.</sup>
+
 Name | Data type | Feature type | Available on nodes | Description | Examples
 --- | --- | --- | --- | --- | ---
 [appostioncontainer](appositioncontainer.md#start) | [`string`](featuresbydatatype.md#string-datatype) | [`Node`](featuresbyfeaturetype.md#node-features) | [`wg`](featuresbynodetype.md#wordgroup-nodes)  [`phrase`](featuresbynodetype.md#phrase-nodes) [`subphrase`](featuresbynodetype.md#subphrase-nodes)  | Appostioncontainer information | `1` 
@@ -110,6 +116,7 @@ Name | Data type | Feature type | Available on nodes | Description | Examples
 
 ## Semantic features
 <sup>These features are related to semantic meaning and roles of words and phrases.</sup>
+
 Name | Data type | Feature type | Available on nodes | Description | Examples
 --- | --- | --- | --- | --- | ---
 [domain](domain.md#start) | [`string`](featuresbydatatype.md#string-datatype) | [`Node`](featuresbyfeaturetype.md#node-features) | [`word`](featuresbynodetype.md#word-nodes) [`subphrase`](featuresbynodetype.md#subphrase-nodes) [`phrase`](featuresbynodetype.md#phrase-nodes) | Lexical-Semantic domain according to SDBG | `092004`
@@ -119,10 +126,11 @@ Name | Data type | Feature type | Available on nodes | Description | Examples
 
 ## Relational features
 <sup>These features describe the relationships or connections between nodes.</sup>
+
 Name | Data type | Feature type | Available on nodes |Description | Example
 --- | --- | --- | --- | --- | ---
 [note](note.md#start) | [`string`](featuresbydatatype.md#string-datatype) | [`Node`](featuresbyfeaturetype.md#node-features) | [`word`](featuresbynodetype.md#word-nodes) [`phrase`](featuresbynodetype.md#phrase-nodes) | Annotation of linguistic nature | `discontinuous discourse`
 [parent](parent.md#start) | [`string`](featuresbydatatype.md#string-datatype) | [`Edge`](featuresbyfeaturetype.md#edge-features) | [`word`](featuresbynodetype.md#word-nodes) [`wg`](featuresbynodetype.md#wordgroup-nodes)  [`group`](featuresbynodetype.md#group-nodes) [`sentence`](featuresbynodetype.md#sentence-nodes) [`clause`](featuresbynodetype.md#clause-nodes)  [`phrase`](featuresbynodetype.md#phrase-nodes)  | Parent node | 
 [sibling](sibling.md#start) | [`integer`](featuresbydatatype.md#integer-datatype) | [`Edge`](featuresbyfeaturetype.md#edge-features) | [`word`](featuresbynodetype.md#word-nodes) [`wg`](featuresbynodetype.md#wordgroup-nodes)  [`group`](featuresbynodetype.md#group-nodes) [`sentence`](featuresbynodetype.md#sentence-nodes) [`clause`](featuresbynodetype.md#clause-nodes)  [`phrase`](featuresbynodetype.md#phrase-nodes) | Sibling node | 
 
-###### *(or browse by [node type](featuresbynodetype.md#start), [data type](featuresbydatatype.md#start), or [feature type](featuresbyfeaturetype.md#start))*
+##### *(or browse by [node type](featuresbynodetype.md#start), [data type](featuresbydatatype.md#start), or [feature type](featuresbyfeaturetype.md#start))*
