@@ -16,6 +16,7 @@ The `cltype` feature provides classification for different types of clauses, spe
 ## Feature values
 
 Frequency for [sentence](featurebynodetype.md#sentence-nodes) nodes:
+
 value | description | Frequency
 ---  | --- | --- 
 `Verbless` | Verbless clause type| 77
@@ -23,6 +24,7 @@ value | description | Frequency
 `Minor` |  Minor clause type | 1
 
 Frequency for [`clause`](featuresbynodetype.md#clause-nodes) nodes:
+
 value | description | Frequency
 ---  | --- | --- 
 `Verbless` | Verbless clause type| 1003

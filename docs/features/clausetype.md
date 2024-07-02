@@ -16,16 +16,19 @@ The `clausetype` feature provides information about the type of clauses within t
 ## Feature values
 
 Frequency for [`sentence`](featuresbynodetype.md#sentence-nodes) nodes (used in [`syntax-view`](../syntax-view.md#start) and [`wg-view`](../wg-view.md#start)): 
+
 Value|Occurences
 ---|---
 nominalized|59
 
 Frequency for  [`clause`](featuresbynodetype.md#clause-nodes) nodes (used in [`syntax-view`](../syntax-view.md#start)):
+
 Value|Occurences
 ---|---
 nominalized|5237
 
 Frequency for [`wg`](featurebynodetype.md#wordgroup-nodes) nodes (used in [`wg-view`](../wg-view.md#start)):
+
 Value|Occurences
 ---|---
 nominalized|5296

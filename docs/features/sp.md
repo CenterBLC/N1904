@@ -47,6 +47,7 @@ Value | Description | Frequency
 
 
 Frequency for [word](featuresbynodetype.md#word-nodes) nodes:
+
 Value | Description | Frequency
 --- | --- | ---
 `subs`| Substantive |28455

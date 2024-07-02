@@ -16,6 +16,7 @@ The `appositioncontainer` feature indicates whether a word group or phrase conta
 ## Feature values 
 
 Frequency for nodetype [`wg`](featuresbynodetype.md#wordgroup-nodes) (used in [`wg-view`](../wg-view.md#start)):
+
 Value | Description | Frequency
 ---  | --- | --- 
 ` ` | this word group contains no appositioncontainer | -
@@ -23,6 +24,7 @@ Value | Description | Frequency
 
 
 Frequency for nodetype [`phrase`](featuresbynodetype.md#phrase-nodes) (used in [`syntax-view`](../syntactic-view.md#start)):
+
 Value | Description | Frequency
 ---  | --- | --- 
 ` ` | this phrase contains no appositioncontainer | -
@@ -30,6 +32,7 @@ Value | Description | Frequency
 
 
 Frequency for nodetype [`subphrase`](featuresbynodetype.md#subphrase-nodes) (used in [`syntax-view`](../syntactic-view.md#start)):
+
 Value | Description | Frequency
 ---  | --- | --- 
 ` ` | this subphrase contains no appositioncontainer | -

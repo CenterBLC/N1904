@@ -18,6 +18,7 @@ This feature is also populated for `phrase` or `subphrase`, but only if they con
 ## Feature values 
 
 For [`word`](featuresbynodetype.md#word-nodes) nodes (used in [`syntax-view`](../syntax-view.md#start) and  [`wg-view`](../wg-view.md#start)):
+
 Value | Description | Unicode codepoint | Frequency
 --- |  --- | --- | ---
 `—` | Em Dash | [`&#8212`](https://www.codetable.net/decimal/8212) | 16
@@ -26,6 +27,7 @@ Value | Description | Unicode codepoint | Frequency
 `[` |	Left Square Bracket | [`&#91`](https://www.codetable.net/decimal/91) | 1
 
 For [`subphrase`](featuresbynodetype.md#subphrase-nodes) nodes (used in [`syntax-view`](../syntax-view.md#start)):
+
 Value | Description | Unicode codepoint | Frequency
 --- |  --- | --- | ---
 `—` | Em Dash | [`&#8212`](https://www.codetable.net/decimal/8212) | 16
@@ -34,6 +36,7 @@ Value | Description | Unicode codepoint | Frequency
 `[` |	Left Square Bracket | [`&#91`](https://www.codetable.net/decimal/91) | 1
 
 For [`phrase`](featuresbynodetype.md#phrase-nodes) nodes (used in [`syntax-view`](../syntax-view.md#start)):
+
 Value | Description | Unicode codepoint | Frequency
 --- |  --- | --- | ---
 `—` | Em Dash | [`&#8212`](https://www.codetable.net/decimal/8212) | 8
