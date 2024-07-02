@@ -4,7 +4,7 @@
 </div>
 
 # Nestle 1904 GNT - Features (grouped by feature type)
-###### *(or browse by [node type](featuresbynodetype.md#start), [data type](featuresbydatatype.md#start), or [feature group](featuresbygroup.md#start))*
+##### *(or browse by [node type](featuresbynodetype.md#start), [data type](featuresbydatatype.md#start), or [feature group](featuresbygroup.md#start))*
 
 The features of this Text-Fabric dataset can be grouped by the following feature types:
 
@@ -14,11 +14,11 @@ The features of this Text-Fabric dataset can be grouped by the following feature
 
 ## Node features
 
-###### *Use Text-Fabric Node feature methods: [N](https://annotation.github.io/text-fabric/tf/cheatsheet.html#n-nodes) and [F](https://annotation.github.io/text-fabric/tf/cheatsheet.html#f-node-features). See [tf.core.nodefeature](https://annotation.github.io/text-fabric/tf/core/nodefeature.html) for more details on Node features.*
+##### *Use Text-Fabric Node feature methods: [N](https://annotation.github.io/text-fabric/tf/cheatsheet.html#n-nodes) and [F](https://annotation.github.io/text-fabric/tf/cheatsheet.html#f-node-features). See [tf.core.nodefeature](https://annotation.github.io/text-fabric/tf/core/nodefeature.html) for more details on Node features.*
 
 Name | Feature group | Data type | Available on node | Description | Examples
 ---|---|---|---|---|---
-[after](after.md#start) | [`Orthograpic`](featuresbygroup.md#orthograpic-features) |[`string`](featuresbydatatype.md#string-datatype) | [`word`](featuresbynodetype.md#word-nodes) [`subphrase`](featuresbynodetype.md#subphrase-nodes) [`phrase`](featuresbynodetype.md#phrase-nodes) |  Space or punctuation after word | ` ` `.`
+[after](after.md#start) | [`Orthograpic`](featuresbygroup.md#orthograpic-features) |[`string`](featuresbydatatype.md#string-datatype) | [`word`](featuresbynodetype.md#word-nodes) [`subphrase`](featuresbynodetype.md#subphrase-nodes) [`phrase`](featuresbynodetype.md#phrase-nodes) |  Space or punctuation after word | <span>` `</span> `.`
 [appostioncontainer](appositioncontainer.md#start) | [`Syntactic`](featuresbygroup.md#syntactic-features) | [`string`](featuresbydatatype.md#string-datatype) | [`wg`](featuresbynodetype.md#wordgroup-nodes) [`phrase`](featuresbynodetype.md#phrase-nodes) |Appostioncontainer information | `1` 
 [articular](articular.md#start) | [`Syntactic`](featuresbygroup.md#syntactic-features) | [`string`](featuresbydatatype.md#string-datatype) | [`sentence`](featuresbynodetype.md#sentence-nodes) [`group`](featuresbynodetype.md#group-nodes)  [`wg`](featuresbynodetype.md#wordgroup-nodes) [`clause`](featuresbynodetype.md#clause-nodes) [`phrase`](featuresbynodetype.md#phrase-nodes)| Articular information | `1`
 [before](before.md#start) | [`Orthograpic`](featuresbygroup.md#orthograpic-features) | [`string`](featuresbydatatype.md#string-datatype) | [`word`](featuresbynodetype.md#word-nodes) [`subphrase`](featuresbynodetype.md#subphrase-nodes) [`phrase`](featuresbynodetype.md#phrase-nodes) |Text-critical signs before word | `(` `[`
@@ -74,7 +74,7 @@ Name | Feature group | Data type | Available on node | Description | Examples
 
 ## Edge features
 
-###### *Use Text-Fabric Edge feature methods: [E](https://annotation.github.io/text-fabric/tf/cheatsheet.html#e-edge-features). See [tf.core.edgefeature](https://annotation.github.io/text-fabric/tf/core/edgefeature.html) for more details on Edge features.*
+##### *Use Text-Fabric Edge feature methods: [E](https://annotation.github.io/text-fabric/tf/cheatsheet.html#e-edge-features). See [tf.core.edgefeature](https://annotation.github.io/text-fabric/tf/core/edgefeature.html) for more details on Edge features.*
 
 Name | Feature group | Data type | Available on node | Description | Exampes
 ---|---|---|---|---|---
@@ -90,5 +90,5 @@ Name | Feature group |Data type| Description| Examples
 ---|---|---|---|---
 [otext](otext.md) | [`Grid`](featuresbygroup.md#grid-features) | *not applicable* | Textformatting and corpus segmenting configuration used by the text API | *no data, only specifications*  
 
-###### *(or browse by [node type](featuresbynodetype.md#start), [data type](featuresbydatatype.md#start), or [feature group](featuresbygroup.md#start))*
+##### *(or browse by [node type](featuresbynodetype.md#start), [data type](featuresbydatatype.md#start), or [feature group](featuresbygroup.md#start))*
 

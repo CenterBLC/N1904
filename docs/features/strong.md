@@ -28,4 +28,4 @@ Note from [biblicalhumanities/Nestle1904](https://github.com/biblicalhumanities/
 This feature is derived from the XML attribute `strongs` of the tag `w` (word).
 
 ---
-##### *Browse all features by [node type](featuresbynodetype.md#start), [data type](featuresbydatatype.md#start), [feature group](featuresbygroup.md#start) or [feature type](featuresbyfeaturetype.md#start).*
+#### *Browse all features by [node type](featuresbynodetype.md#start), [data type](featuresbydatatype.md#start), [feature group](featuresbygroup.md#start) or [feature type](featuresbyfeaturetype.md#start).*

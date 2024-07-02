@@ -33,4 +33,4 @@ The following image presents a nested apposition demonstrating this feature and 
 Taken from the optional XML attribute `appositioncontainer` of the tag `wg` (wordgroup).
 
 ---
-##### *Browse all features by [node type](featuresbynodetype.md#start), [data type](featuresbydatatype.md#start), [feature group](featuresbygroup.md#start) or [feature type](featuresbyfeaturetype.md#start).*
+#### *Browse all features by [node type](featuresbynodetype.md#start), [data type](featuresbydatatype.md#start), [feature group](featuresbygroup.md#start) or [feature type](featuresbyfeaturetype.md#start).*

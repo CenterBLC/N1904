@@ -21,7 +21,7 @@ All material found after a word. The frequency is provided by the table below.
 
 Value | Description | Unicode codepoint | Frequency<sup>1</sup>
 ---  |  --- | --- | ---
-` ` | Space | [`&#32`](https://www.codetable.net/decimal/32)  |  119261
+<span>` `</span> | Space | [`&#32`](https://www.codetable.net/decimal/32)  |  119261
 `, ` | Comma | [`&#44`](https://www.codetable.net/decimal/44) & [`&#32`](https://www.codetable.net/decimal/32)   | 9439
 `. ` | Full stop | [`&#46`](https://www.codetable.net/decimal/46) & [`&#32`](https://www.codetable.net/decimal/32)| 5704
 `· ` | Midle dot | [`&#183`](https://www.codetable.net/decimal/183) & [`&#32`](https://www.codetable.net/decimal/32) | 2355
@@ -67,5 +67,5 @@ The `after` feature is based on the XML attribute `after` of the `w` (word) tag.
 
 
 ---
-##### *Browse all features by [node type](featuresbynodetype.md#start), [data type](featuresbydatatype.md#start), [feature group](featuresbygroup.md#start) or [feature type](featuresbyfeaturetype.md#start).*
+#### *Browse all features by [node type](featuresbynodetype.md#start), [data type](featuresbydatatype.md#start), [feature group](featuresbygroup.md#start) or [feature type](featuresbyfeaturetype.md#start).*
 
