@@ -3,26 +3,6 @@
     display: none;
 }
 
-/* Adjust the width of the header */
-header {
-    width: 250px;
-    float: left;
-    position: fixed;
-    -webkit-font-smoothing: subpixel-antialiased
-}
-
-/* Adjust the width of the content area */
-section {
-    width: 600px;
-    float: right;
-    padding-bottom: 50px
-}
-
-/* Adjust the width of the footer area */
-.footer {
-    width: 200px;
-}
-
 /* Add borders to the tables */
 table, th, td {
     border: 1px solid #ddd;
