@@ -1,0 +1,7 @@
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme
+
+title: Nestle 1904 GNT
+description: Text-Fabric dataset for Greek New Testament based upon Nestle 1904
+show_downloads: false
