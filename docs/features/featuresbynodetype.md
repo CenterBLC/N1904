@@ -5,7 +5,7 @@
 
 # Nestle 1904 GNT - Features (grouped by node type) 
 
-##### *(or browse by [feature type](featuresbyfeaturetype.md#start), [data type](featuresbydatatype.md#start), or [feature group](featuresbygroup.md#start))*
+#### *Or browse by [feature type](featuresbyfeaturetype.md#start), [data type](featuresbydatatype.md#start), or [feature group](featuresbygroup.md#start)*
 
 In  Text-Fabric 'features' provide a mapping of nodes of a specific type to its associated additional information. This Text-Fabric dataset contains the following node types:
 * [137779 `word` nodes](#word-nodes): each node represents an individual word in the corpus. They consitute the the smallest linguistic entity in a query as they form the slots in the database.
@@ -274,4 +274,4 @@ Feature | Feature group | Feature type | Data type | Short description | Example
 [num](num.md#start) | [`Sectional`](featuresbygroup.md#sectional-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`integer`](featuresbydatatype.md#integer-datatype) | Sequence number (here: book number) | `1` `2` ... `26`
 [otype](otype.md) | [`Grid`](featuresbygroup.md#grid-features) | [`string`](featuresbydatatype.md#string-datatype) | [`Node`](featuresbyfeaturetype.md#node-features) | mapping between node number and associated objecttype | 
 
-##### *(or browse by [feature type](featuresbyfeaturetype.md#start), [data type](featuresbydatatype.md#start), or [feature group](featuresbygroup.md#start))*
+#### *Or browse by [feature type](featuresbyfeaturetype.md#start), [data type](featuresbydatatype.md#start), or [feature group](featuresbygroup.md#start)*

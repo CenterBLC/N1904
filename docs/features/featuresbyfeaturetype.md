@@ -4,7 +4,7 @@
 </div>
 
 # Nestle 1904 GNT - Features (grouped by feature type)
-##### *(or browse by [node type](featuresbynodetype.md#start), [data type](featuresbydatatype.md#start), or [feature group](featuresbygroup.md#start))*
+#### *Or browse by [node type](featuresbynodetype.md#start), [data type](featuresbydatatype.md#start), or [feature group](featuresbygroup.md#start)*
 
 The features of this Text-Fabric dataset can be grouped by the following feature types:
 
@@ -90,5 +90,5 @@ Name | Feature group |Data type| Description| Examples
 ---|---|---|---|---
 [otext](otext.md) | [`Grid`](featuresbygroup.md#grid-features) | *not applicable* | Textformatting and corpus segmenting configuration used by the text API | *no data, only specifications*  
 
-##### *(or browse by [node type](featuresbynodetype.md#start), [data type](featuresbydatatype.md#start), or [feature group](featuresbygroup.md#start))*
+#### *Or browse by [node type](featuresbynodetype.md#start), [data type](featuresbydatatype.md#start), or [feature group](featuresbygroup.md#start)*
 
