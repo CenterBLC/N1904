@@ -1,7 +1,9 @@
 <a name="start"></a>
-[`Transcription`](../transcription.md#start) | [`Features`](README.md#start) | [`Viewtypes`](../viewtypes.md#start) | [`Textformats`](../textformats.md#start) |  [`Syntaxtrees`](../syntaxtrees.md#start) | [`Tutorial`](../../tutorial/README.md#start) | [`Usecases`](../usecases/README.md#start) | [`About`](../about.md#start)
+<div class="hidden-content">
+<a href="../transcription.md">Transcription</a> | <a href="README.md#start">Features</a> | <a href="../viewtypes.md#start">Viewtypes</a> | <a href="../textformats.md#start">Textformats</a> |  <a href="../syntaxtrees.md#start">Syntaxtrees</a> | <a href="../../tutorial/README.md#start">Tutorial</a> | <a href="../usecases/README.md#start">Usecases</a> | <a href="../about.md#start">About</a>
+</div>
 
-# Nestle 1904 GNT - Feature: nodeId 
+# Nestle 1904 GNT - Feature: nodeid 
 
 Feature group | Feature type | Data type | Available for node types | Used by viewtypes
 ---  | --- | --- | --- | ---
@@ -9,7 +11,7 @@ Feature group | Feature type | Data type | Available for node types | Used by vi
 
 ## Feature description 
 
-The `nodeId` feature represents the Node ID of a word group. This ID helps in identifying and referencing specific word groups, clauses, and sentences within the text.
+The `nodeid` feature represents the Node ID of a word group. This ID helps in identifying and referencing specific word groups, clauses, and sentences within the text.
 
 ## Feature values
 
