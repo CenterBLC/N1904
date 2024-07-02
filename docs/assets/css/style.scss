@@ -15,7 +15,8 @@
 
 /* Adjust the width of the content area */
 .section {
-    width: 650px;
+    min-width: 650px;
+    width: 100%;
 }
 
 /* Adjust the width of the footer area */
