@@ -15,8 +15,14 @@ The `nodeid` feature represents the Node ID of a word group. This ID helps in id
 
 ## Feature values
 
-format like `400010200010490`
-<pre>Decoding??</pre>
+format like `400010200010490` which can be decoded as:
+```
+    BBCCCVVVWWW
+    BB          => zero-padded book, the first NT book (Matthew) starts at 40
+      CCC       => zero-padded chapter
+         VVV    => zero-padded verse
+            WWW => zero-padded word index (instance within the verse)
+```
 
 ## Source description
 
