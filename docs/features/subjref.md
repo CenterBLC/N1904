@@ -48,7 +48,7 @@ One example syntactical tree:
 
 <img src="images/subjref.png" width="600">
 
-See also related feature [subjrefspec](subjrefspec.md#start).
+See also related node feature [subjrefspec](subjrefspec.md#start).
 
 ## Source description
 
