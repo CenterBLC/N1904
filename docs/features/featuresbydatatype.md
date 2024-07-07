@@ -10,7 +10,6 @@ The features in this Text-Fabric dataset can be grouped according to their datat
 
 * [String datatype features](#string-datatype)
 * [Integer datatype features](#integer-datatype)
-* [Link datatype features](#link-datatype)
 * [Configuration data](featuresbydatatype.md#configuration-data)
 
 ## String datatype
