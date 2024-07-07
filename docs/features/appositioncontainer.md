@@ -19,7 +19,7 @@ Frequency for nodetype [`wg`](featuresbynodetype.md#wordgroup-nodes) (used in [`
 
 Value | Description | Frequency
 ---  | --- | --- 
-`&nbsp` | this word group contains no appositioncontainer | -
+` ` | this word group contains no appositioncontainer | -
 `1` | this word group contains an appositioncontainer | 1908
 
 
@@ -27,7 +27,7 @@ Frequency for nodetype [`phrase`](featuresbynodetype.md#phrase-nodes) (used in [
 
 Value | Description | Frequency
 ---  | --- | --- 
-`&nbsp` | this phrase contains no appositioncontainer | -
+` ` | this phrase contains no appositioncontainer | -
 `1` | this phrase contains an appositioncontainer | 715
 
 
@@ -35,7 +35,7 @@ Frequency for nodetype [`subphrase`](featuresbynodetype.md#subphrase-nodes) (use
 
 Value | Description | Frequency
 ---  | --- | --- 
-`&nbsp` | this subphrase contains no appositioncontainer | -
+` ` | this subphrase contains no appositioncontainer | -
 `1` | this subphrase contains an appositioncontainer | 1908
 
 ## Note
