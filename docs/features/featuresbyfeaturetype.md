@@ -4,7 +4,7 @@
 </div>
 
 # Nestle 1904 GNT - Features (grouped by feature type)
-#### *Or browse by [name](features/featuresbyname.md), [node type](featuresbynodetype.md#start), [data type](featuresbydatatype.md#start), or [feature group](featuresbygroup.md#start)*
+#### *Or browse by [name](featuresbyname.md), [node type](featuresbynodetype.md#start), [data type](featuresbydatatype.md#start), or [feature group](featuresbygroup.md#start)*
 
 The features of this Text-Fabric dataset can be grouped by the following feature types:
 
