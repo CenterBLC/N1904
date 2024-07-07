@@ -4,7 +4,7 @@
 </div>
 
 # Nestle 1904 GNT - Features (grouped by feature group) 
-#### *Or browse by [name](features/featuresbyname.md), [node type](featuresbynodetype.md#start), [data type](featuresbydatatype.md#start), or [feature type](featuresbyfeaturetype.md#start)*
+#### *Or browse by [name](featuresbyname.md), [node type](featuresbynodetype.md#start), [data type](featuresbydatatype.md#start), or [feature type](featuresbyfeaturetype.md#start)*
 
 This is the key to the meaning of the features in this TextFabric dataset. The available features can be grouped together as following: 
 
