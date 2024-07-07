@@ -21,7 +21,7 @@ Value | Frequency
 
 ## Source description
 
-Taken from (optional) XML attribute `note` of tag `w` (word).
+This feature is based upon the optional XML attribute `note` of tag `w` (word).
 
 ---
 #### *Browse all features by [name](featuresbyname.md#start), [node type](featuresbynodetype.md#start), [data type](featuresbydatatype.md#start), [feature group](featuresbygroup.md#start) or [feature type](featuresbyfeaturetype.md#start).*
