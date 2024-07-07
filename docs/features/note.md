@@ -10,7 +10,7 @@ Feature group | Feature type | Data type | Available for node types | Used by vi
 
 ## Feature description
 
-Annotation of linguistic nature.
+This feature identifies and annotates discourse-related linguistic elements within the text. Currently, its implementation is limited.
 
 ## Feature values 
 
