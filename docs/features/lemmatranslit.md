@@ -20,8 +20,8 @@ This feature is also populated for `phrase` or `subphrase`, but only if they con
 When using the [Bible Online Learner](http://www.dadel.org/) as an aid in exploring text and creating Text-Fabric queries, it is advisable to use the [bol_lemma](bol_lemma.md#start) feature instead of this one to circumvent potential issues arising from a slightly different handling of Unicode codepoints.
 
 See also features:
- * [lemma](lemma.md#start): lexical lemma according to BDAG.
- * [variant](variant.md#start): variant of the lexical lemma.
+ * [lemma](lemma.md#start): Lexical lemma according to BDAG.
+ * [variant](variant.md#start): Variant of the lexical lemma based upon [Bible Online Learner](http://www.dadel.org/).
 
 ## Source description
 
