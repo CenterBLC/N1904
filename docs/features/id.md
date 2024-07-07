@@ -31,7 +31,7 @@ The letter 'n' (node) followed by a 11-digit unique id in the format
 
 ## Notes
 
-See also the related feature [`nodeid`](nodeid.md#start).
+A related feature, albeit referencing wordgroups, clauses and sentences, is [`nodeid`](nodeid.md#start).
 
 ## Source description
 
