@@ -95,4 +95,4 @@ See also the description in [MACULA Greek Treebank for the Nestle 1904 Greek New
 This feature is derived from the XML attribute `class` of the tags `w` (word) and `wg` (wordgroup).
 
 ---
-#### *Browse all features by [node type](featuresbynodetype.md#start), [data type](featuresbydatatype.md#start), [feature group](featuresbygroup.md#start) or [feature type](featuresbyfeaturetype.md#start).*
+#### *Browse all features by [name](featuresbyname.md#start), [node type](featuresbynodetype.md#start), [data type](featuresbydatatype.md#start), [feature group](featuresbygroup.md#start) or [feature type](featuresbyfeaturetype.md#start).*

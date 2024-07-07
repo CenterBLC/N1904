@@ -64,4 +64,4 @@ See also the related feature [crule](crule.md).
 The `junction` feature is derived from the optional XML attribute `junction` of the `wg` (wordgroup) tag.
 
 ---
-#### *Browse all features by [node type](featuresbynodetype.md#start), [data type](featuresbydatatype.md#start), [feature group](featuresbygroup.md#start) or [feature type](featuresbyfeaturetype.md#start).*
+#### *Browse all features by [name](featuresbyname.md#start), [node type](featuresbynodetype.md#start), [data type](featuresbydatatype.md#start), [feature group](featuresbygroup.md#start) or [feature type](featuresbyfeaturetype.md#start).*

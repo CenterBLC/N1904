@@ -41,4 +41,4 @@ See also the related feature [trans](trans.md#start) wich contains the text from
 The `gloss` feature is based on information from the Biblical Greek Vocabulary Builder (BGVB), developed by Oliver Glanz using Bible OL data.
 
 ---
-#### *Browse all features by [node type](featuresbynodetype.md#start), [data type](featuresbydatatype.md#start), [feature group](featuresbygroup.md#start) or [feature type](featuresbyfeaturetype.md#start).*
+#### *Browse all features by [name](featuresbyname.md#start), [node type](featuresbynodetype.md#start), [data type](featuresbydatatype.md#start), [feature group](featuresbygroup.md#start) or [feature type](featuresbyfeaturetype.md#start).*
