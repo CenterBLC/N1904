@@ -3,7 +3,7 @@
 <a href="../transcription.md">Transcription</a> | <a href="README.md#start">Features</a> | <a href="../viewtypes.md#start">Viewtypes</a> | <a href="../textformats.md#start">Textformats</a> |  <a href="../syntaxtrees.md#start">Syntaxtrees</a> | <a href="../../tutorial/README.md#start">Tutorial</a> | <a href="../usecases/README.md#start">Usecases</a> | <a href="../about.md#start">About</a>
 </div>
 
-# Nestle 1904 GNT - Feature: type
+# Nestle 1904 GNT - Feature: typems
 
 Feature group | Feature type | Data type | Available for node types | Used by viewtypes
 ---  | --- | --- | --- | ---
@@ -12,7 +12,7 @@ Feature group | Feature type | Data type | Available for node types | Used by vi
 
 ## Feature description
 
-For `word` nodes: Gramatical type of noun or pronoun. For all other nodes: syntactical type.
+This feature provides details regarding the type. For word nodes, this information is related to morphology (hence the 'm' in the feature name), indicating the type of noun or pronoun. For other node types, it provides details on the syntactical type (the 's' in the feature name).
 
 ## Feature values
 

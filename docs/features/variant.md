@@ -23,6 +23,14 @@ Value | Description | Frequency
 1 | | 36
 2 | | 302
 
+## Notes
+
+When using the [Bible Online Learner](http://www.dadel.org/) as an aid in exploring text and creating Text-Fabric queries, it is advisable to use the [bol_lemma](bol_lemma.md#start) feature instead of this one to circumvent potential issues arising from a slightly different handling of Unicode codepoints.
+
+See also features:
+ * [lemma](lemma.md#start): lexical lemma according to BDAG.
+ * [lemmatranslit](lemmatranslit.md#start): transliteration of the lexical lemma.
+
 
 ## Source description
 

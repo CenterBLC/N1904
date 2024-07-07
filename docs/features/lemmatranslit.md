@@ -3,7 +3,7 @@
 <a href="../transcription.md">Transcription</a> | <a href="README.md#start">Features</a> | <a href="../viewtypes.md#start">Viewtypes</a> | <a href="../textformats.md#start">Textformats</a> |  <a href="../syntaxtrees.md#start">Syntaxtrees</a> | <a href="../../tutorial/README.md#start">Tutorial</a> | <a href="../usecases/README.md#start">Usecases</a> | <a href="../about.md#start">About</a>
 </div>
 
-# Nestle 1904 GNT - Feature: lemma
+# Nestle 1904 GNT - Feature: lemmatranslit
 
 Feature group | Feature type | Data type | Available for node types | Used by viewtypes
 ---  | --- | --- | --- | ---
@@ -11,7 +11,7 @@ Feature group | Feature type | Data type | Available for node types | Used by vi
 
 ## Feature description
 
-The `lemma` feature represents the lexical lemma according to the Bible Dictionary of Ancient Greek (BDAG) and/or ANLEX by Friberg, Friberg, and Miller. This feature helps in identifying the base form of a word as used in dictionaries.
+The `lemmatranslit` feature provides a transliteration of the lexical lemma according to the Bible Dictionary of Ancient Greek (BDAG) and/or ANLEX by Friberg, Friberg, and Miller. This transliteration allows for creation of queries using a Latin keyboard.
 
 This feature is also populated for `phrase` or `subphrase`, but only if they consist of just one `word` node.
 
@@ -20,7 +20,7 @@ This feature is also populated for `phrase` or `subphrase`, but only if they con
 When using the [Bible Online Learner](http://www.dadel.org/) as an aid in exploring text and creating Text-Fabric queries, it is advisable to use the [bol_lemma](bol_lemma.md#start) feature instead of this one to circumvent potential issues arising from a slightly different handling of Unicode codepoints.
 
 See also features:
- * [lemmatranslit](lemmatranslit.md#start): transliteration of the lexical lemma.
+ * [lemma](lemma.md#start): lexical lemma according to BDAG.
  * [variant](variant.md#start): variant of the lexical lemma.
 
 ## Source description
