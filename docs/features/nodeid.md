@@ -23,10 +23,13 @@ format like `400010200010490` which can be decoded as:
          VVV    => zero-padded verse
             WWW => zero-padded word index (instance within the verse)
 ```
+## Notes
+
+See also the related feature [id](id.md#start).
 
 ## Source description
 
-Taken from XML ---- but from which attribute???
+The ID is derived from the numeric part of the XML attribute `xml:id` of the `w` (word) node.
 
 ---
 #### *Browse all features by [name](featuresbyname.md#start), [node type](featuresbynodetype.md#start), [data type](featuresbydatatype.md#start), [feature group](featuresbygroup.md#start) or [feature type](featuresbyfeaturetype.md#start).*
