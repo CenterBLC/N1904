@@ -43,12 +43,12 @@ Not all possible combinations are defined or relevant. The following text-format
 
 Format | Usage | Template
 --- | --- | ---
-lex-orig-plain | Lexemes of the Greek surface text | {lemma}{punctuation}
-lex-translit-plain | Transliteration of the lexemes of the Greek surface text | {lextranslit}{punctuation}
-text-orig-full (default) | The Greek surface text in unicode including text-critical markers | {before}{text}{after}
-text-orig-plain | The Greek surface text in unicode | {text}{punctuation}
-text-translit-plain | Transliteration of the Greek surface text | {translit}{punctuation}
-text-unaccent-plain | The Greek surface text in unicode without accents | {unaccent}{punctuation}
+lex-orig-plain | Lexemes of the Greek surface text | {[lemma](features/lemma.md#start)}{[punctuation](features/punctuation.md#start)}
+lex-translit-plain | Transliteration of the lexemes of the Greek surface text | {[lemmatranslit](features/lemmatranslit.md#start)}{[punctuation](features/punctuation.md#start)}
+text-orig-full (default) | The Greek surface text in unicode including text-critical markers | {[before](features/before.md#start)}{[text](features/text.md#start)}{[after](features/after.md#start)}
+text-orig-plain | The Greek surface text in unicode | {[text](features/text.md#start)}{[punctuation](features/punctuation.md#start)}
+text-translit-plain | Transliteration of the Greek surface text | {[translit](features/translit.md#start)}{[punctuation](features/punctuation.md#start)}
+text-unaccent-plain | The Greek surface text in unicode without accents | {[unaccent](features/unaccent.md#start)}{[punctuation](features/punctuation.md#start)}
 
 Each text format is implemented as a template that maps the format to individual features. This mapping can be easily checked using the following command: A.showFormats().
 
