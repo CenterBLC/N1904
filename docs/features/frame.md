@@ -26,7 +26,7 @@ AA2 | Adverbial roles in a sentence | 92
 
 ## Note
 
-The following image shows a query that will return the node IDs of the verb and its indirect object:
+The following image shows a query that will return the node [id](id.md#start) of the verb and its indirect object:
 
 <img src="images/indirectobjectquery.png" width="600">
 
