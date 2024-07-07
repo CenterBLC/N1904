@@ -125,13 +125,13 @@ Name | Data type | Feature type | Available on nodes | Description | Examples
 [frame](frame.md#start) | [`string`](featuresbydatatype.md#string-datatype) | [`Edge`](featuresbyfeaturetype.md#edge-features) | [`word`](featuresbynodetype.md#word-nodes) | Semantic Role Labeling (reference to id of subject, object or idirect object) | `A0` `A1` `A2`
 [framespec](framespec.md#start) | [`string`](featuresbydatatype.md#string-datatype) | [`Edge`](featuresbyfeaturetype.md#edge-features) | [`word`](featuresbynodetype.md#word-nodes)  [`subphrase`](featuresbynodetype.md#subphrase-nodes)  [`phrase`](featuresbynodetype.md#phrase-nodes) | Semantic Role Labeling (reference to id of subject, object or idirect object) | `A0:n63001005005 A1:n63001010014`
 [ln](ln.md#start) | [`string`](featuresbydatatype.md#string-datatype) | [`Node`](featuresbyfeaturetype.md#node-features) | [`word`](featuresbynodetype.md#word-nodes) [`subphrase`](featuresbynodetype.md#subphrase-nodes) [`phrase`](featuresbynodetype.md#phrase-nodes) | Louw-Nida lexical classification of semantic domains | `93.169a`
+[note](note.md#start) | [`string`](featuresbydatatype.md#string-datatype) | [`Node`](featuresbyfeaturetype.md#node-features) | [`word`](featuresbynodetype.md#word-nodes) [`phrase`](featuresbynodetype.md#phrase-nodes) | Annotation of linguistic nature | `discontinuous discourse`
 
 ## Relational features
 <sup>These features describe the relationships or connections between nodes.</sup>
 
 Name | Data type | Feature type | Available on nodes |Description | Example
 --- | --- | --- | --- | --- | ---
-[note](note.md#start) | [`string`](featuresbydatatype.md#string-datatype) | [`Node`](featuresbyfeaturetype.md#node-features) | [`word`](featuresbynodetype.md#word-nodes) [`phrase`](featuresbynodetype.md#phrase-nodes) | Annotation of linguistic nature | `discontinuous discourse`
 [parent](parent.md#start) | [`string`](featuresbydatatype.md#string-datatype) | [`Edge`](featuresbyfeaturetype.md#edge-features) | [`word`](featuresbynodetype.md#word-nodes) [`wg`](featuresbynodetype.md#wordgroup-nodes)  [`group`](featuresbynodetype.md#group-nodes) [`sentence`](featuresbynodetype.md#sentence-nodes) [`clause`](featuresbynodetype.md#clause-nodes)  [`phrase`](featuresbynodetype.md#phrase-nodes)  | Parent node | 
 [sibling](sibling.md#start) | [`integer`](featuresbydatatype.md#integer-datatype) | [`Edge`](featuresbyfeaturetype.md#edge-features) | [`word`](featuresbynodetype.md#word-nodes) [`wg`](featuresbynodetype.md#wordgroup-nodes)  [`group`](featuresbynodetype.md#group-nodes) [`sentence`](featuresbynodetype.md#sentence-nodes) [`clause`](featuresbynodetype.md#clause-nodes)  [`phrase`](featuresbynodetype.md#phrase-nodes) | Sibling node | 
 
