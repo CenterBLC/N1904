@@ -27,6 +27,8 @@ Since this Text-Fabric database contains well over 50 features, four listings ar
 * [Grouped by data type](features/featuresbydatatype.md#start): e.g., [`str`](features/featuresbydatatype.md#string-datatype), [`int`](features/featuresbydatatype.md#integer-datatype). The python datatype is relevant when building queries or when processing the data.
 * [Grouped by feature type](features/featuresbyfeaturetype.md#start): e.g., [`node`](features/featuresbyfeaturetype.md#node-features), [`edge`](features/featuresbyfeaturetype.md#edge-features).
 
+Additionally, an alphabetical list of feature names can be found [here](features/featuresbyname.md#start).
+
 ### Views
 
 The concept of [viewtypes](viewtypes.md#start) is important to this dataset. This database offers the users two distinct viewtypes that can be invoked for representing syntax trees:
