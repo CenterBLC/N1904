@@ -21,7 +21,7 @@ When using the [Bible Online Learner](http://www.dadel.org/) as an aid in explor
 
 See also features:
  * [lemmatranslit](lemmatranslit.md#start): Transliteration of the lexical lemma.
- * [variant](variant.md#start): Variant of the lexical lemma.
+ * [variant](variant.md#start): Variant of the lexical lemma based upon [Bible Online Learner](http://www.dadel.org/).
 
 ## Source description
 
