@@ -31,7 +31,7 @@ The letter 'n' followed by a 11-digit unique id in the format
 
 ## Notes
 
-See also related feature [subjref](subjref.md#start)
+See also related feature [subjref](subjref.md#start).
 
 ## Source description
 
