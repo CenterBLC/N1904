@@ -99,7 +99,7 @@ Feature | Feature group | Feature type | Data type | Short description | Example
 
 ## Subphrase nodes
 
-<sup>Note: this node typs is only associated with the [Syntactic view](../syntactic-view.md#start).</sup>
+<sup>Note: this node type is only associated with the [Syntactic view](../syntactic-view.md#start).</sup>
 
 Feature | Feature group | Feature type | Data type | Short description | Examples
 --- | --- | --- | --- | --- | ---
