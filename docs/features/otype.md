@@ -22,14 +22,16 @@ In Text-Fabric all objects are reprented by nodes. Each node has also an objectt
 The two main usages of this feature are:
 
 Generating a list of nodes of a certain type, e.g. `verse` nodes:
-<pre>
+
+```python
 for verse in F.otype.s('verse'):
     "do something with verse nodes" </pre>
-
+```
  Determining the node type of a node id:
- <pre>
-  F.otype.v(node) </pre>
  
+```python
+  F.otype.v(node) </pre>
+```
 For a more comprehensice list of usages for feature otype, see the [documentation on special node feature otype](https://annotation.github.io/text-fabric/tf/cheatsheet.html#special-node-feature-otype).
 
 The information on which object occupies a specific slot is stored in the edge feature [oslots](oslots.md).
