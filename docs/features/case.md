@@ -24,7 +24,7 @@ dative | Generaly indicating indirect object of a verb | 12126
 genitive | Generaly indicating possesion | 19515
 nominative | Generaly indicating the subject | 24197
 vocative | Adressee of speech | 649
-'' | empty for any other word type | 58261
+&lt;empty&gt; | empty for any other word type | 58261
 
 <sup>1</sup> Frequency figures are listed for `word` nodes only. 
 
