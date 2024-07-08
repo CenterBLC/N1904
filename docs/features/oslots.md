@@ -7,7 +7,7 @@
 
 Feature group | Feature type |  Data type | Available for node types | Used by viewtypes
 ---  | --- | --- | --- | ---
-[`Grid`](featuresbygroup.md#grid-features) | [`Edge`](featuresbyfeaturetype.md#edge-features) | [`string`](featuresbydatatype.md#string-datatype)  | *not applicable* |  [`syntax-view`](../syntax-view.md#start) [`wg-view`](../wg-view.md#start)
+[`Grid`](featuresbygroup.md#grid-features) | [`Edge`](featuresbyfeaturetype.md#edge-features) | [`String`](featuresbydatatype.md#string-datatype)  | *not applicable* |  [`syntax-view`](../syntax-view.md#start) [`wg-view`](../wg-view.md#start)
 
 
 ## Feature description 
