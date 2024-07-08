@@ -48,6 +48,7 @@ wg
 '''
 Results = A.search(Query)
 ```
+Replace the expression '#1' with '=1' to find all word groups containing an apposition container.
 
 The following image presents a nested apposition, demonstrating both this feature and the related feature [rela](rela.md#readme).
 
