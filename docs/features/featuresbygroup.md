@@ -26,7 +26,7 @@ Name |  Data type | Feature type | Available on nodes | Description| Examples
 ---|---| ---|--- | --- | ---
 [oslots](oslots.md#start) | | [`Edge`](featuresbyfeaturetype.md#edge-features) | *not applicable*  | slot containment | `1` `1-11` `2010-2015,2020-2030`
 [otext](otext.md#start) | | [`Config`](featuresbyfeaturetype.md#config-features) | *not applicable*  | Textformatting and corpus segmenting configuration used by the text API | *no data, only specifications*  
-[otype](otype.md#start)| | [`Node`](featuresbyfeaturetype.md#node-features) | [`word`](featuresbynodetype.md#word-nodes) [`wg`](featuresbynodetype.md#wordgroup-nodes) [`Sentence`](featuresbynodetype.md#sentence-nodes) [`verse`](featuresbynodetype.md#verse-nodes) [`chapter`](featuresbynodetype.md#chapter-nodes) [`Book`](featuresbynodetype.md#book-nodes) [`phrase`](featuresbynodetype.md#phrase-nodes) [`subphrase`](featuresbynodetype.md#subphrase-nodes) [`Group`](featuresbynodetype.md#group-nodes) [`Clause`](featuresbynodetype.md#clause-nodes) | mapping between node number and associated objecttype | 
+[otype](otype.md#start)| | [`Node`](featuresbyfeaturetype.md#node-features) | [`word`](featuresbynodetype.md#word-nodes) [`wg`](featuresbynodetype.md#wordgroup-nodes) [`Sentence`](featuresbynodetype.md#sentence-nodes) [`verse`](featuresbynodetype.md#verse-nodes) [`chapter`](featuresbynodetype.md#chapter-nodes) [`Book`](featuresbynodetype.md#book-nodes) [`phrase`](featuresbynodetype.md#phrase-nodes) [`subphrase`](featuresbynodetype.md#subphrase-nodes) [`Group`](featuresbynodetype.md#group-nodes) [`Clause`](featuresbynodetype.md#clause-nodes) | Maps node number to objecttype | 
 
 ## Sectional features
 
