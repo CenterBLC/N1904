@@ -94,6 +94,7 @@ Feature | Feature group | Feature type | Data type | Short description | Example
 [rela](rela.md#start) | [`Syntactic`](featuresbygroup.md#syntactic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | Appostion information | `Appo` 
 [role](role.md#start) | [`Syntactic`](featuresbygroup.md#syntactic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | Role wordgroup | `s` `o` `apposition`
 [rule](rule.md#start) | [`Syntactic`](featuresbygroup.md#syntactic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | Syntactic rule | `ClCl` `ClCl2`
+[typ](typ.md#start) | [`Syntactic`](featuresbygroup.md#syntactic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype)  | syntactic labels for textual elements | `NP` `AdjP`
 [typems](typems.md#start) | [`Syntactic`](featuresbygroup.md#syntactic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | Clause type | `Verbless` `VerbElided`
 
 ## Subphrase nodes
@@ -136,6 +137,7 @@ Feature | Feature group | Feature type | Data type | Short description | Example
 [text](text.md#start) | [`Orthograpic`](featuresbygroup.md#orthograpic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | Word as it appears in the text |
 [trans](trans.md#start) | [`Lexical`](featuresbygroup.md#lexical-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | English translation (cf. Berean Study Bible) | `of the` `to them`
 [translit](translit.md#start) | [`Orthograpic`](featuresbygroup.md#orthograpic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype)  |  Transliteration of the Greek word surface text | `estin` `auton`
+[typ](typ.md#start) | [`Syntactic`](featuresbygroup.md#syntactic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype)  | syntactic labels for textual elements | `NP` `AdjP`
 [typems](typems.md#start) | [`Morphological`](featuresbygroup.md#morphological-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | Gramatical type of noun or pronoun | `common` `personal`
 [unaccent](unaccent.md#start) | [`Orthograpic`](featuresbygroup.md#orthograpic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | Surface word stripped of accents and diacritical markers | `εστιν` `αυτον`
 [unicode](unicode.md#start) | [`Orthograpic`](featuresbygroup.md#orthograpic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | Word in unicode format | `Λόγος` `Θεόν,`
@@ -183,6 +185,7 @@ Feature | Feature group | Feature type | Data type | Short description | Example
 [trans](trans.md#start) | [`Lexical`](featuresbygroup.md#lexical-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | English translation (cf. Berean Study Bible) | `of the` `to them`
 [translit](translit.md#start) | [`Orthograpic`](featuresbygroup.md#orthograpic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype)  |  Transliteration of the Greek word surface text | `estin` `auton`
 [text](text.md#start) | [`Orthograpic`](featuresbygroup.md#orthograpic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | Word as it appears in the text |
+[typ](typ.md#start) | [`Syntactic`](featuresbygroup.md#syntactic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype)  | syntactic labels for textual elements | `NP` `AdjP`
 [typems](typems.md#start) | [`Morphological`](featuresbygroup.md#morphological-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | Gramatical type of noun or pronoun | `common` `personal`
 [unaccent](unaccent.md#start) | [`Orthograpic`](featuresbygroup.md#orthograpic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | Surface word stripped of accents and diacritical markers | `εστιν` `αυτον`
 [unicode](unicode.md#start) | [`Orthograpic`](featuresbygroup.md#orthograpic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | Word in unicode format | `Λόγος` `Θεόν,`
@@ -206,6 +209,7 @@ Feature | Feature group | Feature type | Data type | Short description | Example
 [otype](otype.md) | [`Grid`](featuresbygroup.md#grid-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | Maps node number to objecttype | 
 [role](role.md#start) | [`Syntactic`](featuresbygroup.md#syntactic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | Role wordgroup | `s` `o` `apposition`
 [rule](rule.md#start) | [`Syntactic`](featuresbygroup.md#syntactic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | Syntactic rule | `ClCl` `ClCl2`
+[typ](typ.md#start) | [`Syntactic`](featuresbygroup.md#syntactic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype)  | syntactic labels for textual elements | `NP` `AdjP`
 [typems](typems.md#start) | [`Morphological`](featuresbygroup.md#morphological-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | Gramatical type of noun or pronoun | `common` `personal`
 
 ## Group nodes
@@ -222,6 +226,7 @@ Feature | Feature group | Feature type | Data type | Short description | Example
 [typems](typems.md#start) | [`Morphological`](featuresbygroup.md#morphological-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | Gramatical type of group | `conjuncted`
 [role](role.md#start) | [`Syntactic`](featuresbygroup.md#syntactic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | Role wordgroup | `s` `o` `apposition`
 [rule](rule.md#start) | [`Syntactic`](featuresbygroup.md#syntactic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | Syntactic rule | `ClCl` `ClCl2`
+[typ](typ.md#start) | [`Syntactic`](featuresbygroup.md#syntactic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype)  | syntactic labels for textual elements | `NP` `AdjP`
 [typems](typems.md#start) | [`Morphological`](featuresbygroup.md#morphological-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | Gramatical type of noun or pronoun | `common` `personal`
 
 ## Sentence nodes 
