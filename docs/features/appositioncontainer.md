@@ -18,23 +18,21 @@ Frequency for nodetype [`wg`](featuresbynodetype.md#wordgroup-nodes) (used in [`
 
 Value | Description | Frequency
 ---  | --- | --- 
-&lt;no value&gt; | This word group contains no appositioncontainer | -
+&lt;no value&gt; | This word group contains no appositioncontainer | 104960
 `1` | This word group contains an appositioncontainer | 1908
-
 
 Frequency for nodetype [`phrase`](featuresbynodetype.md#phrase-nodes) (used in [`syntax-view`](../syntactic-view.md#start)):
 
 Value | Description | Frequency
 ---  | --- | --- 
-&lt;no value&gt; | This phrase contains no appositioncontainer | -
+&lt;no value&gt; | This phrase contains no appositioncontainer | 68292
 `1` | This phrase contains an appositioncontainer | 715
-
 
 Frequency for nodetype [`subphrase`](featuresbynodetype.md#subphrase-nodes) (used in [`syntax-view`](../syntactic-view.md#start)):
 
 Value | Description | Frequency
 ---  | --- | --- 
-&lt;no value&gt; | This subphrase contains no appositioncontainer | -
+&lt;no value&gt; | This subphrase contains no appositioncontainer | 115047
 `1` | This subphrase contains an appositioncontainer | 1908
 
 ## Note
