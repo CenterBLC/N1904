@@ -11,7 +11,7 @@ Feature group | Feature type | Data type | Available for node types | Used by vi
 
 ## Feature description
 
-The `rule` feature specifies the syntactic rule for a word or wordgroup that was used to describe the constituency tree. It is only provided for nonterminal nodes (i.e. all nodes except `word` nodes). 
+The `rule` feature specifies the label of the specific rule that was used to derive the non-terminal node in the constituency tree.
 
 ## Feature values
 
