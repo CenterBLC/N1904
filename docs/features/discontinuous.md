@@ -60,7 +60,7 @@ The following image compares the handling of these postpositive conjunctions in 
 
 ## Source description
 
-This feature is derived from the (optional) XML attribute `discontinuous` of the tag `w` (word).
+This feature is derived from the optional XML attribute `discontinuous` of the tag `w` (word).
 
 ---
 #### *Browse all features by [name](featuresbyname.md#start), [node type](featuresbynodetype.md#start), [data type](featuresbydatatype.md#start), [feature group](featuresbygroup.md#start) or [feature type](featuresbyfeaturetype.md#start).*
