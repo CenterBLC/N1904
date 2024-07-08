@@ -17,7 +17,15 @@ The `oslots` feature represents the set of slots associated with an object. Ever
 The slot set is given as a comma-separated list of slot ranges. A range has the form *n* - *m*, where *n* is a number smaller than or equal to *m*. The range *n* - *n* may be abbreviated to *n*.
 
 ##### Note
+
 The value of this feature for word objects is always just one number: the number of the slot the word occupies. All word occurrences are numbered from 1 to 137779 in the order they occur in the Greek New Testament.
+
+The following snippet shows the nodes associated with node #382714 (= verse node for Matt. 1:1):
+
+```python
+E.oslots.s(382714)                     # verse Matt. 1:1
+array('I', [1, 2, 3, 4, 5, 6, 7, 8])   # result: the word nodes for this verse
+```
 
 ---
 #### *Browse all features by [name](featuresbyname.md#start), [node type](featuresbynodetype.md#start), [data type](featuresbydatatype.md#start), [feature group](featuresbygroup.md#start) or [feature type](featuresbyfeaturetype.md#start).*
