@@ -11,7 +11,7 @@ Feature group | Feature type | Data type | Available for node types | Used by vi
 
 ## Feature description
 
-Textformatting and corpus segmenting configuration used by the text API. 
+This feature contains configuration data for text formatting and corpus segmentation used by the text API.
 
 ## Notes 
 
