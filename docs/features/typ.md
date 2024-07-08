@@ -11,7 +11,7 @@ Feature group | Feature type | Data type | Available for node types | Used by vi
 
 ## Feature description
 
-This feature provides provides syntactic labels for textual elements like words and wordgroups based upon their syntactical functions and structures. This includes distinguishing between nominal phrases, prepositional phrases, verbal phrases, adjectival phrases, adverbial phrases, conjuncted phrases, and appositions, which are fundamental to interpreting the [syntaxtrees](syntaxtrees.md#start).
+This feature provides syntactic labels for textual elements like words and wordgroups based upon their syntactical functions and structures. This includes distinguishing between nominal phrases, prepositional phrases, verbal phrases, adjectival phrases, adverbial phrases, conjuncted phrases, and appositions, which are fundamental to interpreting the [syntaxtrees](syntaxtrees.md#start).
 
 ## Feature values
 
