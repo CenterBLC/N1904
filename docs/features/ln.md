@@ -17,10 +17,12 @@ This feature is also populated for `phrase` or `subphrase`, but only if they con
 
 ## Feature values:
 
-Value | Description | Frequency
+Value | Description | Frequency<sup>1</sup>
 --- | --- | ---
 xx.yy  | One or more entries for the Louw-Nida references | 126756
 &lt;empty&gt; | Data not provided | 11023
+
+<sup>1</sup> Frequency figures are listed for `word` nodes only. 
 
 ## Interpreting the data
 
