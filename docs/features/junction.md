@@ -21,7 +21,7 @@ value | description | Frequency
 ---  | --- | --- 
 `coordinate` | coordinate | 1117
 `subordinate` |  subordinate | 989
-`&nbsp`  | empty | 
+&lt;empty&gt;  | not applicable | 17597
 
 Frequency for nodetype `clause`:
 
@@ -29,7 +29,7 @@ value | description | Frequency
 ---  | --- | --- 
 `coordinate` | coordinate | 8186
 `subordinate` |  subordinate | 7449
-`&nbsp`  | empty | 
+&lt;empty&gt;  | not applicable | 15179
 
 Frequency for nodetype `wg`:
 
@@ -37,14 +37,14 @@ value | description | Frequency
 ---  | --- | --- 
 `coordinate` | coordinate | 9367
 `subordinate` |  subordinate | 8554
-`&nbsp`  | empty | 
+&lt;empty&gt;  | not applicable | 88947
 
 Frequency for nodetype `phrase`:
 
 value | description | Frequency
 ---  | --- | --- 
 `subordinate` |  subordinate | 57
-`&nbsp`  | empty | 
+&lt;empty&gt;  | not applicable | 68950
 
 Frequency for nodetype `subphrase`:
 
@@ -52,8 +52,7 @@ value | description | Frequency
 ---  | --- | --- 
 `subordinate` |  subordinate | 116
 `coordinate` | coordinate | 64
-`&nbsp`  | empty | 
-
+&lt;empty&gt;  | not applicable | 116055
 
 ## Note
 
