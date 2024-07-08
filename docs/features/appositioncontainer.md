@@ -11,8 +11,7 @@ Feature group | Feature type | Data type | Available for node types | Used by vi
 
 ## Feature description 
 
-The `appositioncontainer` feature indicates whether a word group or phrase contains an apposition. An apposition is a grammatical construction where two elements, typically noun phrases, are placed side by side, with one element serving to define or modify the other.
-
+The `appositioncontainer` feature indicates whether a word group or phrase contains an apposition. An apposition is a grammatical construction where two elements, typically noun phrases, are placed side by side, with one element serving to define or modify the other. 
 ## Feature values 
 
 Frequency for nodetype [`wg`](featuresbynodetype.md#wordgroup-nodes) (used in [`wg-view`](../wg-view.md#start)):
@@ -40,7 +39,17 @@ Value | Description | Frequency
 
 ## Note
 
-The following image presents a nested apposition demonstrating this feature and the related feature [rela](rela.md#readme).
+This feature functions as a pseudo-boolean variable. To find all word groups that do not contain an apposition container, use the following snippet:
+
+```python
+Query = '''
+wg 
+   appositioncontainer#1
+'''
+Results = A.search(Query)
+```
+
+The following image presents a nested apposition, demonstrating both this feature and the related feature [rela](rela.md#readme).
 
 <img src="images/appositioncontainer.png" width="600">
 
