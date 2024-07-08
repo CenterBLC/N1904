@@ -17,21 +17,24 @@ The `clausetype` feature provides information about the type of clauses within t
 
 Frequency for [`sentence`](featuresbynodetype.md#sentence-nodes) nodes (used in [`syntax-view`](../syntax-view.md#start) and [`wg-view`](../wg-view.md#start)): 
 
-Value|Occurences
----|---
-nominalized|59
+Value | description | Occurences
+--- | --- | ---
+nominalized | | 59
+&lt;empty&gt; | | 19703
 
 Frequency for  [`clause`](featuresbynodetype.md#clause-nodes) nodes (used in [`syntax-view`](../syntax-view.md#start)):
 
-Value|Occurences
----|---
-nominalized|5237
+Value | description | Occurences
+--- | --- | ---
+nominalized | | 5237
+&lt;empty&gt; | | 30814
 
 Frequency for [`wg`](featurebynodetype.md#wordgroup-nodes) nodes (used in [`wg-view`](../wg-view.md#start)):
 
-Value|Occurences
----|---
-nominalized|5296
+Value | description | Occurences
+--- | --- | ---
+nominalized | | 5296
+&lt;empty&gt; | | 106868 
 
 ## Source description
 
