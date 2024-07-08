@@ -20,21 +20,33 @@ Frequency for [`sentence`](featuresbynodetype.md#sentence-nodes) nodes (used in 
 Value | description | Occurences
 --- | --- | ---
 nominalized | | 59
-&lt;empty&gt; | | 19703
+&lt;empty&gt; | | 19644
 
 Frequency for  [`clause`](featuresbynodetype.md#clause-nodes) nodes (used in [`syntax-view`](../syntax-view.md#start)):
 
 Value | description | Occurences
 --- | --- | ---
 nominalized | | 5237
-&lt;empty&gt; | | 30814
+&lt;empty&gt; | | 25577
 
 Frequency for [`wg`](featurebynodetype.md#wordgroup-nodes) nodes (used in [`wg-view`](../wg-view.md#start)):
 
 Value | description | Occurences
 --- | --- | ---
 nominalized | | 5296
-&lt;empty&gt; | | 106868 
+&lt;empty&gt; | | 101572 
+
+## Notes
+
+To find all sentence which are not nominalized, use the following snippet:
+
+```python
+Query = '''
+sentence 
+   clausetype#nominalized
+'''
+Results = A.search(Query)
+```
 
 ## Source description
 
