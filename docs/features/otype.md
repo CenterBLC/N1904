@@ -27,11 +27,13 @@ Generating a list of nodes of a certain type, e.g. `verse` nodes:
 for verse in F.otype.s('verse'):
     "do something with verse nodes"
 ```
- Determining the node type of a node id:
+To determine the node type of a node id, for example node=1 (the first word of Matt. 1:1), the following snippet can be used: 
  
 ```python
-  F.otype.v(node)
+F.otype.v(1)   # the node for the first word in Matt. 1:1
+'word'         # result is the node type
 ```
+
 For a more comprehensice list of usages for feature otype, see the [documentation on special node feature otype](https://annotation.github.io/text-fabric/tf/cheatsheet.html#special-node-feature-otype).
 
 The information on which object occupies a specific slot is stored in the edge feature [oslots](oslots.md).
