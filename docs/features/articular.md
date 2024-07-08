@@ -58,6 +58,17 @@ value | description | Frequency
 
 ## Notes
 
+This feature functions as a pseudo-boolean variable. To find all sentence without any article, use the following snippet:
+
+```python
+Query = '''
+sentence 
+   articular#1
+'''
+Results = A.search(Query)
+```
+Replace the expression '#1' with '=1' to find all sentences with an article.
+
 The following example from John 1:1 demonstrates the function of this feature.
 
 <img src="images/articular.png" width="600">
