@@ -25,7 +25,7 @@ Generating a list of nodes of a certain type, e.g. `verse` nodes:
 
 ```python
 for verse in F.otype.s('verse'):
-    "do something with verse nodes" </pre>
+    "do something with verse nodes"
 ```
  Determining the node type of a node id:
  
