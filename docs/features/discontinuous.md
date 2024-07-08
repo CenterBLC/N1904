@@ -7,7 +7,7 @@
 
 Feature group | Feature type | Data type | Available for node types | Used by viewtypes
 ---  | --- | --- | --- | ---
-[`Syntactic`](featuresbygroup.md#syntactic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | [`word`](featuresbynodetype.md#word-nodes)  [`subphrase`](featuresbynodetype.md#subphrase-nodes)  [`phrase`](featuresbynodetype.md#phrase-nodes) | [`syntax-view`](../syntax-view.md#start) [`wg-view`](../wg-view.md#start) 
+[`Syntactic`](featuresbygroup.md#syntactic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`Integer`](featuresbydatatype.md#integer-datatype) | [`word`](featuresbynodetype.md#word-nodes)  [`subphrase`](featuresbynodetype.md#subphrase-nodes)  [`phrase`](featuresbynodetype.md#phrase-nodes) | [`syntax-view`](../syntax-view.md#start) [`wg-view`](../wg-view.md#start) 
 
 ## Feature description 
 
@@ -17,14 +17,40 @@ This feature is also populated for `phrase` or `subphrase`, but only if they con
 
 ## Feature values 
 
-value | description | Frequency<sup>1</sup>
----  | --- | --- 
-<span>` `</span> | no discontinuation | 
-`1` |  discontinuation | 12068
+Frequency for nodetype [`word`](featuresbynodetype.md#word-nodes) (used in [`wg-view`](../wg-view.md#start) and [`syntax-view`](../syntactic-view.md#start)):
 
-<sup>1</sup> Frequency figures are listed for word nodes only.
+value | description | Frequency
+---  | --- | --- 
+&lt;empty&gt; | No discontinuation of this word node | -
+`1` |  Discontinuation of this word node| 6034
+
+Frequency for nodetype [`subphrase`](featuresbynodetype.md#subphrase-nodes) (used in [`syntax-view`](../syntactic-view.md#start)):
+
+value | description | Frequency
+---  | --- | --- 
+&lt;empty&gt; | No discontinuation of this subphrase node | -
+`1` |  Discontinuation of this subphrase node| 6034
+
+Frequency for nodetype [`phrase`](featuresbynodetype.md#phrase-nodes) (used in [`syntax-view`](../syntactic-view.md#start)):
+
+value | description | Frequency
+---  | --- | --- 
+&lt;empty&gt; | No discontinuation of this phrase node | -
+`1` |  Discontinuation of this phrase node | 645
 
 ## Notes
+
+This feature functions as a pseudo-boolean variable. To find all phrases without a discontinues words (i.e. phrases that do not contain postpositive conjunctions), use the following snippet:
+
+```python
+Query = '''
+phrase 
+   discontinuous#1
+'''
+Results = A.search(Query)
+```
+
+Replace the expression '#1' with '=1' to find all phrased that do containing postpositive conjunctions.
 
 In Ancient Greek, postpositive conjunctions such as δέ and γάρ commonly occupy the second position in a clause or subclause, immediately following the first significant word. This syntactic placement not only organizes the structure of sentences but also subtly influences the meaning and rhythm of the text. Given that the source data was represented using an XML file structure, which cannot accommodate overlapping structures, these conjunctions had to be repositioned in the LowFat tree representation.
 
