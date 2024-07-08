@@ -19,8 +19,8 @@ This feature is also populated for `phrase` or `subphrase`, but only if they con
 
 ln (this feature) | Comment | Frequency
 --- | --- | ---
-xx.yy  | one or more entries for the Louw-Nida references | 126756
-'' | Empty | 11023
+xx.yy  | One or more entries for the Louw-Nida references | 126756
+&lt;empty&gt; | Data not provided | 11023
 
 ## Interpreting the data
 
