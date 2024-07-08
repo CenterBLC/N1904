@@ -90,8 +90,7 @@ Name | Feature group | Feature type | Available on node | Description | Examples
 
 Name | Feature type | Available on node | Description | Examples
 --- | --- | --- | --- | ---
-[oslots](oslots.md) | [`Config`](featuresbyfeaturetype.md#config-features) | - | Slot containment | `1` `1-11` `2010-2015,2020-2030`
 [otext](otext.md) | [`Config`](featuresbyfeaturetype.md#config-features) |  - |  Configuration for sections, structure, and text formats (textapi) | *no data, only specifications*  
-[otype](otype.md) | [`Node`](featuresbyfeaturetype.md#node-features) | [`word`](featuresbynodetype.md#word-nodes) [`wg`](featuresbynodetype.md#wordgroup-nodes) [`Sentence`](featuresbynodetype.md#sentence-nodes) [`verse`](featuresbynodetype.md#verse-nodes) [`chapter`](featuresbynodetype.md#chapter-nodes) [`Book`](featuresbynodetype.md#book-nodes) [`phrase`](featuresbynodetype.md#phrase-nodes) [`subphrase`](featuresbynodetype.md#subphrase-nodes) [`Group`](featuresbynodetype.md#group-nodes) [`Clause`](featuresbynodetype.md#clause-nodes)  | Maps node number to objecttype |
+
 
 #### *Or browse by [name](featuresbyname.md), [node type](featuresbynodetype.md#start), [feature group](featuresbygroup.md#start), or [feature type](featuresbyfeaturetype.md#start)*
