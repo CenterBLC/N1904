@@ -38,7 +38,7 @@ The information on which object occupies a specific slot is stored in the edge f
 
 ## Source description
 
- Calculated during datacreation.
+The data for this feature is calculated during creation of the Text-Fabric dataset.
 
 ---
 #### *Browse all features by [name](featuresbyname.md#start), [node type](featuresbynodetype.md#start), [data type](featuresbydatatype.md#start), [feature group](featuresbygroup.md#start) or [feature type](featuresbyfeaturetype.md#start).*
