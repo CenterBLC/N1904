@@ -19,42 +19,42 @@ For [`sentence`](featuresbynodetype.md#sentence-nodes) nodes (used in [`syntax-v
 
 value | description | Frequency
 ---  | --- | --- 
-`&nbsp` | no articular in sentence | -
-`1` | articular in sentence | 2619
+&lt;empty&gt; | No articular in sentence | -
+`1` | Articular in sentence | 2619
 
 For [`group`](featuresbynodetype.md#group-nodes) nodes (used in [`syntax-view`](../syntax-view.md#start)):
 
 value | description | Frequency
 ---  | --- | --- 
-`&nbsp` | no articular in group | -
-`1` | articular in group | 187
+&lt;empty&gt; | No articular in group | -
+`1` | Articular in group | 187
 
 For [`clause`](featuresbynodetype.md#clause-nodes) nodes (used in [`syntax-view`](../syntax-view.md#start)):
 
 value | description | Frequency
 ---  | --- | --- 
-`&nbsp` | no articular in clause | -
-`1` | articular in clause | 973
+&lt;empty&gt; | No articular in clause | -
+`1` | Articular in clause | 973
 
 For [`wg`](featuresbynodetype.md#wordgroup-nodes) nodes (used in [`wg-view`](../wg-view.md#start)):
 
 value | description | Frequency
 ---  | --- | --- 
-`&nbsp` | no articular in wordgroup | -
-`1` | articular in wordgroup | 28772
+&lt;empty&gt; | No articular in wordgroup | -
+`1` | Articular in wordgroup | 28772
 
 For [`phrase`](featuresbynodetype.md#phrase-nodes) nodes (used in [`syntax-view`](../syntax-view.md#start)):
 value | description | Frequency
 ---  | --- | --- 
-`&nbsp` | no articular in phrase | -
-`1` | articular in phrase | 13079
+&lt;empty&gt; | No articular in phrase | -
+`1` | Articular in phrase | 13079
 
 For [`subphrase`](featuresbynodetype.md#subphrase-nodes) nodes (used in [`syntax-view`](../syntax-view.md#start)):
 
 value | description | Frequency
 ---  | --- | --- 
-`&nbsp` | no articular in subphrase | -
-`1` | articular in subphrase | 24993
+&lt;empty&gt; | No articular in subphrase | -
+`1` | Articular in subphrase | 24993
 
 ## Notes
 
