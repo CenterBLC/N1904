@@ -20,7 +20,7 @@ This feature is also populated for `phrase` or `subphrase`, but only if they con
 domain (this feature) | Comment | Frequency<sup>1</sup>
 --- | --- | ---
 xxxyyy  | Lexical Domain value| 126757
-'' | Empty | 11022
+&lt;empty&gt; | Value not provided | 11022
 
 <sup>1</sup> Frequency figures are listed for word nodes only.
 
