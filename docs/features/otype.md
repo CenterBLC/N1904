@@ -15,7 +15,7 @@ This feature, known as "object type" (otype), categorizes various types of textu
 
 ## Feature values
 
-
+Node names (word, wg, sentence, verse, chapter, book, phrase, subphrase, group, clause).
 
 ## Notes
 
