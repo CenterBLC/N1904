@@ -56,7 +56,7 @@ AdvP | adverbial phrase | 166
 
 ## Source description
 
-Taken from the XML attribute `typ` of tag `w` (word) and tag `wg` (wordgroup).
+Based upon XML attribute `typ` of tag `w` (word) and tag `wg` (wordgroup).
 
 ---
 #### *Browse all features by [name](featuresbyname.md#start), [node type](featuresbynodetype.md#start), [data type](featuresbydatatype.md#start), [feature group](featuresbygroup.md#start) or [feature type](featuresbyfeaturetype.md#start).*
