@@ -30,7 +30,7 @@ for verse in F.otype.s('verse'):
  Determining the node type of a node id:
  
 ```python
-  F.otype.v(node) </pre>
+  F.otype.v(node)
 ```
 For a more comprehensice list of usages for feature otype, see the [documentation on special node feature otype](https://annotation.github.io/text-fabric/tf/cheatsheet.html#special-node-feature-otype).
 
