@@ -20,28 +20,28 @@ Frequency for nodetype `word`:
 
 Value | Description | Frequency
 ---- | ---- | ---
-adverbial |  | 3
-common | objects | 23644
-demonstrative | Indicate a specific object ([examples](https://ugg.readthedocs.io/en/latest/determiner_demonstrative.html)) | 1722
-indefinite | | 552
-interrogative |  Introduces a question ([examples](https://ugg.readthedocs.io/en/latest/determiner_interrogative.html)) | 633
-personal | Pronoun designating a person (e.g. εγώ, εσύ, etc.) | 11521
-possessive | | 70
+common | Designating objects (not specific) | 23644
+personal | Designating specific person/objects (e.g. εγώ, εσύ, etc.) | 11521
 proper | Name of a person, place, thing, etc. | 4639
-relative |  | 1674
+demonstrative | Indicates a specific object ([examples](https://ugg.readthedocs.io/en/latest/determiner_demonstrative.html)) | 1722
+relative | Introduces relative clauses | 1674
+interrogative | Introduces a question ([examples](https://ugg.readthedocs.io/en/latest/determiner_interrogative.html)) | 633
+indefinite | Refering to nonspecific people or things | 552
+possessive | Indicating ownership or possession | 70
+adverbial | Adverbs functioning similarly to pronouns | 3
 '' | Empty for wordtypes other than noun or pronoun | 93321
 
 Frequency for nodetype `wg` (wordgroup):
 
 Value | Description | Frequency
 ---- | ---- | ---
-apposition-group | | 891
+modifier-scope | | 29645 
+wrapper-clause-scope | | 12166 
+wrapper-scope	| | 11264 
 conjuncted-wg | | 8075
 group | | 4957 
 modifier-clause-scope | | 1712
-modifier-scope | | 29645x 
-wrapper-clause-scope | | 12166 
-wrapper-scope	| | 11264 
+apposition-group | | 891
 
 Frequency for nodetype `sentence`:
 
