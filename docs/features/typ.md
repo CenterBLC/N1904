@@ -7,7 +7,7 @@
 
 Feature group | Feature type | Data type | Available for node types | Used by viewtypes
 ---  | --- | --- | --- | ---
-[`Syntactical`](featuresbygroup.md#syntactical-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype)  | [`wg`](featuresbynodetype.md#wordgroup-nodes) [`subphrase`](featuresbynodetype.md#subphrase-nodes) [`phrase`](featuresbynodetype.md#phrase-nodes) [`group`](featuresbynodetype.md#group-nodes)  | [`syntax-view`](../syntax-view.md#start) [`wg-view`](../wg-view.md#start) 
+[`Syntactical`](featuresbygroup.md#syntactical-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype)  | [`wg`](featuresbynodetype.md#wordgroup-nodes) [`subphrase`](featuresbynodetype.md#subphrase-nodes) [`phrase`](featuresbynodetype.md#phrase-nodes) [`group`](featuresbynodetype.md#group-nodes) [`clause`](featuresbynodetype.md#clause-nodes)  | [`syntax-view`](../syntax-view.md#start) [`wg-view`](../wg-view.md#start) 
 
 ## Feature description
 
@@ -22,17 +22,24 @@ Value | Description | Frequency
 conjuncted | |	8075
 apposition | |	889
 
+Frequency for nodetype `clause`:
+
+Value | Description | Frequency
+---- | ---- | ---
+Voct | | 167
+
 Frequency for nodetype `wg`:
 
 Value | Description | Frequency
 ---- | ---- | ---
 NP	| nominal phrase | 30911
 PP	| prepositional phrase | 11169
-conjuncted	|| 8075
-apposition	|| 889
+conjuncted | | 8075
+apposition | | 889
 VP	| verbal phrase | 207
-AdjP | adjectival phrase |168
-AdvP | adverbial phrase |166
+AdjP | adjectival phrase | 168
+Voct | | 167
+AdvP | adverbial phrase | 166
 
 Frequency for nodetype `phrase`:
 
