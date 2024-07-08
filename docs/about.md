@@ -12,7 +12,7 @@ This is the [Text-Fabric](https://annotation.github.io/text-fabric/tf/) version 
 
 Text-Fabric, as described by its developer [Dirk Roorda](https://github.com/dirkroorda), is a "data model, a file format, and a tool on the one hand, and a strategy, even an ethos on the other hand."<sup>1</sup> The Text-Fabric framework is designed to facilitate the analysis and manipulation of large-scale textual data, particularly in the context of ancient languages and biblical texts. The engine of Text-Fabric is its powerful Python library, which provides a comprehensive set of tools for processing and querying structured text data efficiently. The software package is accessible at [https://github.com/annotation/text-fabric](https://github.com/annotation/text-fabric).
 
-Detailed information regarding Text-Fabric can be found in it's [Package description](https://annotation.github.io/text-fabric/tf/index.html).
+Detailed information regarding Text-Fabric can be found in it's [package description](https://annotation.github.io/text-fabric/tf/index.html).
 
 ## The Nestle text
 
