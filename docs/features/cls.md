@@ -34,7 +34,7 @@ Frequency for nodetype [`wg`](featuresbynodetype.md#wordgroup-nodes) (wordgroup)
 
 Value | Phrase Category | frequency
 --- | --- | ---
-adjp | adjective phrase | 168
+adjp | adjectival phrase | 168
 advp | adverbial phrase | 166
 np | nominal phrase | 30911
 nump | numeral phrase | 7
@@ -55,9 +55,9 @@ pron ||	8751
 adv	| ? phrase | 4390
 noun | |	2822
 adj	|| 2304
-det	|| 257
+det	| determiner | 257
 advp | adverbial phrase |	154
-ptcl |participle phrase |	87
+ptcl | participal phrase |	87
 adjp | adjectival phrase | 168
 
 Frequency for nodetype [`subphrase`](featuresbynodetype.md#subphrase-nodes) :
@@ -66,13 +66,13 @@ Value | Phrase Category | frequency
 --- | --- | ---
 np	| noun phrase | 30911
 noun | noun | 28455
-verb	| verb| 28357
-det ||	19786
-conj | conjunction |	18228
-pron	| pronoun | 16177
+verb	| verb | 28357
+det | determiner | 19786
+conj | conjunction | 18228
+pron | pronoun | 16177
 pp | prepositional phrase|11169
 prep| preposition | 10914
-adj | adjectival phrase | 8452
+adj | adjective | 8452
 adv	| adverbal | 6154
 
 Frequency for nodetype [`clause`](featuresbynodetype.md#clause-nodes) :
