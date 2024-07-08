@@ -11,8 +11,7 @@ Feature group | Feature type | Data type | Available for node types | Used by vi
 
 ## Feature description
 
-The `cltype` feature provides classification for different types of clauses, specifically focusing on verbless, verb-elided, and minor clauses. All clauses without explicit 
-value for this this feature are to be regarded Verbal Clauses. 
+This feature provides classification for different types of clauses, specifically focusing on verbless, verb-elided, and minor clauses. All clauses without explicit value for this this feature are to be regarded verbal clauses. 
 
 ## Feature values
 
@@ -20,7 +19,7 @@ Frequency for [sentence](featurebynodetype.md#sentence-nodes) nodes:
 
 value | description | Frequency
 ---  | --- | --- 
-&lt;empty&gt; | Verbal clause type | 
+&lt;empty&gt; | Verbal clause type | 19703 
 `Verbless` | Verbless clause type| 77
 `VerbElided` |  Verb-elided clause type | 47
 `Minor` |  Minor clause type | 1
@@ -29,7 +28,7 @@ Frequency for [`clause`](featuresbynodetype.md#clause-nodes) nodes:
 
 value | description | Frequency
 ---  | --- | --- 
-&lt;empty&gt; | Verbal clause type | 
+&lt;empty&gt; | Verbal clause type | 30814
 `Verbless` | Verbless clause type| 1003
 `VerbElided` |  Verb-elided clause type | 884
 `Minor` |  Minor clause type | 831
@@ -38,7 +37,7 @@ Frequency for [`wg`](featuresbynodetype.md#wordgroup-nodes) nodes:
 
 value | description | Frequency
 ---  | --- | --- 
-&lt;empty&gt; | Verbal clause type | 
+&lt;empty&gt; | Verbal clause type | 106868
 `Verbless` | Verbless clause type| 1050
 `VerbElided` |  Verb-elided clause type | 961
 `Minor` |  Minor clause type | 832
@@ -46,7 +45,13 @@ value | description | Frequency
 ## Note
 
 To select all verbal clauses for node type `sentence`, the following snippet can be used:
+
 ```python
+Query = '''
+sentence 
+   cltype#1
+'''
+Results = A.search(Query)
 ```
 
 ## Additional information
