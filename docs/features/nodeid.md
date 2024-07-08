@@ -18,12 +18,15 @@ The `nodeid` feature provides a reference to a specific word groups, clauses, or
 A string formated like `400010200010490` which can be decoded as:
 ```
     400010200010490
-    BBCCCVVVWWW
-    BB               => zero-padded book, the first NT book (Matthew) starts at 40
+    BBCCCVVVWWWSSSL
+    BB               => zero-padded book number, the first NT book (Matthew) starts at 40
       CCC            => zero-padded chapter
          VVV         => zero-padded verse
-            ???????  => some sequence number
+            WWW      => Beginning position (the Nth word) of a node/sub-tree
+               SSS   => The SPAN of a node (how many words it covers)
+                  L  => (Level) distinguishes nodes which have the same span (in cases of non-branching nodes)
 ```
+
 ## Notes
 
 A related feature, albeit referencing individual word nodes, is [id](id.md#start).
