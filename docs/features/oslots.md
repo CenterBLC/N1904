@@ -20,7 +20,7 @@ The slot set is given as a comma-separated list of slot ranges. A range has the 
 
 The value of this feature for word objects is always just one number: the number of the slot the word occupies. All word occurrences are numbered from 1 to 137779 in the order they occur in the Greek New Testament.
 
-This features is used in combination with the special set of ['E.' functions](https://annotation.github.io/text-fabric/tf/cheatsheet.html#special-edge-feature-oslots). 
+This features is used in combination with the special subset of ['E.' functions](https://annotation.github.io/text-fabric/tf/cheatsheet.html#special-edge-feature-oslots). 
 
 For example, the following snippet shows the nodes associated with node #382714 (= verse node for Matt. 1:1):
 
