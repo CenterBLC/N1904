@@ -27,7 +27,7 @@ Value | Description | Frequency
 `imperative` | Imperative (expresses a command) | 1877
 `subjunctive` | Subjunctive (expresses a probable or desired action) | 1856
 `optative` | Optative (expresses something is possible) | 69
-`&nbsp` | Any other wordtype than a verb | 109422
+&lt;empty&gt; | Any other wordtype than a verb | 109422
 
 For [`subphrase`](featuresbynodetype.md#subphrase-nodes) nodes (used in [`syntax-view`](../syntax-view.md#start)):
 
@@ -39,7 +39,7 @@ Value | Description | Frequency
 `imperative` | Imperative (expresses a command) | 1877
 `subjunctive` | Subjunctive (expresses a probable or desired action) | 1856
 `optative` | Optative (expresses something is possible) | 69
-`&nbsp` | Any other wordtype than a verb | 115176
+&lt;empty&gt; | Any other wordtype than a verb | 115176
 
 For [`phrase`](featuresbynodetype.md#phrase-nodes) nodes (used in [`syntax-view`](../syntax-view.md#start)):
 
@@ -51,7 +51,7 @@ Value | Description | Frequency
 `subjunctive` | Subjunctive (expresses a probable or desired action) | 1832
 `imperative` | Imperative (expresses a command) | 1663
 `optative` | Optative (expresses something is possible) | 67
-`&nbsp` | Any other wordtype than a verb | 41652
+&lt;empty&gt; | Any other wordtype than a verb | 41652
 
 
 ## Source description
