@@ -44,6 +44,21 @@ feminine | Grammatical gender is feminine | 18736
 neuter | Grammatical gender is neuter | 13753
 &lt;empty&gt; | Empty for any other wordtype | 63804
 
+## Notes
+
+The following features provide ready access to eight morphological properties:
+
+ - [person](person.md#start): gramatical person
+ - [tense](tense.md#start): gramatical tense of the verb
+ - [voice](voice.md#start): Gramatical voice of the verb
+ - [mood](mood.md#start): gramatical mood of a verb
+ - [case](case.md#start): gramatical case
+ - [number](number.md#start): gramatical number
+ - [gender](gender.md#start): gramatical gender
+ - [degree](degree.md#start): indicates comparative or superlative adjective
+
+The feature [morph](morph.md#start) provides the morphological tag, which condenses various details such as part of speech and the above listed morphological characteristics.
+
 ## Source description
 
 This feature is derived from the XML attribute `gender` of the tag `w` (word).
