@@ -15,44 +15,45 @@ The `junction` feature indicates details about coordinating and subordinating cl
 
 ## Feature values 
 
-Frequency for nodetype `sentence`:
+For [`sentence`](featuresbynodetype.md#sentence-nodes) nodes (used in [`syntax-view`](../syntax-view.md#start) and  [`wg-view`](../wg-view.md#start)):
 
-value | description | Frequency
+Value | Description | Frequency
 ---  | --- | --- 
-`coordinate` | coordinate | 1117
-`subordinate` |  subordinate | 989
-&lt;empty&gt;  | not applicable | 17597
+`coordinate` | Coordinate | 1117
+`subordinate` |  Subordinate | 989
+&lt;empty&gt;  | Not applicable | 17597
 
 Frequency for nodetype `clause`:
+For [`clause`](featuresbynodetype.md#clause-nodes) nodes (used in [`syntax-view`](../syntax-view.md#start)):
 
-value | description | Frequency
+Value | Description | Frequency
 ---  | --- | --- 
-`coordinate` | coordinate | 8186
-`subordinate` |  subordinate | 7449
-&lt;empty&gt;  | not applicable | 15179
+`coordinate` | Coordinate | 8186
+`subordinate` |  Subordinate | 7449
+&lt;empty&gt;  | Not applicable | 15179
 
-Frequency for nodetype `wg`:
+For [`wg`](featuresbynodetype.md#wordgroup-nodes) nodes (used in [`wg-view`](../wg-view.md#start)):
 
-value | description | Frequency
+Value | Description | Frequency
 ---  | --- | --- 
-`coordinate` | coordinate | 9367
-`subordinate` |  subordinate | 8554
-&lt;empty&gt;  | not applicable | 88947
+`coordinate` | Coordinate | 9367
+`subordinate` |  Subordinate | 8554
+&lt;empty&gt;  | Not applicable | 88947
 
-Frequency for nodetype `phrase`:
+For [`phrase`](featuresbynodetype.md#phrase-nodes) nodes (used in [`syntax-view`](../syntax-view.md#start)):
 
-value | description | Frequency
+Value | Description | Frequency
 ---  | --- | --- 
-`subordinate` |  subordinate | 57
-&lt;empty&gt;  | not applicable | 68950
+`subordinate` |  Subordinate | 57
+&lt;empty&gt;  | Not applicable | 68950
 
-Frequency for nodetype `subphrase`:
+For [`subphrase`](featuresbynodetype.md#subphrase-nodes) nodes (used in [`syntax-view`](../syntax-view.md#start)):
 
-value | description | Frequency
+Value | Description | Frequency
 ---  | --- | --- 
-`subordinate` |  subordinate | 116
-`coordinate` | coordinate | 64
-&lt;empty&gt;  | not applicable | 116055
+`subordinate` |  Subordinate | 116
+`coordinate` | Coordinate | 64
+&lt;empty&gt;  | Not applicable | 116055
 
 ## Note
 
