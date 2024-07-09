@@ -17,17 +17,42 @@ This feature is also populated for `phrase` or `subphrase`, but only if they con
 
 ## Feature values 
 
-mood | Comment | Frequency<sup>1</sup>
---- | --- | ---
-`imperative` | expresses a command | 1877
-`indicative` | expresses an action being portrayed as real | 15617
-`infinitive` | (pseudo mood) | 2285
-`participle` | (pseudo mood) | 6653
-`optative` | expresses something is possible | 69
-`subjunctive` | expresses a probable or desired action | 1856
-`&nbsp` | Any other wordtype | 109422
+For [`word`](featuresbynodetype.md#word-nodes) nodes (used in [`syntax-view`](../syntax-view.md#start) and  [`wg-view`](../wg-view.md#start)):
 
-<sup>1</sup> Frequency figures are listed for word nodes only. 
+Value | Description | Frequency
+--- | --- | ---
+`indicative` | Indicative (expresses an action being portrayed as real) | 15617
+`participle` | Participle (pseudo mood) | 6653
+`infinitive` | Infinitive (pseudo mood) | 2285
+`imperative` | Imperative (expresses a command) | 1877
+`subjunctive` | Subjunctive (expresses a probable or desired action) | 1856
+`optative` | Optative (expresses something is possible) | 69
+`&nbsp` | Any other wordtype than a verb | 109422
+
+For [`subphrase`](featuresbynodetype.md#subphrase-nodes) nodes (used in [`syntax-view`](../syntax-view.md#start)):
+
+Value | Description | Frequency
+--- | --- | ---
+`indicative` | Indicative (expresses an action being portrayed as real) | 15617
+`participle` | Participle (pseudo mood) | 6653
+`infinitive` | Infinitive (pseudo mood) | 2285
+`imperative` | Imperative (expresses a command) | 1877
+`subjunctive` | Subjunctive (expresses a probable or desired action) | 1856
+`optative` | Optative (expresses something is possible) | 69
+`&nbsp` | Any other wordtype than a verb | 115176
+
+For [`phrase`](featuresbynodetype.md#phrase-nodes) nodes (used in [`syntax-view`](../syntax-view.md#start)):
+
+Value | Description | Frequency
+--- | --- | ---
+`indicative` | Indicative (expresses an action being portrayed as real) | 15245
+`participle` | Participle (pseudo mood) | 6320
+`infinitive` | Infinitive (pseudo mood) | 2228
+`subjunctive` | Subjunctive (expresses a probable or desired action) | 1832
+`imperative` | Imperative (expresses a command) | 1663
+`optative` | Optative (expresses something is possible) | 67
+`&nbsp` | Any other wordtype than a verb | 41652
+
 
 ## Source description
 
