@@ -15,26 +15,30 @@ The `crule` feature provides the clause rule from the XML attribute `rule`. This
 
 ## Feature values
 
-Frequency for nodetype `sentence`:
+For [`sentence`](featuresbynodetype.md#sentence-nodes) nodes (used in [`syntax-view`](../syntax-view.md#start) and  [`wg-view`](../wg-view.md#start))
 
-value | explanation | Frequency
+Value | Description | Frequency
 --- | --- | ---
-ClCl | subordinate clause follows the main clause | 619
-‎ClCl2 | subordinate clause precedes the main clause | 219
+ClCl | Subordinate clause follows the main clause | 619
+‎ClCl2 | Subordinate clause precedes the main clause | 219
+&lt;empty&gt; | No subordinate clause pressent | 18865 
 
-Frequency for nodetype `clause`:
+For [`clause`](featuresbynodetype.md#sentence-nodes) nodes (used in [`syntax-view`](../syntax-view.md#start))
 
-value | explanation | Frequency
+Value | Description | Frequency
 --- | --- | ---
-ClCl | subordinate clause follows the main clause | 3689
-‎ClCl2 | subordinate clause precedes the main clause | 1031
+ClCl | Subordinate clause follows the main clause | 3689
+‎ClCl2 | Subordinate clause precedes the main clause | 1031
+&lt;empty&gt; | No subordinate clause pressent | 26094
 
-Frequency for nodetype `wg`:
 
-value | explanation | Frequency
+For [`wg`](featuresbynodetype.md#wordgroup-nodes) nodes (used in [`wg-view`](../wg-view.md#start))
+
+Value | Description | Frequency
 --- | --- | ---
-ClCl | subordinate clause follows the main clause | 4308
-‎ClCl2 | subordinate clause precedes the main clause | 1250
+ClCl | Subordinate clause follows the main clause | 4308
+‎ClCl2 | Subordinate clause precedes the main clause | 1250
+&lt;empty&gt; | No subordinate clause pressent | 101310
 
 ## Note
 
