@@ -17,16 +17,38 @@ This feature is also populated for `phrase` or `subphrase` nodes but only if the
 
 ## Feature values
 
-case | explanation | Frequency<sup>1</sup> 
+For [`word`](featuresbynodetype.md#word-nodes) nodes (used in [`syntax-view`](../syntax-view.md#start) and  [`wg-view`](../wg-view.md#start)):
+
+Value | Description | Frequency
 --- | --- | ---
-`accusative` | Generaly indicating the direct object of a verb | 23031
-`dative` | Generaly indicating indirect object of a verb | 12126
-`genitive` | Generaly indicating possesion | 19515
 `nominative` | Generaly indicating the subject | 24197
+`accusative` | Generaly indicating the direct object of a verb | 23031
+`genitive` | Generaly indicating possesion | 19515
+`dative` | Generaly indicating indirect object of a verb | 12126
 `vocative` | Adressee of speech | 649
 &lt;empty&gt; | empty for any other word type | 58261
 
-<sup>1</sup> Frequency figures are listed for `word` nodes only. 
+For [`subphrase`](featuresbynodetype.md#subphrase-nodes) nodes (used in [`syntax-view`](../syntax-view.md#start)):
+
+Value | Description | Frequency
+--- | --- | ---
+`nominative` | Generaly indicating the subject | 24197
+`accusative` | Generaly indicating the direct object of a verb | 23031
+`genitive` | Generaly indicating possesion | 19515
+`dative` | Generaly indicating indirect object of a verb | 12126
+`vocative` | Adressee of speech | 649
+&lt;empty&gt; | empty for any other word type | 57113
+
+For [`phrase`](featuresbynodetype.md#phrase-nodes) nodes (used in [`syntax-view`](../syntax-view.md#start)):
+
+Value | Description | Frequency
+--- | --- | ---
+`nominative` | Generaly indicating the subject | 9609
+`accusative` | Generaly indicating the direct object of a verb | 6170
+`dative` | Generaly indicating indirect object of a verb | 3265
+`genitive` | Generaly indicating possesion | 1408
+`vocative` | Adressee of speech | 1
+&lt;empty&gt; | empty for any other word type | 48554
 
 ## Source description
 
