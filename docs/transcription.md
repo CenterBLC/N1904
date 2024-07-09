@@ -37,7 +37,7 @@ The concept of [viewtypes](viewtypes.md#start) is important to this dataset. Thi
 
 ### Textformats
 
-Text-Fabric allows the corpus text to be formatted in different ways, depending on the intended use. This Text-Fabric database has a number of formats defined, which are discussed at [textformats](textformats.md#start).
+Text-Fabric allows the corpus text to be formatted in different ways, depending on the intended use. This Text-Fabric database has a number of formats defined, which are discussed in the section [textformats](textformats.md#start).
 
 ## Implementation note
 
