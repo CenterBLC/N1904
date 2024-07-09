@@ -17,14 +17,32 @@ This feature is also populated for `phrase` or `subphrase`, but only if they con
 
 ## Feature values
 
-Value | Description | Frequency<sup>1</sup>
+For [`word`](featuresbynodetype.md#word-nodes) nodes (used in [`syntax-view`](../syntax-view.md#start) and  [`wg-view`](../wg-view.md#start)):
+
+Value | Description | Frequency
 --- | --- | --- 
-feminine | Grammatical gender is feminine | 18736
 masculine | Grammatical gender is masculine | 41486
+feminine | Grammatical gender is feminine | 18736
 neuter | Grammatical gender is neuter | 13753
 &lt;empty&gt; | Empty for any other wordtype | 63804
- 
-<sup>1</sup> Frequency figures are listed for `word` nodes only. 
+
+For [`phrase`](featuresbynodetype.md#phrase-nodes) nodes (used in [`syntax-view`](../syntax-view.md#start)):
+
+Value | Description | Frequency
+--- | --- | --- 
+masculine | Grammatical gender is masculine | 12430
+neuter | Grammatical gender is neuter | 3066
+feminine | Grammatical gender is feminine | 2162
+&lt;empty&gt; | Empty for any other wordtype | 51349
+
+For [`subphrase`](featuresbynodetype.md#subphrase-nodes) nodes (used in [`syntax-view`](../syntax-view.md#start)):
+
+Value | Description | Frequency
+--- | --- | --- 
+masculine | Grammatical gender is masculine | 41486
+feminine | Grammatical gender is feminine | 18736
+neuter | Grammatical gender is neuter | 13753
+&lt;empty&gt; | Empty for any other wordtype | 63804
 
 ## Source description
 
