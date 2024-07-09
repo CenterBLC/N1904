@@ -17,13 +17,29 @@ This feature is also populated for `phrase` or `subphrase`, but only if they con
 
 ## Feature values
 
-Value | Description | Frequency<sup>1</sup>
---- | --- | ---
-plural | Plural form (either first, second, or third person) | 29091
-singular | Singular form (either first, second, or third person) | 69846
-'' | Empty for wordtypes other than verb | 38842
+For [`word`](featuresbynodetype.md#word-nodes) nodes (used in [`syntax-view`](../syntax-view.md#start) and  [`wg-view`](../wg-view.md#start)):
 
-<sup>1</sup> Frequency figures are listed for word nodes only. 
+Value | Description | Frequency
+--- | --- | ---
+singular | Singular form (either first, second, or third person) | 69846
+plural | Plural form (either first, second, or third person) | 29091
+&lt;empty&gt; | Empty for wordtypes without number  | 38842
+
+For [`phrase`](featuresbynodetype.md#phrase-nodes) nodes (used in [`syntax-view`](../syntax-view.md#start)):
+
+Value | Description | Frequency
+--- | --- | ---
+singular | Singular form (either first, second, or third person) | 26293
+plural | Plural form (either first, second, or third person) | 12967
+&lt;empty&gt; | Empty for wordtypes without number  | 29747
+
+For [`subphrase`](featuresbynodetype.md#subphrase-nodes) nodes (used in [`syntax-view`](../syntax-view.md#start)):
+
+Value | Description | Frequency
+--- | --- | ---
+singular | Singular form (either first, second, or third person) | 69846
+plural | Plural form (either first, second, or third person) | 29091
+&lt;empty&gt; | Empty for wordtypes without number  | 56501
 
 ## Note
 
