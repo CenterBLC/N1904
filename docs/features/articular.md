@@ -44,6 +44,7 @@ value | description | Frequency
 `1` | Articular in wordgroup | 28772
 
 For [`phrase`](featuresbynodetype.md#phrase-nodes) nodes (used in [`syntax-view`](../syntax-view.md#start)):
+
 value | description | Frequency
 ---  | --- | --- 
 &lt;empty&gt; | No articular in phrase | 55928
