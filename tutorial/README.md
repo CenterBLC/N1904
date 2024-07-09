@@ -1,6 +1,6 @@
 <a name="start"></a>
 <div class="hidden-content">
-<a href="../doc/transcription.md">Transcription</a> | <a href="../doc/features/README.md#start">Features</a> | <a href="../doc/viewtypes.html#start">Viewtypes</a> | <a href="../doc/textformats.md#start">Textformats</a> |  <a href="../doc/syntaxtrees.md#start">Syntaxtrees</a> | Tutorial | <a href="../doc/about.md#start">About</a>
+<a href="../docs/transcription.md">Transcription</a> | <a href="../docs/features/README.md#start">Features</a> | <a href="../docs/viewtypes.html#start">Viewtypes</a> | <a href="../docs/textformats.md#start">Textformats</a> |  <a href="../docs/syntaxtrees.md#start">Syntaxtrees</a> | Tutorial | <a href="../docs/about.md#start">About</a>
 </div>
 
 # Nestle 1904 GNT - Tutorial
