@@ -25,11 +25,24 @@ perfect | Describing a completed action in the present time | 1572
 pluperfect | Describing a completed action in the past | 88
 present | Describing an ongoing action in the present time | 11579
 future | Describing a simple or ongoing action in the future | 1626
-'' | Empty for any wordtype other than a verb | 109422
+&lt;empty&gt; | Empty for any wordtype other than a verb | 109422
 
 ## Note
 
 The 'future perfect' tense (describing a completed action in the future) is not found in the text.
+
+The following features provide ready access to eight morphological properties:
+
+ - [person](person.md#start): gramatical person
+ - [tense](tense.md#start): gramatical tense of the verb
+ - [voice](voice.md#start): Gramatical voice of the verb
+ - [mood](mood.md#start): gramatical mood of a verb
+ - [case](case.md#start): gramatical case
+ - [number](number.md#start): gramatical number
+ - [gender](gender.md#start): gramatical gender
+ - [degree](degree.md#start): indicates comparative or superlative adjective
+
+The feature [morph](morph.md#start) provides the morphological tag, which condenses various details such as part of speech and the above listed morphological characteristics.
 
 ## Source description
 
