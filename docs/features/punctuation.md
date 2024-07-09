@@ -17,21 +17,35 @@ This feature is also populated for `phrase` or `subphrase`, but only if they con
 
 ## Feature values 
 
-Value | Description | Unicode codepoint | Frequency<sup>1</sup>
----  |  --- | --- | ---
-<span>` `</span> | Space | [`&#32`](https://www.codetable.net/decimal/32)  |  238522
-`, ` | Comma |  [`&#44`](https://www.codetable.net/decimal/44)   | 18878
-`. ` | Full Stop | [`&#46`](https://www.codetable.net/decimal/46) | 11408
-`· ` | Midle Dot | [`&#183`](https://www.codetable.net/decimal/183) | 4710
-`; ` | Semicolon | [`&#59`](https://www.codetable.net/decimal/59) | 1938
-`,— ` |  | 36
-`— ` |  | 14
-`). ` | | 12
-`.]] ` | | 8
-`·— ` | | 8
-etc.. | | another 11
+For `word` nodes (used in [`syntax-view`](../syntax-view.md#start) and [`wg-view`](../wg-view.md#start)):
 
-<sup>1</sup> Frequency figures are listed for word nodes only.
+Value | Description | Unicode codepoint | Frequency
+---  |  --- | --- | ---
+<span>` `</span> | Space | [`&#32`](https://www.codetable.net/decimal/32)  | 119264
+`,` | Comma |  [`&#44`](https://www.codetable.net/decimal/44)   | 9462
+`.` | Full Stop | [`&#46`](https://www.codetable.net/decimal/46) | 5717
+`·` | Midle Dot | [`&#183`](https://www.codetable.net/decimal/183) | 2359
+`;` | Semicolon | [`&#59`](https://www.codetable.net/decimal/59) | 971
+
+For `phrase` nodes (used in [`syntax-view`](../syntax-view.md#start)):
+
+Value | Description | Unicode codepoint | Frequency
+---  |  --- | --- | ---
+<span>` `</span> | Space | [`&#32`](https://www.codetable.net/decimal/32)  | 37660
+`,` | Comma |  [`&#44`](https://www.codetable.net/decimal/44)   | 3903
+`.` | Full Stop | [`&#46`](https://www.codetable.net/decimal/46) | 2731
+`·` | Midle Dot | [`&#183`](https://www.codetable.net/decimal/183) | 1189
+`;` | Semicolon | [`&#59`](https://www.codetable.net/decimal/59) | 589
+
+For `subphrase` nodes (used in [`syntax-view`](../syntax-view.md#start)):
+
+Value | Description | Unicode codepoint | Frequency
+---  |  --- | --- | ---
+<span>` `</span> | Space | [`&#32`](https://www.codetable.net/decimal/32)  | 119264
+`,` | Comma |  [`&#44`](https://www.codetable.net/decimal/44)   | 9462
+`.` | Full Stop | [`&#46`](https://www.codetable.net/decimal/46) | 5717
+`·` | Midle Dot | [`&#183`](https://www.codetable.net/decimal/183) | 2359
+`;` | Semicolon | [`&#59`](https://www.codetable.net/decimal/59) | 971
 
 ## Notes
 
