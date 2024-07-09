@@ -15,14 +15,12 @@ This feature provides the normalized Greek form of the surface text in the Nestl
 
 This feature is also populated for `phrase` or `subphrase`, but only if they consist of just one `word` node.
 
+## Feature values
+
+The normalized form of the Greek surface text (see also the 'notes' section).
+
 ## Notes
-
-See also the following related features:
-
-   * [text](text.md#start): Word without punctuations and text-critical signs.
-   * [unicode](unicode.md#start): Word as it appears in the text (in unicode)
-
-   
+  
 The following snippet identifies all word nodes where feature text and normalized differ:
 ```python
 Query = '''
@@ -58,6 +56,11 @@ The relation between the feature values for text, normalized and lemma can be de
              ...
              unicode="τὸν"&gt;τὸν&lt;/w&gt;
 </pre>
+
+See also the following related features:
+
+   * [text](text.md#start): Word without punctuations and text-critical signs.
+   * [unicode](unicode.md#start): Word as it appears in the text (in unicode)
 
 ## Source description
 
