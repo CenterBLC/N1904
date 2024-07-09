@@ -7,7 +7,9 @@
 
 In Text-Fabric, a 'feature' refers to attributes associated with a certain nodes type (like words, word groups, or sentences). The feature value provide additional information specific to the attribute of that node.
 
-The full featureset of this Text-Fabric dataset can be viewed by different grouping methods:
+[All features listed by feature name](featuresbyname.md#start).
+
+The full featureset of this Text-Fabric dataset can also be viewed by different grouping methods:
 * [Grouped by feature type](featuresbyfeaturetype.md#start)
      * [`Node`](featuresbyfeaturetype.md#node-features): the fundamental units or entities in the data model.
      * [`Edge`](featuresbyfeaturetype.md#edge-features): relationships or links, establishing connections between nodes in the data model.
@@ -37,6 +39,6 @@ The full featureset of this Text-Fabric dataset can be viewed by different group
      * [`string`](featuresbydatatype.md#string-datatype): Datatype of feature is string.
      * [`integer`](featuresbydatatype.md#integer-datatype): Datatype of feature is integer.
      * [`configuration`](featuresbydatatype.md#configuration-data): Configuration data.
-* [Grouped by feature name](featuresbyname.md#start).
+
 
 
