@@ -19,9 +19,23 @@ This feature is also populated for `phrase` or `subphrase`, but only if they con
 
 Morphological tag according to Sandborg-Petersen morphology.
 
+Some examples:
+ - T-DSN = article, Dative Singular Neuter
+ - V-AAI-3S = verb, aorist active indicative, third person singular
+
 ## Notes
 
 For detailed information on how to decode the feature values, see [biblicalhumanities/Nestle1904/morph/parsing.txt](https://github.com/biblicalhumanities/Nestle1904/blob/master/morph/parsing.txt).
+
+This feature enables selection based on a wide range of grammatical properties. For example, to find all Attic words, you can use the following snippet, which utilizes a regular expression:
+
+```python
+Query = '''
+word
+   morph~-ATT$
+'''
+Results = A.search(Query)  # this yealds 117 results
+```
 
 The morphological tag also provides indication of some Hebrew and Aramaic words. See also [notes section of feature 'lang'](lang.md#note).
 
