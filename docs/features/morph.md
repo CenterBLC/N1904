@@ -20,8 +20,8 @@ This feature is also populated for `phrase` or `subphrase`, but only if they con
 Morphological tag according to Sandborg-Petersen morphology.
 
 Some examples:
- - T-DSN = article, Dative Singular Neuter
- - V-AAI-3S = verb, aorist active indicative, third person singular
+ - T-DSN decodes as [cls](cls.md#start)=article, [case](case.md#start)=dative, [number](number.md#start)=singular, [gender](gender.md#start)=neuter.
+ - V-AAI-3S decodes as [cls](cls.md#start)=verb, [tense](tense.md#start)=aorist, [voice](voice.md#start)=active, [mood](mood.md#start)=indicative, [person](person.md#start)=third, [number](number.md#start)=singular.
 
 ## Notes
 
