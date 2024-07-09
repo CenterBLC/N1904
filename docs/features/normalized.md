@@ -32,7 +32,7 @@ Results = A.search(Query)
 ```
 This query returns 37182 results. The following table shows the frequency of the top ten differences between feature text and normalized:
 
-| text        | normalized | frequency |
+| feature value text        | feature value normalized | frequency |
 |-------------|-------------|-----------|
 | καὶ         | καί        | 8545      |
 | δὲ          | δέ         | 2620      |
