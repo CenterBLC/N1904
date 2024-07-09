@@ -20,8 +20,8 @@ This feature is also populated for `phrase` or `subphrase`, but only if they con
 
 Value | Description | Frequency
 ---|---|---
-1 | | 36
-2 | | 302
+1 | First entry/sense | 36
+2 | Second entry/sense | 302
 
 ## Notes
 
