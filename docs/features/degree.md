@@ -17,11 +17,30 @@ This feature is also populated for `phrase` or `subphrase`, but only if they con
 
 ## Feature values
 
+For [`word`](featuresbynodetype.md#word-nodes) nodes (used in [`syntax-view`](../syntax-view.md#start) and  [`wg-view`](../wg-view.md#start)):
+
 Value | Description | Frequency
 --- | --- | ---
-comparitative | Comparitative adjective | 626
-superlative | Superlative adjective | 400
-'' | Empty for any other adjectives or other wordtypes | -
+comparitative | Comparitative adjective | 313
+superlative | Superlative adjective | 200
+&lt;empty&gt; | Empty for any other adjectives or other wordtypes | 137266
+
+For [`phrase`](featuresbynodetype.md#phrase-nodes) nodes (used in [`syntax-view`](../syntax-view.md#start)):
+
+Value | Description | Frequency
+--- | --- | ---
+comparitative | Comparitative adjective | 119
+superlative | Superlative adjective | 32
+&lt;empty&gt; | Empty for any other adjectives or other wordtypes | 68856
+
+For [`subphrase`](featuresbynodetype.md#subphrase-nodes) nodes (used in [`syntax-view`](../syntax-view.md#start)):
+
+Value | Description | Frequency
+--- | --- | ---
+comparitative | Comparitative adjective | 313
+superlative | Superlative adjective | 200
+&lt;empty&gt; | Empty for any other adjectives or other wordtypes | 115816
+
 
 ## Source description
 
