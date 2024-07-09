@@ -19,7 +19,9 @@ This feature is also populated for `phrase` or `subphrase`, but only if they con
 
 All material found after a word. The frequency is provided by the table below.
 
-Value | Description | Unicode codepoint | Frequency<sup>1</sup>
+For [`word`](featuresbynodetype.md#word-nodes) nodes (used in [`syntax-view`](../syntax-view.md#start) and  [`wg-view`](../wg-view.md#start)):
+
+Value | Description | Unicode codepoint | Frequency
 ---  |  --- | --- | ---
 <span>` `</span> | Space | [`&#32`](https://www.codetable.net/decimal/32)  |  119261
 `, ` | Comma  & space| [`&#44`](https://www.codetable.net/decimal/44) & [`&#32`](https://www.codetable.net/decimal/32)   | 9439
@@ -30,9 +32,35 @@ Value | Description | Unicode codepoint | Frequency<sup>1</sup>
 `— ` | Em dash & space | [`&#8212`](https://www.codetable.net/decimal/8212) & [`&#32`](https://www.codetable.net/decimal/32) | 7
 `). ` | Closing round bracket, full stop & space | [`&#41`](https://www.codetable.net/decimal/41) & [`&#46`](https://www.codetable.net/decimal/46) & [`&#32`](https://www.codetable.net/decimal/32) | 6
 `.]] ` | Full stop & 2 Right Square Bracket | [`&#46`](https://www.codetable.net/decimal/46) & 2x [`&#93`](https://www.codetable.net/decimal/93)| 4
-etc.. | Various | various | another 15
+etc.. | Various | various | 
 
-<sup>1</sup> Frequency figures are listed for word nodes only. 
+For [`phrase`](featuresbynodetype.md#phrase-nodes) nodes (used in [`syntax-view`](../syntax-view.md#start)):
+
+Value | Description | Unicode codepoint | Frequency
+---  |  --- | --- | ---
+<span>` `</span> | Space | [`&#32`](https://www.codetable.net/decimal/32)  |  37661
+`, ` | Comma  & space| [`&#44`](https://www.codetable.net/decimal/44) & [`&#32`](https://www.codetable.net/decimal/32)   | 3892
+`. ` | Full stop & space| [`&#46`](https://www.codetable.net/decimal/46) & [`&#32`](https://www.codetable.net/decimal/32)| 2724
+`· ` | Midle dot & space| [`&#183`](https://www.codetable.net/decimal/183) & [`&#32`](https://www.codetable.net/decimal/32) | 1187
+`; ` | Semicolon & space| [`&#59`](https://www.codetable.net/decimal/59) & [`&#32`](https://www.codetable.net/decimal/32) | 588
+`,— ` | Comma, em dash & space | [`&#44`](https://www.codetable.net/decimal/44) & [`&#8212`](https://www.codetable.net/decimal/8212)  & [`&#32`](https://www.codetable.net/decimal/32) | 8
+`). ` | Closing round bracket, full stop & space | [`&#41`](https://www.codetable.net/decimal/41) & [`&#46`](https://www.codetable.net/decimal/46) & [`&#32`](https://www.codetable.net/decimal/32) | 4
+etc.. | Various | various | 
+
+For [`subphrase`](featuresbynodetype.md#subphrase-nodes) nodes (used in [`syntax-view`](../syntax-view.md#start)):
+
+Value | Description | Unicode codepoint | Frequency
+---  |  --- | --- | ---
+<span>` `</span> | Space | [`&#32`](https://www.codetable.net/decimal/32)  |  119261
+`, ` | Comma  & space| [`&#44`](https://www.codetable.net/decimal/44) & [`&#32`](https://www.codetable.net/decimal/32)   | 9439
+`. ` | Full stop & space| [`&#46`](https://www.codetable.net/decimal/46) & [`&#32`](https://www.codetable.net/decimal/32)| 5704
+`· ` | Midle dot & space| [`&#183`](https://www.codetable.net/decimal/183) & [`&#32`](https://www.codetable.net/decimal/32) | 2355
+`; ` | Semicolon & space| [`&#59`](https://www.codetable.net/decimal/59) & [`&#32`](https://www.codetable.net/decimal/32) | 969
+`,— ` | Comma, em dash & space | [`&#44`](https://www.codetable.net/decimal/44) & [`&#8212`](https://www.codetable.net/decimal/8212)  & [`&#32`](https://www.codetable.net/decimal/32) | 18
+`— ` | Em dash & space | [`&#8212`](https://www.codetable.net/decimal/8212) & [`&#32`](https://www.codetable.net/decimal/32) | 7
+`). ` | Closing round bracket, full stop & space | [`&#41`](https://www.codetable.net/decimal/41) & [`&#46`](https://www.codetable.net/decimal/46) & [`&#32`](https://www.codetable.net/decimal/32) | 6
+`.]] ` | Full stop & 2 Right Square Bracket | [`&#46`](https://www.codetable.net/decimal/46) & 2x [`&#93`](https://www.codetable.net/decimal/93)| 4
+etc.. | Various | various | 
 
 ## Notes
 
