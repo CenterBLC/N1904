@@ -41,6 +41,20 @@ comparitative | Comparitative adjective | 313
 superlative | Superlative adjective | 200
 &lt;empty&gt; | Empty for any other adjectives or other wordtypes | 115816
 
+## Notes
+
+The following features provide ready access to eight morphological properties:
+
+ - [person](person.md#start): gramatical person
+ - [tense](tense.md#start): gramatical tense of the verb
+ - [voice](voice.md#start): Gramatical voice of the verb
+ - [mood](mood.md#start): gramatical mood of a verb
+ - [case](case.md#start): gramatical case
+ - [number](number.md#start): gramatical number
+ - [gender](gender.md#start): gramatical gender
+ - [degree](degree.md#start): indicates comparative or superlative adjective
+
+The feature [morph](morph.md#start) provides the morphological tag, which condenses various details such as part of speech and the above listed morphological characteristics.
 
 ## Source description
 
