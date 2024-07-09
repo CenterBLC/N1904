@@ -239,7 +239,7 @@ Feature | Feature group | Feature type | Data type | Short description | Example
 
 ## Sentence nodes 
 
-<sup>The `sentence` nodes represents individual sentences in the corpus. This node type is associated with both the [`wg-view`](../wg-view.md#start) and the [`syntax-view`](,,/syntax-view.md#start).</sup>
+<sup>The `sentence` nodes represents individual sentences in the corpus. This node type is associated with both the [`wg-view`](../wg-view.md#start) and the [`syntax-view`](../syntax-view.md#start).</sup>
 
 Feature | Feature group | Feature type | Data type | Short description | Examples
 --- | --- | --- | --- | --- | ---
