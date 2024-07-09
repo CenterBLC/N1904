@@ -16,12 +16,12 @@ The `cls` feature provides the part of speech (PoS) for `word` nodes and the cat
 
 Frequency for nodetype [`word`](featuresbynodetype.md#word-nodes):
 
-value | Part of Speech | frequency
+Value | Part of Speech | Frequency
 --- | --- | ---
 adj | adjective | 8452
 adv | adverb | 6147
 conj | conjunction | 18227
-det | determiner | 19786
+det | determiner (includes articles) | 19786
 intj | interjection | 15
 noun | noun | 28455
 num | numeral | 476
@@ -32,7 +32,7 @@ verb | verb | 28357
 
 Frequency for nodetype [`wg`](featuresbynodetype.md#wordgroup-nodes) (wordgroup) :
 
-Value | Phrase Category | frequency
+Value | Phrase Category | Frequency
 --- | --- | ---
 adjp | adjectival phrase | 168
 advp | adverbial phrase | 166
@@ -46,7 +46,7 @@ conj | conjuction phrase| 1
 
 Frequency for nodetype [`phrase`](featuresbynodetype.md#phrase-nodes) :
 
-Value | Phrase Category | frequency
+Value | Phrase Category | Frequency
 --- | --- | ---
 verb | verbal phrase|	24772
 np	| nominal phrase |10935
@@ -62,7 +62,7 @@ adjp | adjectival phrase | 168
 
 Frequency for nodetype [`subphrase`](featuresbynodetype.md#subphrase-nodes) :
 
-Value | Phrase Category | frequency
+Value | Phrase Category | Frequency
 --- | --- | ---
 np	| noun phrase | 30911
 noun | noun | 28455
@@ -77,13 +77,13 @@ adv	| adverbal | 6154
 
 Frequency for nodetype [`clause`](featuresbynodetype.md#clause-nodes) :
 
-Value | Phrase Category | frequency
+Value | Phrase Category | Frequency
 --- | --- | ---
 cl | Clause | 28676
 
 Frequency for nodetype [`sentence`](featuresbynodetype.md#sentence-nodes) :
 
-Value | Phrase Category | frequency
+Value | Phrase Category | Frequency
 --- | --- | ---
 cl | Clause | 1476
 
