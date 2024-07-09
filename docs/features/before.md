@@ -7,11 +7,11 @@
 
 Feature group | Feature type | Data type | Available for node types | Used by viewtypes
 ---  | --- | --- | --- | ---
-[`Orthograpic`](featuresbygroup.md#orthograpic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | [`word`](featuresbynodetype.md#word-nodes) [`subphrase`](featuresbynodetype.md#subphrase-nodes) [`phrase`](featuresbynodetype.md#phrase-nodes) | [`syntax-view`](../syntax-view.md#start) [`wg-view`](../wg-view.md#start)
+[`Textcritical`](featuresbygroup.md#textcritical-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | [`word`](featuresbynodetype.md#word-nodes) [`subphrase`](featuresbynodetype.md#subphrase-nodes) [`phrase`](featuresbynodetype.md#phrase-nodes) | [`syntax-view`](../syntax-view.md#start) [`wg-view`](../wg-view.md#start)
 
 ## Feature description 
 
-The `before` feature includes all material found before a word, such as punctuation marks and special characters.
+The `before` feature includes all material found before a word in the surface text which are or text-critical nature.
 
 This feature is also populated for `phrase` or `subphrase`, but only if they consist of just one `word` node.
 
