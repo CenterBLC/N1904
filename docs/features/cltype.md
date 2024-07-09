@@ -11,7 +11,9 @@ Feature group | Feature type | Data type | Available for node types | Used by vi
 
 ## Feature description
 
-This feature provides classification for different types of clauses, specifically focusing on verbless, verb-elided, and minor clauses. All clauses without explicit value for this this feature are to be regarded verbal clauses. 
+This feature provides classification for different types of clauses, specifically focusing on verbless, verb-elided, and minor clauses. 
+
+All clauses without explicit value for this this feature are to be regarded verbal clauses. 
 
 ## Feature values
 
