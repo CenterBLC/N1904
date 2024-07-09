@@ -101,7 +101,7 @@ Feature | Feature group | Feature type | Data type | Short description | Example
 
 ## Subphrase nodes
 
-<sup>Note: this node type is only associated with the [Syntactic view](../syntactic-view.md#start).</sup>
+<sup>Note: this node type is only associated with the [`syntax-view`](../syntax-view.md#start).</sup>
 
 Feature | Feature group | Feature type | Data type | Short description | Examples
 --- | --- | --- | --- | --- | ---
@@ -150,7 +150,7 @@ Feature | Feature group | Feature type | Data type | Short description | Example
 
 ## Phrase nodes
 
-<sup>Note: this node type is only associated with the [Syntactic view](../syntactic-view.md#start).</sup>
+<sup>Note: this node type is only associated with the [`syntax-view`](../syntax-view.md#start).</sup>
 
 Feature | Feature group | Feature type | Data type | Short description | Examples
 --- | --- | --- | --- | --- | ---
@@ -200,7 +200,7 @@ Feature | Feature group | Feature type | Data type | Short description | Example
 
 ## Clause nodes
 
-<sup>Note: this node type is only associated with the [Syntactic view](../syntactic-view.md#start).</sup>
+<sup>Note: this node type is only associated with the [`syntax-view`](../syntax-view.md#start).</sup>
 
 Feature | Feature group | Feature type | Data type | Short description | Examples
 --- | --- | --- | --- | --- | ---
@@ -221,7 +221,7 @@ Feature | Feature group | Feature type | Data type | Short description | Example
 
 ## Group nodes
 
-<sup>Note: thes node type is only associated with the [Syntactic view](../syntactic-view.md#start).</sup>
+<sup>Note: thes node type is only associated with the [`syntax-view`](../syntax-view.md#start).</sup>
 
 Feature | Feature group | Feature type | Data type | Short description | Examples
 --- | --- | --- | --- | --- | ---
