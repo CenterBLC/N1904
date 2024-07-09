@@ -23,7 +23,6 @@ Value | Description | Frequency
 `subordinate` |  Subordinate | 989
 &lt;empty&gt;  | Not applicable | 17597
 
-Frequency for nodetype `clause`:
 For [`clause`](featuresbynodetype.md#clause-nodes) nodes (used in [`syntax-view`](../syntax-view.md#start)):
 
 Value | Description | Frequency
