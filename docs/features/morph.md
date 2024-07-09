@@ -15,9 +15,15 @@ The `morph` feature provides the morphological tag according to Sandborg-Peterse
 
 This feature is also populated for `phrase` or `subphrase`, but only if they consist of just one `word` node.
 
+## Feature values
+
+Morphological tag according to Sandborg-Petersen morphology.
+
 ## Notes
 
-For detailed information, see [biblicalhumanities/Nestle1904/morph/parsing.txt](https://github.com/biblicalhumanities/Nestle1904/blob/master/morph/parsing.txt).
+For detailed information on how to decode the feature values, see [biblicalhumanities/Nestle1904/morph/parsing.txt](https://github.com/biblicalhumanities/Nestle1904/blob/master/morph/parsing.txt).
+
+The morphological tag also provides indication of some Hebrew and Aramaic words. See also [notes section of feature 'lang'](lang.md#note).
 
 ## Source description
 
