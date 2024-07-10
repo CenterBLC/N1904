@@ -17,13 +17,15 @@ This feature is also populated for `phrase` or `subphrase`, but only if they con
 
 ## Notes
 
-See also the following related features:
-   * [after](after.md#start): All material found after a word.
+The following set of features describe the full surface text:
+   * [after](after.md#start): All material found after a word (including critical signs).
    * [before](before.md#start): All material found before a word.
    * [criticalsign](criticalsign.md#start): Text-critical signs.
    * [punctuation](punctuation.md#start): Punctuations found after a word.
    * [text](text.md#start): Word without punctuations and text-critical signs.
+   * [trailer](trailer.md#start): all material found after a word (excluding critical signs).
    * [translit](translit.md#start): Transliteration of the word surface texts.
+   * unaccent (this feature): word without accents and diacritical markers.
    * [unicode](unicode.md#start): Unicode presentation including all material before and after word.
 
 The following image shows the relation between these features.

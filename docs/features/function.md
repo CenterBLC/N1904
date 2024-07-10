@@ -14,6 +14,7 @@ Feature group | Feature type | Data type | Available for node types | Used by vi
 The `function` feature describes the syntactic functions of words, groups of words (phrases, clauses, etc.), or the composition of (sub)sentences.
 
 ## Feature values
+
 The values of this feature consist of one or more of the following functions:
 
 Value|Description

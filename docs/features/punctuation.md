@@ -11,7 +11,7 @@ Feature group | Feature type | Data type | Available for node types | Used by vi
 
 ## Feature description 
 
-This feature includes either a regular space character or a punctuation mark followed by a regular space character, occurring after a word.
+This feature contains the punctuation character found after a word. If no punctuation, the feature value is empty.
 
 This feature is also populated for `phrase` or `subphrase`, but only if they consist of just one `word` node.
 
@@ -21,39 +21,56 @@ For [`word`](featuresbynodetype.md#word-nodes) nodes (used in [`syntax-view`](..
 
 Value | Description | Unicode codepoint | Frequency
 ---  |  --- | --- | ---
-<span>` `</span> | Space | [`&#32`](https://www.codetable.net/decimal/32)  | 119264
 `,` | Comma |  [`&#44`](https://www.codetable.net/decimal/44)   | 9462
 `.` | Full Stop | [`&#46`](https://www.codetable.net/decimal/46) | 5717
 `·` | Midle Dot | [`&#183`](https://www.codetable.net/decimal/183) | 2359
 `;` | Semicolon | [`&#59`](https://www.codetable.net/decimal/59) | 971
+&lt;empty&gt; | No punctuation | | 119270 
 
 For [`phrase`](featuresbynodetype.md#phrase-nodes) nodes (used in [`syntax-view`](../syntax-view.md#start)):
 
 Value | Description | Unicode codepoint | Frequency
 ---  |  --- | --- | ---
-<span>` `</span> | Space | [`&#32`](https://www.codetable.net/decimal/32)  | 37660
 `,` | Comma |  [`&#44`](https://www.codetable.net/decimal/44)   | 3903
 `.` | Full Stop | [`&#46`](https://www.codetable.net/decimal/46) | 2731
 `·` | Midle Dot | [`&#183`](https://www.codetable.net/decimal/183) | 1189
 `;` | Semicolon | [`&#59`](https://www.codetable.net/decimal/59) | 589
+&lt;empty&gt; | No punctuation | | 60595 
 
 For [`subphrase`](featuresbynodetype.md#subphrase-nodes) nodes (used in [`syntax-view`](../syntax-view.md#start)):
 
 Value | Description | Unicode codepoint | Frequency
 ---  |  --- | --- | ---
-<span>` `</span> | Space | [`&#32`](https://www.codetable.net/decimal/32)  | 119264
 `,` | Comma |  [`&#44`](https://www.codetable.net/decimal/44)   | 9462
 `.` | Full Stop | [`&#46`](https://www.codetable.net/decimal/46) | 5717
 `·` | Midle Dot | [`&#183`](https://www.codetable.net/decimal/183) | 2359
 `;` | Semicolon | [`&#59`](https://www.codetable.net/decimal/59) | 971
+&lt;empty&gt; | No punctuation | | 106081 
 
 ## Notes
 
-See also the following related features:
-   * [after](after.md#start): All material found after a word.
+This feature enables easy testing for the presence of punctuation following a word. To retrieve all word nodes without trailing punctuation, use the following snippet:
+
+```python
+Query = '''
+word
+   punctuation#
+'''
+
+Results = A.search(Query)
+```
+
+The following image shows the features describing the material found after a word.
+
+<img src="images/material_after_word.jpg" width="150px">
+
+The following set of features describe the full surface text:
+   * [after](after.md#start): All material found after a word (including critical signs).
    * [before](before.md#start): All material found before a word.
    * [criticalsign](criticalsign.md#start): Text-critical signs.
+   * punctuation (this feature): Punctuations found after a word.
    * [text](text.md#start): Word without punctuations and text-critical signs.
+   * [trailer](trailer.md#start): all material found after a word (excluding critical signs).
    * [translit](translit.md#start): Transliteration of the word surface texts.
    * [unaccent](unaccent.md#start): word without accents and diacritical markers.
    * [unicode](unicode.md#start): Unicode presentation including all material before and after word.

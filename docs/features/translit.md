@@ -65,13 +65,16 @@ The query returns 63 results. The first one of this list is printed by the last 
 
 `'ἔστω δὲ ὁ λόγος ὑμῶν ναὶ ναί,οὒ οὔ·τὸ δὲ περισσὸν τούτων ἐκ τοῦ πονηροῦ ἐστιν.'`
 
-See also the following related features:
-   * [after](after.md#start): All material found after a word.
+The following set of features describe the full surface text:
+   * [after](after.md#start): All material found after a word (including critical signs).
    * [before](before.md#start): All material found before a word.
    * [criticalsign](criticalsign.md#start): Text-critical signs.
    * [punctuation](punctuation.md#start): Punctuations found after a word.
    * [text](text.md#start): Word without punctuations and text-critical signs.
+   * [trailer](trailer.md#start): All material found after a word (excluding text-critical signs).
+   * translit (this feature): Transliteration of the word surface texts.
    * [unaccent](unaccent.md#start): word without accents and diacritical markers.
+   * [unicode](unicode.md#start): Unicode presentation including all material before and after word.
 
 The following image shows the relation between these features.
 

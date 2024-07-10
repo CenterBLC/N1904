@@ -45,11 +45,13 @@ Value | Description | Unicode codepoint | Frequency
 
 ## Notes
 
-See also the following related features:
-   * [after](after.md#start): All material found after a word.
+The following features describe the full surface text:
+   * [after](after.md#start): All material found after a word (including critical signs).
+   * before (this feature): All material found before a word.
    * [criticalsign](criticalsign.md#start): Text-critical signs.
    * [punctuation](punctuation.md#start): Punctuations found after a word.
    * [text](text.md#start): Word without punctuations and text-critical signs.
+   * [trailer](trailer.md#start): All material found after a word (excluding text-critical signs).
    * [translit](translit.md#start): Transliteration of the word surface texts.
    * [unaccent](unaccent.md#start): word without accents and diacritical markers.
    * [unicode](unicode.md#start): Unicode presentation including all material before and after word.

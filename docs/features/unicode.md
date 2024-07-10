@@ -18,13 +18,16 @@ This feature is also populated for `phrase` or `subphrase`, but only if they con
 ## Notes
 
 See also the following related features:
-   * [after](after.md#start): All material found after a word.
+   * [after](after.md#start): All material found after a word (including critical signs).
    * [before](before.md#start): All material found before a word.
    * [criticalsign](criticalsign.md#start): Text-critical signs.
    * [punctuation](punctuation.md#start): Punctuations found after a word.
+   * [text](text.md#start): Word without punctuations and text-critical signs.
+   * [trailer](trailer.md#start): All material found after a word (excluding text-critical signs).
    * [translit](translit.md#start): Transliteration of the word surface texts.
    * [unaccent](unaccent.md#start): word without accents and diacritical markers.
-   * [text](text.md#start): Word without punctuations and text-critical signs.
+   * unicode (this feature): Unicode presentation including all material before and after word.
+
 
 The following image shows the relation between these features.
 
@@ -34,12 +37,12 @@ The following [text-formating options](../textformats.md#start) are defined in t
 <pre>
 A.showFormats()
    format               level  template
-   lex-orig-plain       word   {lemma}{punctuation}
-   lex-translit-plain   word   {lextranslit}{punctuation}
+   lex-orig-plain       word   {lemma}{trailer}
+   lex-translit-plain   word   {lextranslit}{trailer}
    text-orig-full       word   {before}{text}{after}
-   text-orig-plain      word   {text}{punctuation}
-   text-translit-plain  word   {translit}{punctuation}
-   text-unaccent-plain  word   {unaccent}{punctuation}
+   text-orig-plain      word   {text}{trailer}
+   text-translit-plain  word   {translit}{trailer}
+   text-unaccent-plain  word   {unaccent}{trailer}
 </pre>
 
 

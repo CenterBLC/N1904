@@ -7,14 +7,15 @@
 
 Text-Fabric's data design allows for flexible representation of the corpus text but requires at least one text format to be specified as its default (in this dataset: text-orig-full). During the creation of the dataset, additional formats relevant to this corpus were defined, which are basically based on a subset of the following surface text-related features:
 
-   * [after](features/after.md#start): All material found after a word.
+   * [after](features/after.md#start): All material found after a word (including text-critical signs).
    * [before](features/before.md#start): All material found before a word.
    * [criticalsign](features/criticalsign.md#start): Text-critical signs.
    * [normalized](features/normalized.md#start): Normalized Greek text.
    * [punctuation](features/punctuation.md#start): Punctuations found after a word.
    * [text](features/text.md#start): Word without punctuations and text-critical signs.
    * [translit](features/translit.md#start): Transliteration of the word surface texts.
-   * [unaccent](features/unaccent.md#start): word without accents and diacritical markers.
+   * [trailer](features/trailer.md#start): All material found after a word (excluding text-critical signs).
+   * [unaccent](features/unaccent.md#start): Word without accents and diacritical markers.
    * [unicode](features/unicode.md#start): Unicode presentation including all material before and after word.
 
 The relation between these features in relation to the surface text is shown in the following image.
@@ -43,12 +44,12 @@ Not all possible combinations are defined or relevant. The following text-format
 
 Format | Usage | Template
 --- | --- | ---
-lex-orig-plain | Lexemes of the Greek surface text | {[lemma](features/lemma.md#start)}{[punctuation](features/punctuation.md#start)}
-lex-translit-plain | Transliteration of the lexemes of the Greek surface text | {[lemmatranslit](features/lemmatranslit.md#start)}{[punctuation](features/punctuation.md#start)}
+lex-orig-plain | Lexemes of the Greek surface text | {[lemma](features/lemma.md#start)}{[trailer](features/trailer.md#start)}
+lex-translit-plain | Transliteration of the lexemes of the Greek surface text | {[lemmatranslit](features/lemmatranslit.md#start)}{[trailer](features/trailer.md#start)}
 text-orig-full (default) | The Greek surface text in unicode including text-critical markers | {[before](features/before.md#start)}{[text](features/text.md#start)}{[after](features/after.md#start)}
-text-orig-plain | The Greek surface text in unicode | {[text](features/text.md#start)}{[punctuation](features/punctuation.md#start)}
-text-translit-plain | Transliteration of the Greek surface text | {[translit](features/translit.md#start)}{[punctuation](features/punctuation.md#start)}
-text-unaccent-plain | The Greek surface text in unicode without accents | {[unaccent](features/unaccent.md#start)}{[punctuation](features/punctuation.md#start)}
+text-orig-plain | The Greek surface text in unicode | {[text](features/text.md#start)}{[trailer](features/trailer.md#start)}
+text-translit-plain | Transliteration of the Greek surface text | {[translit](features/translit.md#start)}{[trailer](features/trailer.md#start)}
+text-unaccent-plain | The Greek surface text in unicode without accents | {[unaccent](features/unaccent.md#start)}{[trailer](features/trailer.md#start)}
 
 Each text format is implemented as a template that maps the format to individual features. This mapping can be easily checked using the following command: A.showFormats().
 
