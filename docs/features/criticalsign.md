@@ -43,7 +43,7 @@ The following set of features describe the full surface text:
    * [text](text.md#start): Word without punctuations and text-critical signs.
    * [trailer](trailer.md#start): All material found after a word (excluding text-critical signs).
    * [translit](translit.md#start): Transliteration of the word surface texts.
-   * [unaccent](unaccent.md#start): word without accents and diacritical markers.
+   * [unaccent](unaccent.md#start): Word without accents and diacritical markers.
    * [unicode](unicode.md#start): Unicode presentation including all material before and after word.
 
 

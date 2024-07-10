@@ -76,7 +76,7 @@ The following features describe the full surface text:
    * [text](text.md#start): Word without punctuations and text-critical signs.
    * [trailer](trailer.md#start): All material found after a word (excluding text-critical signs).
    * [translit](translit.md#start): Transliteration of the word surface texts.
-   * [unaccent](unaccent.md#start): word without accents and diacritical markers.
+   * [unaccent](unaccent.md#start): Word without accents and diacritical markers.
    * [unicode](unicode.md#start): Unicode presentation including all material before and after word.
 
 The following image shows the relation between these features.
@@ -87,12 +87,12 @@ The following [text-formating options](../textformats.md#start) are defined in t
 <pre>
   A.showFormats()
      format              level    template
-     lex-orig-plain      word     {lemma}{punctuation}
-     lex-translit-plain  word     {lextranslit}{punctuation}
+     lex-orig-plain      word     {lemma}{trailer}
+     lex-translit-plain  word     {lextranslit}{trailer}
      text-orig-full      word     {before}{text}{after}
-     text-orig-plain     word     {text}{punctuation}
-     text-translit-plain word     {translit}{punctuation}
-     text-unaccent-plain word     {unaccent}{punctuation}
+     text-orig-plain     word     {text}{trailer}
+     text-translit-plain word     {translit}{trailer}
+     text-unaccent-plain word     {unaccent}{trailer}
 </pre>
   
 ## Source description
