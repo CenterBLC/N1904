@@ -1,6 +1,6 @@
 <a name="start"></a>
 <div class="hidden-content">
-<a href="transcription.md">Transcription</a> | <a href="features/README.md#start">Features</a> | Viewtypes | <a href="textformats.md#start">Textformats</a> |  <a href="syntaxtrees.md#start">Syntaxtrees</a> | <a href="../tutorial/README.md#start">Tutorial</a> | <a href="about.md#start">About</a>
+<a href="transcription.md">Transcription</a> | <a href="features/README.md#start">Features</a> | Viewtypes | <a href="textformats.md#start">Textformats</a> |  <a href="syntaxtrees.md#start">Syntaxtrees</a> | <a href="tutorial/README.md#start">Tutorial</a> | <a href="about.md#start">About</a>
 </div>
 
 # Nestle 1904 GNT - Viewtypes
@@ -44,7 +44,7 @@ This image compares the parent (arrows) and sibling features (connector with cir
             <th>syntax-view</th>
         </tr>
         <tr>
-            <td>feature <a href="features/cls.md#start">cls</a></td>
+            <td>feature [cls](features/cls) <a href="features/cls#start">cls</a></td>
             <td>feature <a href="features/typ.md#start">typ</a></td>
         </tr>
         <tr>
@@ -64,8 +64,8 @@ This image compares the parent (arrows) and sibling features (connector with cir
             <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VP</td>
         </tr>
         <tr>
-            <td>&nbsp;&nbsp;feature <a href="features/type.md#start">type</a></td>
-            <td>&nbsp;&nbsp;feature <a href="features/typ.md#start">typ</a></td>
+            <td>&nbsp;&nbsp;feature <a href="features/type#start">type</a></td>
+            <td>&nbsp;&nbsp;feature <a href="features/typ#start">typ</a></td>
         </tr>
         <tr>
             <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;conjugated-wg</td>
@@ -76,8 +76,8 @@ This image compares the parent (arrows) and sibling features (connector with cir
             <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;apposition</td>
         </tr>
         <tr>
-            <td>&nbsp;&nbsp;feature <a href="features/role.md#start">role</a></td>
-            <td>&nbsp;&nbsp;feature <a href="features/function.md#start">function</a></td>
+            <td>&nbsp;&nbsp;feature <a href="features/role#start">role</a></td>
+            <td>&nbsp;&nbsp;feature <a href="features/function#start">function</a></td>
         </tr>
         <tr>
             <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;io</td>
