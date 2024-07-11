@@ -11,7 +11,7 @@ Feature group | Feature type | Data type | Available for node types | Used by vi
 
 ## Feature description
 
-The `person` feature indicates the grammatical person of a verb (`word` node with the feature [cls](cls.md#start)=verb). This feature helps in identifying whether the verb is in the first, second, or third person.
+The `person` feature indicates the grammatical person of a verb (`word` node with the feature [cls](cls.md#start)=verb). This feature helps in identifying whether the verb is in the first, second, or third person. This feature follows BHSA nomenclature for feature [ps](https://etcbc.github.io/bhsa/features/ps/).
 
 This feature is also populated for `phrase` or `subphrase`, but only if they consist of just one `word` node.
 

@@ -42,7 +42,7 @@ print ('word sequence number: ', ref.split("!")[1])
 
 ## Notes
 
-This first three characters of this feature value are identical to the feature [book_short](book_short.md#start).
+This first three characters of this feature value are identical to the feature [bookshort](bookshort.md#start).
 
 See also the related feature [id](id.md#start).
 

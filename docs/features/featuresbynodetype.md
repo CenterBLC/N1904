@@ -9,7 +9,7 @@
 
 In  Text-Fabric 'features' provide a mapping of nodes of a specific type to its associated additional information. This Text-Fabric dataset contains the following node types:
 * [137779 `word` nodes](#word-nodes): each node represents an individual word in the corpus. They consitute the the smallest linguistic entity in a query as they form the slots in the database.
-* [106868 `wg` (wordgroup) nodes](#wordgroup-nodes): each node represents a group of words forming a cohesive unit. Each individual word group node is accompanied by a shadow node of one of the following types:
+* [106868 `wg` (wordgroup) nodes](#wordgroup-nodes): each node represents a group of words forming a cohesive unit. Many  word group nodes (namely the ones with an associated [cls](cls.md#start) value) are duplicated with a shadow node of one of the following types:
     * [72845 `subphrase` nodes](#subphrase-nodes): 
     * [113750 `phrase` nodes](#phrase-nodes): 
     * [30479 `clause` nodes](#clause-nodes): 
@@ -49,7 +49,7 @@ Feature | Feature group | Feature type | Data type | Short description | Example
 [ln](ln.md#start) | [`Semantic`](featuresbygroup.md#semantic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | Louw-Nida lexical classification of semantic domains | `93.169a`
 [morph](morph.md#start) | [`Morphological`](featuresbygroup.md#morphological-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | Morphological tag (Sandborg-Petersen morphology) | `V-PAI-3S` `PREP` `N-GSM`
 [mood](mood.md#start) | [`Morphological`](featuresbygroup.md#morphological-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | Gramatical mood of a verb | `indicative` `optative`
-[nodeid](nodeid.md#start) | [`Sectional`](featuresbygroup.md#sectional-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String` ](featuresbydatatype.md#string-datatype) | Node Id | `400010200010490`
+[nodeid](nodeid.md#start) | [`Sectional`](featuresbygroup.md#sectional-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String` ](featuresbydatatype.md#string-datatype) | Reference to wg, clause, or sentence | `400010200010490`
 [normalized](normalized.md#start) | [`Orthograpic`](featuresbygroup.md#orthograpic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | Normalized form of the surface text | `πρὸς`
 [note](note.md#start) | [`Semantic`](featuresbygroup.md#semantic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | Annotation of linguistic nature | `discontinuous discourse`
 [num](num.md#start) | [`Sectional`](featuresbygroup.md#sectional-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`Integer`](featuresbydatatype.md#integer-datatype) | Sequence number (here: word in verse) | `1` `2` ...
@@ -253,7 +253,7 @@ Feature | Feature group | Feature type | Data type | Short description | Example
 [cls](cls.md#start) | [`Syntactic`](featuresbygroup.md#syntactic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | WordGroup class | `np` `cl`
 [function](function.md#start) | [`Syntactic`](featuresbygroup.md#syntactic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | this is XML attribute function | `Pred` `Subj`
 [junction](junction.md#start) | [`Syntactic`](featuresbygroup.md#syntactic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | Junction |  `coordinate` `subordinate`
-[nodeId](nodeId.md#start) | [`Sectional`](featuresbygroup.md#sectional-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | Node Id | `400010200010490`
+[nodeid](nodeid.md#start) | [`Sectional`](featuresbygroup.md#sectional-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | Reference to wg, clause, or sentence | `400010200010490`
 [num](num.md#start) | [`Sectional`](featuresbygroup.md#sectional-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`Integer`](featuresbydatatype.md#integer-datatype) | Sequence number (here: sentence in book) | `1` `2` ...
 [oslots](oslots.md) | [`Grid`](featuresbygroup.md#grid-features) | [`Edge`](featuresbyfeaturetype.md#edge-features) | [`String`](featuresbydatatype.md#string-datatype) | Represents set of slots associated with an object |  `1` `1-11` `2010-2015,2020-2030`
 [otype](otype.md) | [`Grid`](featuresbygroup.md#grid-features) | [`String`](featuresbydatatype.md#string-datatype) | [`Node`](featuresbyfeaturetype.md#node-features) | mapping between node number and associated objecttype | `sentence`

@@ -11,7 +11,7 @@ Feature group | Feature type | Data type | Available for node types | Used by vi
 
 ## Feature description
 
-The `function` feature describes the syntactic functions of words, groups of words (phrases, clauses, etc.), or the composition of (sub)sentences.
+The `function` feature describes the syntactic functions of words, groups of words (phrases, clauses, etc.), or the composition of (sub)sentences. This feature mimicks BHSA nomenclature for feature [function](https://etcbc.github.io/bhsa/features/function/).
 
 ## Feature values
 
@@ -24,6 +24,7 @@ Cmpl|Complement
 Objc|Object
 Subj|Subject
 PreC|Predicate-Complement
+Adv|
 
 ### Frequency for nodetype [sentence](featuresbynodetype.md#sentence-nodes)
 

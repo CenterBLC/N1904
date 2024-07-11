@@ -22,7 +22,7 @@ Note that it is also possible to reset the display and show all nodes by enterin
 
 The data duplication not only impacts the representation of syntax trees, controlled by setting the view type, but it also impacts the creation of queries. Although the Text-Fabric dataset provides access to all nodes and features at all times, it is important to formulate syntactic queries that match either one of these data structures. The following figure provides two functionally equivalent queries:
 
-<img src="features\images\compare_queries.png" width="600">
+<img src="features/images/compare_queries.png" width="600">
 
 Both queries examine instances where 'fire' is thrown down, focusing on the preposition used by specifying 'prep' instead of a lexeme. These queries respectively search for clauses or word groups that contain the verb βάλλω ('to throw down')  and a complement phrase or adverbial word group with the lemma πῦρ ('fire'). Both queries yield the same verses (Matthew 3:10; 7:19, Mark 9:22, Luke 3:9) and words but return different tuple values. The differences arise from the query templates, differing only in the first and third lines ('clause' or 'phrase' vs. 'wg'), affecting the first and third tuple elements. Note that a tuple in Python is defined as an immutable, ordered collection of elements.
 
@@ -38,80 +38,25 @@ This image compares the parent (arrows) and sibling features (connector with cir
 
 ## Matching table
 
-<table>
-        <tr>
-            <th>wg-view</th>
-            <th>syntax-view</th>
-        </tr>
-        <tr>
-            <td>feature [cls](features/cls) <a href="features/cls#start">cls</a></td>
-            <td>feature <a href="features/typ.md#start">typ</a></td>
-        </tr>
-        <tr>
-            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;adjp</td>
-            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AdjP</td>
-        </tr>
-        <tr>
-            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;advp</td>
-            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AdvP</td>
-        </tr>
-        <tr>
-            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;np</td>
-            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NP</td>
-        </tr>
-        <tr>
-            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vp</td>
-            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VP</td>
-        </tr>
-        <tr>
-            <td>&nbsp;&nbsp;feature <a href="features/type#start">type</a></td>
-            <td>&nbsp;&nbsp;feature <a href="features/typ#start">typ</a></td>
-        </tr>
-        <tr>
-            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;conjugated-wg</td>
-            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;conjuncted</td>
-        </tr>
-        <tr>
-            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;apposition-group</td>
-            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;apposition</td>
-        </tr>
-        <tr>
-            <td>&nbsp;&nbsp;feature <a href="features/role#start">role</a></td>
-            <td>&nbsp;&nbsp;feature <a href="features/function#start">function</a></td>
-        </tr>
-        <tr>
-            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;io</td>
-            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cmpl</td>
-        </tr>
-        <tr>
-            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;o</td>
-            <td rowspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Objc</td>
-        </tr>
-        <tr>
-            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;o2</td>
-            <!-- merged -->
-        </tr>
-        <tr>
-            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;p</td>
-            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PreC</td>
-        </tr>
-        <tr>
-            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;s</td>
-            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Subj</td>
-        </tr>
-        <tr>
-            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vc (for wg node)</td>
-            <td rowspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pred</td>
-        </tr>
-        <tr>
-            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v (for word node)</td>
-            <!-- merged -->
-        </tr>
-        <tr>
-            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;apposition</td>
-            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Appo</td>
-        </tr>
-    </table>
+wg-view |syntax-view
+---|---
+feature [cls](features/cls.md#start) | feature [typ](features/typ.md#start)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;adjp|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AdjP
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;advp|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AdvP
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;np|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NP
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vp|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VP
+feature [typems](features/typems.md#start")|feature [typ](features/typ.md#start)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;conjugated-wg|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;conjuncted
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;apposition-group|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;apposition
+feature [role](features/role.md#start)|feature [function](features/function.md#start)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;io|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cmpl
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;o|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Objc
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;o2|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Objc
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;p|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PreC
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;s|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Subj
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vc (for wg node)|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pred
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v (for word node)|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pred
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;apposition|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Appo
 
 ## Implementation notes
 

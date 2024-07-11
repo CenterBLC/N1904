@@ -29,7 +29,7 @@ Value | description | Occurences
 nominalized | | 5237
 &lt;empty&gt; | | 25577
 
-Frequency for [`wg`](featurebynodetype.md#wordgroup-nodes) nodes (used in [`wg-view`](../wg-view.md#start)):
+Frequency for [`wg`](featuresbynodetype.md#wordgroup-nodes) nodes (used in [`wg-view`](../wg-view.md#start)):
 
 Value | description | Occurences
 --- | --- | ---
