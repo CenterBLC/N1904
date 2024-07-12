@@ -17,7 +17,8 @@ This feature is also populated for `phrase` or `subphrase`, but only if they con
 
 ## Notes
 
-See also the following related features:
+The following set of features describe the full surface text:
+
    * [after](after.md#start): All material found after a word (including critical signs).
    * [before](before.md#start): All material found before a word.
    * [criticalsign](criticalsign.md#start): Text-critical signs.
@@ -28,12 +29,12 @@ See also the following related features:
    * [unaccent](unaccent.md#start): Word without accents and diacritical markers.
    * unicode (this feature): Unicode presentation including all material before and after word.
 
-
 The following image shows the relation between these features.
 
 <img src="images/details_surface_features.png" width="450">
 
 The following [text-formating options](../textformats.md#start) are defined in this dataset using this feature:
+
 <pre>
 A.showFormats()
    format               level  template
@@ -44,7 +45,6 @@ A.showFormats()
    text-translit-plain  word   {translit}{trailer}
    text-unaccent-plain  word   {unaccent}{trailer}
 </pre>
-
 
 ## Source description
 
