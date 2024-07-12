@@ -13,8 +13,8 @@ Text-Fabric's data design allows for flexible representation of the corpus text 
    * [normalized](features/normalized.md#start): Normalized Greek text.
    * [punctuation](features/punctuation.md#start): Punctuations found after a word.
    * [text](features/text.md#start): Word without punctuations and text-critical signs.
-   * [translit](features/translit.md#start): Transliteration of the word surface texts.
    * [trailer](features/trailer.md#start): All material found after a word (excluding text-critical signs).
+   * [translit](features/translit.md#start): Transliteration of the word surface texts.
    * [unaccent](features/unaccent.md#start): Word without accents and diacritical markers.
    * [unicode](features/unicode.md#start): Unicode presentation including all material before and after word.
 
