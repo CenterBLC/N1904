@@ -68,6 +68,7 @@ The following set of features describe the full surface text:
    * [after](after.md#start): All material found after a word (including critical signs).
    * [before](before.md#start): All material found before a word.
    * [criticalsign](criticalsign.md#start): Text-critical signs.
+   * [normalized](normalized.md#start): Normalized Greek text.
    * punctuation (this feature): Punctuations found after a word.
    * [text](text.md#start): Word without punctuations and text-critical signs.
    * [trailer](trailer.md#start): All material found after a word (excluding critical signs).
