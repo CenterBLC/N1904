@@ -99,6 +99,7 @@ Feature | Feature group | Feature type | Data type | Short description | Example
 [rule](rule.md#start) | [`Syntactic`](featuresbygroup.md#syntactic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | Syntactic rule | `ClCl` `ClCl2`
 [typ](typ.md#start) | [`Syntactic`](featuresbygroup.md#syntactic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype)  | syntactic labels for textual elements | `NP` `AdjP`
 [typems](typems.md#start) | [`Syntactic`](featuresbygroup.md#syntactic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | Clause type | `Verbless` `VerbElided`
+[verse](verse.md#start) | [`Sectional`](featuresbygroup.md#sectional-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`Integer`](featuresbydatatype.md#integer-datatype) | Verse number inside chapter where this item begins | `1` `4`
 
 ## Subphrase nodes
 
@@ -148,6 +149,8 @@ Feature | Feature group | Feature type | Data type | Short description | Example
 [unaccent](unaccent.md#start) | [`Orthograpic`](featuresbygroup.md#orthograpic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | Surface word stripped of accents and diacritical markers | `εστιν` `αυτον`
 [unicode](unicode.md#start) | [`Orthograpic`](featuresbygroup.md#orthograpic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | Word in unicode format | `Λόγος` `Θεόν,`
 [variant](variant.md#start) |  [`Lexical`](featuresbygroup.md#lexical-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | Lexical variant | `1` `2`
+`VerbElided`
+[verse](verse.md#start) | [`Sectional`](featuresbygroup.md#sectional-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`Integer`](featuresbydatatype.md#integer-datatype) | Verse number inside chapter where this item begins | `1` `4`
 [voice](voice.md#start) | [`Morphological`](featuresbygroup.md#morphological-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | Gramatical voice of the verb | `active` `passive` `middle`
 
 ## Phrase nodes
@@ -199,6 +202,8 @@ Feature | Feature group | Feature type | Data type | Short description | Example
 [unaccent](unaccent.md#start) | [`Orthograpic`](featuresbygroup.md#orthograpic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | Surface word stripped of accents and diacritical markers | `εστιν` `αυτον`
 [unicode](unicode.md#start) | [`Orthograpic`](featuresbygroup.md#orthograpic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | Word in unicode format | `Λόγος` `Θεόν,`
 [variant](variant.md#start) |  [`Lexical`](featuresbygroup.md#lexical-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | Lexical variant | `1` `2`
+`VerbElided`
+[verse](verse.md#start) | [`Sectional`](featuresbygroup.md#sectional-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`Integer`](featuresbydatatype.md#integer-datatype) | Verse number inside chapter where this item begins | `1` `4`
 [voice](voice.md#start) | [`Morphological`](featuresbygroup.md#morphological-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | Gramatical voice of the verb | `active` `passive` `middle`
 
 ## Clause nodes
@@ -221,6 +226,8 @@ Feature | Feature group | Feature type | Data type | Short description | Example
 [rule](rule.md#start) | [`Syntactic`](featuresbygroup.md#syntactic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | Syntactic rule | `ClCl` `ClCl2`
 [typ](typ.md#start) | [`Syntactic`](featuresbygroup.md#syntactic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype)  | syntactic labels for textual elements | `NP` `AdjP`
 [typems](typems.md#start) | [`Morphological`](featuresbygroup.md#morphological-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | Gramatical type of noun or pronoun | `common` `personal`
+`VerbElided`
+[verse](verse.md#start) | [`Sectional`](featuresbygroup.md#sectional-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`Integer`](featuresbydatatype.md#integer-datatype) | Verse number inside chapter where this item begins | `1` `4`
 
 ## Group nodes
 
@@ -239,6 +246,8 @@ Feature | Feature group | Feature type | Data type | Short description | Example
 [rule](rule.md#start) | [`Syntactic`](featuresbygroup.md#syntactic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | Syntactic rule | `ClCl` `ClCl2`
 [typ](typ.md#start) | [`Syntactic`](featuresbygroup.md#syntactic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype)  | syntactic labels for textual elements | `NP` `AdjP`
 [typems](typems.md#start) | [`Morphological`](featuresbygroup.md#morphological-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | Gramatical type of noun or pronoun | `common` `personal`
+`VerbElided`
+[verse](verse.md#start) | [`Sectional`](featuresbygroup.md#sectional-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`Integer`](featuresbydatatype.md#integer-datatype) | Verse number inside chapter where this item begins | `1` `4`
 
 ## Sentence nodes 
 
@@ -261,6 +270,8 @@ Feature | Feature group | Feature type | Data type | Short description | Example
 [role](role.md#start) | [`Syntactic`](featuresbygroup.md#syntactic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | Role wordgroup | `s` `o` `apposition`
 [rule](rule.md#start) | [`Syntactic`](featuresbygroup.md#syntactic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | Syntactic rule | `ClCl` `ClCl2`
 [typems](typems.md#start) | [`Morphological`](featuresbygroup.md#morphological-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | Gramatical type of noun or pronoun | `common` `personal`
+`VerbElided`
+[verse](verse.md#start) | [`Sectional`](featuresbygroup.md#sectional-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`Integer`](featuresbydatatype.md#integer-datatype) | Verse number inside chapter where this item begins | `1` `4`
 
 ## Verse nodes 
 
