@@ -11,25 +11,22 @@ Feature group | Feature type | Data type | Available for node types | Used by vi
 
 ## Feature description
 
-This feature indicates the verse number within a chapter.
+This feature indicates a verse number within a chapter.  
 
 ## Feature value
 
-The value of this feature is an integer representing the verse number.
+The value of this feature is an integer representing a verse number. The specific reference depends on the node type:
+ - `verse` node: The value points to the verse itself.
+ - `word` node: The value indicates the verse to which this word belongs.
+ - All other node types: The value represents the verse number where this item begins.
+
+To illustrate, consider the first sentence in the Gospel of Luke, which spans four verses. The following image shows part of verse 4, demonstrating how this feature works:
+
+<img src="images/first_4_verses_luke.png">
 
 ## Notes
 
 When using verse numbers inside a script, it is not save to assume verse number within a chapter are sequential without gaps. The folling is a list of 'missing' verses: Matthew 17:21; 18:1;  23:14, Mark 7:16;  9:44&46; 11:26; 15:28, Luke 17:36;  23:17,  Acts 8:37; 15:34;  24:7;  28:29,  Romans 16:24, and a 'gap' after Mark 16:20 until verse 99.
-
-The `sentence` nodes do not have a `verse` feature since sentences can span multiple verses. To map a sentence to the verse it starts in, use the following Python code snippet:
-
-```python
-    # node number of the sentence is stored in variable 'sentence'
-    firstNode=E.oslots.s(sentence)[0]
-    bookName=F.book.v(firstNode)
-    chapterNumber=F.chapter.v(firstNode)
-    verseNummber=F.verse.v(firstNode)
-```
 
 ## Source description
 
