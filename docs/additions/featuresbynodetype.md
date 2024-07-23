@@ -2,7 +2,7 @@
 <div class="hidden-content"><a href="../transcription.md">Transcription</a> | <a href="README.md/#start">Features</a> | Additions | <a href="../viewtypes.md#start">Viewtypes</a> | <a href="../textformats.md#start">Textformats</a> |  <a href="../syntaxtrees.md#start">Syntaxtrees</a> | <a href="../tutorial/README.md#start">Tutorial</a>  | <a href="../about.md#start">About</a></div>
 
 # Overview optional features by node type
-Overview by [name](featuresbyname.md), [data type](featuresbydatatype.md), or [feature type](featuresbynodetype.md).
+Overview by [name](featuresbyname.md#start), [data type](featuresbydatatype.md#start), or [feature group](featuresbyfeaturegroup.md#start).
 
 
 

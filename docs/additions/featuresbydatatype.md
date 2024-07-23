@@ -2,7 +2,8 @@
 <div class="hidden-content"><a href="../transcription.md">Transcription</a> | <a href="README.md/#start">Features</a> | Additions | <a href="../viewtypes.md#start">Viewtypes</a> | <a href="../textformats.md#start">Textformats</a> |  <a href="../syntaxtrees.md#start">Syntaxtrees</a> | <a href="../tutorial/README.md#start">Tutorial</a>  | <a href="../about.md#start">About</a></div>
 
 # Overview optional features by data type
-Overview by [name](featuresbyname.md), [node type](featuresbynodetype.md), or [feature type](featuresbytype.md).
+Overview by [name](featuresbyname.md#start), [node type](featuresbynodetype.md#start), or [feature type](featuresbytype.md#start).
+
 ## Integer
 
 Feature|Featuretype|Available on nodes|Description|Examples
@@ -14,6 +15,7 @@ Feature|Featuretype|Available on nodes|Description|Examples
 [`bol_lemma_occ`](bol_lemma_occ.md#start)|[`Node`](featuresbytype.md#node)|[`word`](featuresbynodetype.md#word) |BOL based number of occurence of a given lexeme|`19783` `8978` `5550` `2892`
 [`clause_number`](clause_number.md#start)|[`Node`](featuresbytype.md#node)|[`word`](featuresbynodetype.md#word) |clause number|`4040` `10990` `5327` `16796`
 [`sentence_number`](sentence_number.md#start)|[`Node`](featuresbytype.md#node)|[`word`](featuresbynodetype.md#word) |sentence number|`2288` `7536` `7232` `7229`
+
 ## String
 
 Feature|Featuretype|Available on nodes|Description|Examples
