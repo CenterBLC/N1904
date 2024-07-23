@@ -3,7 +3,7 @@
 <a href="../transcription.md">Transcription</a> | <a href="../features/README.md#start">Features</a> | Additions | <a href="../viewtypes.md#start">Viewtypes</a> | <a href="../textformats.md#start">Textformats</a> |  <a href="../syntaxtrees.md#start">Syntaxtrees</a> | <a href="../tutorial/README.md#start">Tutorial</a> | About
 </div>
 
-# Additions
+# Nestle 1904 GNT - Additions
 
 A set of additional features.
 
