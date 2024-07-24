@@ -8,9 +8,12 @@ Feature Group | Feature type |Data type |Available for node types | Used by View
 [`Other`](featuresbyfeaturegroup.md#other)|[`String`](featuresbydatatype.md#string)|[`Node`](featuresbynodetype.md#node)| [`word`](featuresbynodetype.md#word) |[`syntax-view`](../syntax-view.md#start) [`wg-view`](../wg-view.md#start) 
 
 ## Description
+
 Chapter categoried vocab as it appears in Larry Richards Textbook "Learning Greek in 30 days".
+
 ## Feature Values
-### Frequency for nodetype [word](featuresbynodetype.md#word)
+
+Frequency for nodetype [word](featuresbynodetype.md#word):
 
 Value|Occurences
 ---|---
@@ -26,3 +29,9 @@ Value|Occurences
 6b|2929
 
 Total frequency of feature: 137779. Note: table truncated.
+
+## Note
+
+To use this feature, please load the additional feature module. You can find detailed instructions[here](README.md#adding-the-features).
+
+## Source description

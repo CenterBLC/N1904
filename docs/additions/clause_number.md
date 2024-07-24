@@ -26,3 +26,9 @@ Value|Occurences
 1218|32
 
 Total frequency of feature: 137779. Note: table truncated.
+
+## Note
+
+To use this feature, please load the additional feature module. You can find detailed instructions[here](README.md#adding-the-features).
+
+## Source description

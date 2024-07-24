@@ -8,13 +8,16 @@ Feature Group | Feature type |Data type |Available for node types | Used by View
 [`Aland Synopsis`](featuresbyfeaturegroup.md#aland-synoptics)|[`String`](featuresbydatatype.md#string)|[`Node`](featuresbynodetype.md#node)| [`word`](featuresbynodetype.md#word) |[`syntax-view`](../syntax-view.md#start) [`wg-view`](../wg-view.md#start) 
 
 ## Description
+
 Aland Synoptic Parallel Chapter.
+
 ## Feature Values
-### Frequency for nodetype [word](featuresbynodetype.md#word)
+
+Frequency for nodetype [word](featuresbynodetype.md#word):
 
 Value|Occurences
 ---|---
-|73532
+&lt;empty&gt;|73532
 Jesus’ Ministry in Galilee Continued|13661
 The Passion Narrative|10455
 Last Journey to Jerusalem (According to Luke)|6252
@@ -27,4 +30,8 @@ Jesus at the Feast of Tabernacles (According to John)|2817
 
 Total frequency of feature: 137778. Note: table truncated.
 
- 
+## Note
+
+To use this feature, please load the additional feature module. You can find detailed instructions[here](README.md#adding-the-features).
+
+## Source description

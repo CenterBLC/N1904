@@ -8,9 +8,12 @@ Feature Group | Feature type |Data type |Available for node types | Used by View
 [`Andrews University`](featuresbyfeaturegroup.md#andrews-university)|[`String`](featuresbydatatype.md#string)|[`Node`](featuresbynodetype.md#node)| [`word`](featuresbynodetype.md#word) |[`syntax-view`](../syntax-view.md#start) [`wg-view`](../wg-view.md#start) 
 
 ## Description
+
 Andrews University vocab builder booklet chapter.
+
 ## Feature Values
-### Frequency for nodetype [word](featuresbynodetype.md#word)
+
+Frequency for nodetype [word](featuresbynodetype.md#word):
 
 Value|Occurences
 ---|---
@@ -27,8 +30,11 @@ absent|12106
 
 Total frequency of feature: 137779. Note: table truncated.
 
+## Note
 
-# Source
+To use this feature, please load the additional feature module. You can find detailed instructions[here](README.md#adding-the-features).
+
+## Source description
 
 [github.com/biblicalhumanities/Nestle1904](https://github.com/biblicalhumanities/Nestle1904/blob/master/morph/Nestle1904.csv).
  

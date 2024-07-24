@@ -8,9 +8,12 @@ Feature Group | Feature type |Data type |Available for node types | Used by View
 [`Bible Online Learner`](featuresbyfeaturegroup.md#bible-online-learner)|[`String`](featuresbydatatype.md#string)|[`Node`](featuresbynodetype.md#node)| [`word`](featuresbynodetype.md#word) |[`syntax-view`](../syntax-view.md#start) [`wg-view`](../wg-view.md#start) 
 
 ## Description
+
 Bible Online Learner based gramatical person.
+
 ## Feature Values
-### Frequency for nodetype [word](featuresbynodetype.md#word)
+
+Frequency for nodetype [word](featuresbynodetype.md#word):
 
 Value|Occurences
 ---|---
@@ -20,6 +23,10 @@ second_person|6753
 first_person|5737
 
 Total frequency of feature: 137779.
+
+# Note
+
+To use this feature, please load the additional feature module. You can find detailed instructions[here](README.md#adding-the-features).
 
 # Source
 

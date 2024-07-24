@@ -8,13 +8,16 @@ Feature Group | Feature type |Data type |Available for node types | Used by View
 [`Aland Synopsis`](featuresbyfeaturegroup.md#aland-synoptics)|[`String`](featuresbydatatype.md#string)|[`Node`](featuresbynodetype.md#node)| [`word`](featuresbynodetype.md#word) |[`syntax-view`](../syntax-view.md#start) [`wg-view`](../wg-view.md#start) 
 
 ## Description
+
 Aland Synoptic Parallel Number.
+
 ## Feature Values
-### Frequency for nodetype [word](featuresbynodetype.md#word)
+
+Frequency for nodetype [word](featuresbynodetype.md#word):
 
 Value|Occurences
 ---|---
-|73103
+&lt;empty&gt;|73103
 8|13661
 16|10455
 10|6252
@@ -27,4 +30,9 @@ Value|Occurences
 
 Total frequency of feature: 137778. Note: table truncated.
 
+## Note
+
+To use this feature, please load the additional feature module. You can find detailed instructions[here](README.md#adding-the-features).
+
+## Source description
  

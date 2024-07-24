@@ -8,14 +8,16 @@ Feature Group | Feature type |Data type |Available for node types | Used by View
 [`Bible Online Learner`](featuresbyfeaturegroup.md#bible-online-learner)|[`String`](featuresbydatatype.md#string)|[`Node`](featuresbynodetype.md#node)| [`word`](featuresbynodetype.md#word) |[`syntax-view`](../syntax-view.md#start) [`wg-view`](../wg-view.md#start) 
 
 ## Description
+
 Bible Online Learner based verbal tense.
 
 ## Feature Values
-### Frequency for nodetype [word](featuresbynodetype.md#word)
+
+Frequency for nodetype [word](featuresbynodetype.md#word):
 
 Value|Occurences
 ---|---
-|109427
+&lt;empty&gt;|109427
 present|11578
 aorist|6674
 second_aorist|5126
@@ -28,7 +30,11 @@ pluperfect|40
 
 Total frequency of feature: 137779. Note: table truncated.
 
-# Source
+## Note
+
+To use this feature, please load the additional feature module. You can find detailed instructions[here](README.md#adding-the-features).
+
+## Source description
 
 Dataset of the [Bible Online Learner](https://learner.bible/).
  

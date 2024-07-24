@@ -8,20 +8,26 @@ Feature Group | Feature type |Data type |Available for node types | Used by View
 [`Bible Online Learner`](featuresbyfeaturegroup.md#bible-online-learner)|[`String`](featuresbydatatype.md#string)|[`Node`](featuresbynodetype.md#node)| [`word`](featuresbynodetype.md#word) |[`syntax-view`](../syntax-view.md#start) [`wg-view`](../wg-view.md#start) 
 
 ## Description
+
 Bible Online Learner based number of posessor.
+
 ## Feature Values
-### Frequency for nodetype [word](featuresbynodetype.md#word)
+
+Frequency for nodetype [word](featuresbynodetype.md#word):
 
 Value|Occurences
 ---|---
-|137657
+&lt;empty&gt;|137657
 singular|104
 plural|18
 
 Total frequency of feature: 137779.
-  
 
-# Source
+# Note
+
+To use this feature, please load the additional feature module. You can find detailed instructions[here](README.md#adding-the-features).
+
+# Source description
 
 Dataset of the [Bible Online Learner](https://learner.bible/).
  

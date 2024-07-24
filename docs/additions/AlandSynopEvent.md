@@ -8,23 +8,33 @@ Feature Group | Feature type |Data type |Available for node types | Used by View
 [`Aland Synopsis`](featuresbyfeaturegroup.md#aland-synoptics)|[`String`](featuresbydatatype.md#string)|[`Node`](featuresbynodetype.md#node)| [`word`](featuresbynodetype.md#word) |[`syntax-view`](../syntax-view.md#start) [`wg-view`](../wg-view.md#start) 
 
 ## Description
-Aland Synoptic Parallel Event.
-## Feature Values
-### Frequency for nodetype [word](featuresbynodetype.md#word)
 
-Value|Occurences
----|---
-|73532
-Jesus before the Sanhedrin (Peter’s Denial)|910
-The Healing at the Pool|810
-Jairus’ Daughter and the Woman with a Hemorrhage|792
-Five Thousand are Fed|734
-The Raising of Lazarus|701
-Jesus Heals the Man Born Blind|691
-Woe to the Scribes and Pharisees|688
-The Women at the Tomb|673
-The Discourse with the Woman of Samaria|672
+Aland Synoptic Parallel Event.
+
+## Feature Values
+
+For synoptic events: a string.
+
+Frequency for nodetype [word](featuresbynodetype.md#word)
+
+Value| Event number (feature [AlandSynopEventNr](AlandSynopEventNr.md#start)) |Occurences
+---|---|---
+&lt;empty&gt;| No number | 73532
+Jesus before the Sanhedrin (Peter’s Denial)|332|910
+The Healing at the Pool|141|810
+Jairus’ Daughter and the Woman with a Hemorrhage|95|792
+Five Thousand are Fed|146|734
+The Raising of Lazarus|259|701
+Jesus Heals the Man Born Blind|248|691
+Woe to the Scribes and Pharisees|284|688
+The Women at the Tomb|352|673
+The Discourse with the Woman of Samaria|31|672
 
 Total frequency of feature: 137778. Note: table truncated.
 
+## Note
+
+To use this feature, please load the additional feature module. You can find detailed instructions[here](README.md#adding-the-features).
+
+## Source description
  

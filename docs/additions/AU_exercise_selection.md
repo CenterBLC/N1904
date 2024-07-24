@@ -8,15 +8,22 @@ Feature Group | Feature type |Data type |Available for node types | Used by View
 [`Andrews University`](featuresbyfeaturegroup.md#andrews-university)|[`String`](featuresbydatatype.md#string)|[`Node`](featuresbynodetype.md#node)| [`word`](featuresbynodetype.md#word) |[`syntax-view`](../syntax-view.md#start) [`wg-view`](../wg-view.md#start) 
 
 ## Description
+
 Andrews University declension selection for exercises.
+
 ## Feature Values
-### Frequency for nodetype [word](featuresbynodetype.md#word)
+
+Frequency for nodetype [word](featuresbynodetype.md#word):
 
 Value|Occurences
 ---|---
-|115220
+&lt;empty&gt;|115220
 NTST551_no1|22559
 
 Total frequency of feature: 137779.
 
- 
+## Note
+
+To use this feature, please load the additional feature module. You can find detailed instructions[here](README.md#adding-the-features).
+
+## Source description

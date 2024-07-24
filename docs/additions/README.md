@@ -15,6 +15,8 @@ Sorted by:
   
 # Adding the features
 
+The additional features are not loaded by default upon invocation of the Nestle 1904 Text-Fabric dataset. They need to be loaded using the 'mod' option during invocation, as shown by the following example:
+
 ```python
 # load the app and data
 A = use ("CenterBLC/N1904", version="1.0", mod="CenterBLC/N1904/BOLcomplement/tf/", hoist=globals())
