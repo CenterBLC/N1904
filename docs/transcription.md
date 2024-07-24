@@ -34,7 +34,7 @@ Additionally, an alphabetical list of feature names can be found [here](features
 This repository also contains a set of additional features related to the following:
 * [Andrews University](additions/featuresbyfeaturegroup.md#andrews-university) specific usage of Text-Fabric.
 * [Aland Synoptics](additions/featuresbyfeaturegroup.md#aland-synoptics).
-* Bible Online Learner](featuresbyfeaturegroup.md#bible-online-learner).
+* [Bible Online Learner](featuresbyfeaturegroup.md#bible-online-learner).
 * And a number of [other features](additions/featuresbyfeaturegroup.md#other).
 
 Instructions on how to load these features can be found [here](additions/README.md#adding-the-features). 
