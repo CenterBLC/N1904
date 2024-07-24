@@ -29,6 +29,16 @@ Since this Text-Fabric database contains well over 50 features, four listings ar
 
 Additionally, an alphabetical list of feature names can be found [here](features/featuresbyname.md#start).
 
+### Additional (optional) features 
+
+This repository also contains a set of additional features related to the following:
+* [Andrews University](additions/featuresbyfeaturegroup.md#andrews-university) specific usage of Text-Fabric.
+* [Aland Synoptics](additions/featuresbyfeaturegroup.md#aland-synoptics).
+* Bible Online Learner](featuresbyfeaturegroup.md#bible-online-learner).
+* And a number of [other features](additions/featuresbyfeaturegroup.md#other).
+
+Instructions on how to load these features can be found [here](additions/README.md#adding-the-features). 
+
 ### Views
 
 The concept of [viewtypes](viewtypes.md#start) is important to this dataset. This database offers the users two distinct viewtypes that can be invoked for representing syntax trees:
