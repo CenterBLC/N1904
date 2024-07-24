@@ -42,7 +42,7 @@ The full featureset of this Text-Fabric dataset can also be viewed by different 
 
 ## Additional (optional) features
 
-This repository also contains a set approximate fourty [additional features](../additions/index.html#start) `word` node related to the following:
+This repository also contains a set approximate fourty [additional features](../additions/README.md#start) `word` node related to the following:
 * [Andrews University](../additions/featuresbyfeaturegroup.md#andrews-university) specific usage of Text-Fabric.
 * [Aland Synoptics](../additions/featuresbyfeaturegroup.md#aland-synoptics).
 * [Bible Online Learner](../additions/featuresbyfeaturegroup.md#bible-online-learner) related details.
