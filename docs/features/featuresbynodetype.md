@@ -25,6 +25,8 @@ All node features are listed below grouped by node type:
 
 <sup>The `word` nodes represents individual word in the corpus. The features associated with this node type are used in both the [`wg-view`](../wg-view.md#start) and the [`syntax-view`](../syntax-view.md#start).</sup>
 
+<sup>There are about fourty [optional features](../additions/featuresbyfeaturegroup.md#start) available for word nodes that can be [loaded as a module](../additions/README.md#adding-the-features).</sup>
+
 Feature | Feature group | Feature type | Data type | Short description | Examples
 --- | --- | --- | --- | --- | ---
 [after](after.md#start) | [`Orthograpic`](featuresbygroup.md#orthograpic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | All material found after a word | `. ` `; ` <span>` `</span>
