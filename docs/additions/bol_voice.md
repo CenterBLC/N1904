@@ -31,6 +31,6 @@ Dataset of the [Bible Online Learner](https://learner.bible/).
 
 ## Note
 
-To use this feature, please load the additional feature module. You can find detailed instructions[here](README.md#adding-the-features).
+To use this feature, please load the additional feature module. You can find detailed instruction [here](README.md#adding-the-features).
 
 ## Source description

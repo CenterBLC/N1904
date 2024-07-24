@@ -5,7 +5,7 @@
 
 # Nestle 1904 GNT - Additions
 
-A set of additional features.
+A set of about fourty additional features are available.
 
 Sorted by:
   * [by name](featuresbyname.md#start)
