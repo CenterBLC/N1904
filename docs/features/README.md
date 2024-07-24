@@ -40,5 +40,12 @@ The full featureset of this Text-Fabric dataset can also be viewed by different 
      * [`integer`](featuresbydatatype.md#integer-datatype): Datatype of feature is integer.
      * [`configuration`](featuresbydatatype.md#configuration-data): Configuration data.
 
+## Additional (optional) features
 
+This repository also contains a set approximate fourty additional features related to the following:
+* [Andrews University](../additions/featuresbyfeaturegroup.md#andrews-university) specific usage of Text-Fabric.
+* [Aland Synoptics](../additions/featuresbyfeaturegroup.md#aland-synoptics).
+* [Bible Online Learner](../additions/featuresbyfeaturegroup.md#bible-online-learner) related details.
+* And a number of [other features](../additions/featuresbyfeaturegroup.md#other).
 
+Instructions on how to load these features can be found [here](../additions/README.md#adding-the-features). 
