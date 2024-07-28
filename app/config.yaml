@@ -11,15 +11,15 @@ dataDisplay:
   sectionSep2: ':'
 docs:
   docPage: about
-  featureBase: https://github.com/saulocantanhede/tfgreek2/tree/main/docs/features/<feature>.md
+  featureBase: https://github.com/CenterBLC/N1904/blob/main/docs/features/<feature>.md
   featurePage: README
-  docRoot: https://github.com/saulocantanhede/tfgreek2
-  docBase: https://github.com/saulocantanhede/tfgreek2/tree/main/docs
+  docRoot: https://github.com/CenterBLC/N1904
+  docBase: https://github.com/CenterBLC/N1904/tree/main/docs
 interfaceDefaults:
   fmt: text-orig-full
 provenanceSpec:
   corpus: Nestle 1904 Greek New Testament
-  doi: 10.5281/zenodo.11657750
+  doi: 10.5281/zenodo.13117910
   moduleSpecs: []
   version: 1.0.0
   webBase: https://learner.bible/text/show_text/nestle1904/
@@ -28,8 +28,8 @@ provenanceSpec:
   webUrl: https://learner.bible/text/show_text/nestle1904/<1>/<2>/<3>
   webUrlLex: '{webBase}/word?version={version}&id=<lid>'
   branch: main
-  org: saulocantanhede
-  repro: tfgreek2
+  org: CenterBLC
+  repro: N1904
 typeDisplay:
   clause:
     label: '{typ} {function} {rela} \\ {cls} {role} {junction}'
