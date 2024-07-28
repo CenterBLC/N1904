@@ -1,0 +1,5 @@
+*checkpoint.ipynb
+.ipynb_checkpoints
+*.pkl
+*.tfx
+.DS_Store
