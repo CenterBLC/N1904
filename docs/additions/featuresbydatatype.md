@@ -1,5 +1,5 @@
 <a name="start"></a>
-<div class="hidden-content"><a href="../transcription.md">Transcription</a> | <a href="README.md/#start">Features</a> | Additions | <a href="../viewtypes.md#start">Viewtypes</a> | <a href="../textformats.md#start">Textformats</a> |  <a href="../syntaxtrees.md#start">Syntaxtrees</a> | <a href="../tutorial/README.md#start">Tutorial</a>  | <a href="../about.md#start">About</a></div>
+<div class="hidden-content"><a href="../transcription.md">Transcription</a> | <a href="../features/README.md#start">Features</a> | Additions | <a href="../viewtypes.md#start">Viewtypes</a> | <a href="../textformats.md#start">Textformats</a> |  <a href="../syntaxtrees.md#start">Syntaxtrees</a> | <a href="../tutorial/README.md#start">Tutorial</a>  | <a href="../about.md#start">About</a></div>
 
 # Overview optional features by data type
 Overview by [name](featuresbyname.md#start), [node type](featuresbynodetype.md#start), or [feature type](featuresbytype.md#start).
@@ -50,7 +50,7 @@ Feature|Featuretype|Available on nodes|Description|Examples
 [`bol_voice`](bol_voice.md#start)|[`Node`](featuresbytype.md#node)|[`word`](featuresbynodetype.md#word) |BOL based voice|<span>` `</span> `active` `middle_or_passive` `middle_or_passive_deponent`
 [`gloss_BGVB`](gloss_BGVB.md#start)|[`Node`](featuresbytype.md#node)|[`word`](featuresbynodetype.md#word) |English gloss|`the` `and, also, likewise` `he, she, it, himself, herself, itself; even, very; same` `you`
 [`lemma_dict`](lemma_dict.md#start)|[`Node`](featuresbytype.md#node)|[`word`](featuresbynodetype.md#word) |lexeme as it appears in the dictionary|`ὁ, ἡ, τό` `καί` `αὐτός, -ή, -ό` `σύ`
-[`lemma_noaccent`](lemma_noaccent.md#start)|[`Node`](featuresbytype.md#node)|[`word`](featuresbynodetype.md#word) |lemma stripped of accents"|`ο` `και` `αυτος` `συ`
+[`lemma_noaccent`](lemma_noaccent.md#start)|[`Node`](featuresbytype.md#node)|[`word`](featuresbynodetype.md#word) |lemma stripped of accents|`ο` `και` `αυτος` `συ`
 [`lemma_translit`](lemma_translit.md#start)|[`Node`](featuresbytype.md#node)|[`word`](featuresbynodetype.md#word) |lexeme transliterated|`o` `kai` `autos` `su`
 [`normalized_noaccent`](normalized_noaccent.md#start)|[`Node`](featuresbytype.md#node)|[`word`](featuresbynodetype.md#word) |surface word stripped of punctations and accents|`και` `ο` `δε` `εν`
 [`vocab_ReadGreekin30Days`](vocab_ReadGreekin30Days.md#start)|[`Node`](featuresbytype.md#node)|[`word`](featuresbynodetype.md#word) |chapter categoried vocab as it appears in Larry Richards Textbook "Learning Greek in 30 days"|`3a` <span>` `</span> `3b` `4b`

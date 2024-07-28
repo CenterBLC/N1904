@@ -47,6 +47,10 @@ A.showFormats()
    text-unaccent-plain  word   {unaccent}{trailer}
 </pre>
 
+## Character encoding
+
+All Greek text in this Text-Fabric dataset is encoded in Unicode. However, there are specific aspects that may require attention when querying, particularly those involving polytonic accents. For a detailed discussion on character encoding, please refer to the documentation [here](../characterencoding.md#start).
+
 ## Source description
 
 Taken from the XML attribute `unicode` of tag `w` (word).

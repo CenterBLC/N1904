@@ -11,7 +11,7 @@ Feature group | Feature type | Data type | Available for node types | Used by vi
 
 ## Feature description
 
-This feature provides the normalized Greek form of the surface text in the Nestle 1904 Greek New Testament. This feature is essential for consistent and accurate lexical analysis.
+This feature provides the normalized Greek form of the surface text in the Nestle 1904 Greek New Testament encoded as Unicode. This feature is essential for consistent and accurate lexical analysis.
 
 This feature is also populated for `phrase` or `subphrase`, but only if they consist of just one `word` node.
 
@@ -62,6 +62,11 @@ See also the following related features:
    * [text](text.md#start): Word without punctuations and text-critical signs.
    * [unicode](unicode.md#start): Word as it appears in the text (in unicode)
 
+## Character encoding
+
+All Greek text in this Text-Fabric dataset is encoded in Unicode. However, there are specific aspects that may require attention when querying, particularly those involving polytonic accents and "pseudo-characters" like the iota subscript. For a detailed discussion on character encoding, please refer to the documentation [here](../characterencoding.md#start).
+   
+   
 ## Source description
 
 The `normalized` feature is taken from the XML attribute `normalized` of the `w` (word) tag.

@@ -1,5 +1,5 @@
 <a name="start"></a>
-<div class="hidden-content"><a href="../transcription.md">Transcription</a> | <a href="README.md#start">Features</a> | Additions | <a href="../viewtypes.md#start">Viewtypes</a> | <a href="../textformats.md#start">Textformats</a> |  <a href="../syntaxtrees.md#start">Syntaxtrees</a> | <a href="../tutorial/README.md#start">Tutorial</a>  | <a href="../about.md#start">About</a></div>
+<div class="hidden-content"><a href="../transcription.md">Transcription</a> | <a href="../features/README.md#start">Features</a> | Additions | <a href="../viewtypes.md#start">Viewtypes</a> | <a href="../textformats.md#start">Textformats</a> |  <a href="../syntaxtrees.md#start">Syntaxtrees</a> | <a href="../tutorial/README.md#start">Tutorial</a>  | <a href="../about.md#start">About</a></div>
 
 # Nestle 1904 GNT - Optional feature: BGVB
 
@@ -9,7 +9,7 @@ Feature Group | Feature type |Data type |Available for node types | Used by View
 
 ## Description
 
-Chapter categoried vocab as it appears in Larry Richards Textbook "Learning Greek in 30 days".
+Chapter categoried vocab as it appears in Larry Richards Textbook ["Reading Greek in 30 days"](https://archive.org/details/readnewtestament0000rich).
 
 ## Feature Values
 
@@ -32,7 +32,7 @@ Total frequency of feature: 137779. Note: table truncated.
 
 ## Note
 
-To use this feature, please load the additional feature module. You can find detailed instruction [here](README.md#adding-the-features).
+To use this feature, please load the additional feature module. You can find detailed instruction  [here](README.md#adding-the-features).
 
 ## Source description
  

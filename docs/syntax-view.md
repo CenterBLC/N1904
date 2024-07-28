@@ -1,6 +1,6 @@
 <a name="start"></a>
 <div class="hidden-content">
-<a href="transcription.md">Transcription</a> | <a href="features/README.md#start">Features</a> | Viewtypes | <a href="textformats.md#start">Textformats</a> |  <a href="syntaxtrees.md#start">Syntaxtrees</a> | <a href="tutorial/README.md#start">Tutorial</a> | <a href="about.md#start">About</a>
+<a href="transcription.md">Transcription</a> | <a href="features/README.md#start">Features</a> | <a href="additions/README.md#start">Additions</a> |  Viewtypes | <a href="textformats.md#start">Textformats</a> |  <a href="syntaxtrees.md#start">Syntaxtrees</a> | <a href="tutorial/README.md#start">Tutorial</a> | <a href="about.md#start">About</a>
 </div>
 
 # Nestle 1904 GNT - Viewtype: syntax-view
@@ -22,6 +22,8 @@ Viewtype | Invocation | Associated node types |
 The following images show John 1:1 using the syntas-view:
 
 <img src="features/images/John_1_1_syntax-view.png" width="650">
+
+Note that for some features from the wg-view, such as cls, junction, role, rule, and type, are shown in parallel to the syntax-view information on the right side of the symbol \\, while on the left side, it shows the values of the features typ, function, and rela.
 
 ### Impact on using parent and sibling feature 
 

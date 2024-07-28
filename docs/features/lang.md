@@ -21,7 +21,7 @@ Value | Description | Frequency
 
 ## Note
 
-The current data source contains the value `el`, which corresponds to Modern Greek (after 1453) according to ISO 639.2. However, the correct language indicator should be `grc` for Ancient Greek (before 1453).
+The current data source contains the value `el` (from Ελληνικά), which corresponds to Modern Greek (after 1453) according to ISO 639.2. However, the correct language indicator should be `grc` for Ancient Greek (before 1453).
 
 Since this feature is only available for `book` nodes, it can not be used to identify the language of individual words. By querying feature [morph](morph.md#start) a limited set of (transliterated) Hebrew words can be identified in the Greek text, see the following snippet:
 

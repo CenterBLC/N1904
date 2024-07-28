@@ -25,16 +25,39 @@ Value | Description | Frequency
 
 ## Notes
 
-When using the [Bible Online Learner](http://www.dadel.org/) as an aid in exploring text and creating Text-Fabric queries, it is advisable to use the [bol_lemma](bol_lemma.md#start) feature instead of this one to circumvent potential issues arising from a slightly different handling of Unicode codepoints.
+The indication of the variant was present in our source data as a  parenthesis and in a Roman numeral indicating the number of the variant (I or II). For instance, the lemma δοῦλος was portrayed in the XML source data as δοῦλος (II). A summary of the variants in the lemmas of the words in the Greek New Testament is shown in the following table:
+
+Lemma | Variant | Occurrence
+---|---|---
+βάτος | 1 | 5 
+βάτος | 2 | 1 
+δοῦλος | 2 | 126
+λοιμός | 2 | 2 
+μήν | 1 | 1
+μήν | 2 | 18 
+σύνειμι | 1| 2
+σύνειμι | 2 | 18
+χῶρος |2|1
+ἄπειμι | 1| 7
+ἄπειμι |2 |1
+ἦχος |1 | 3
+ἦχος |2 | 1
+
+When using the [Bible Online Learner](http://www.dadel.org/) as an aid in exploring text and creating Text-Fabric queries, it is advisable to use the [bol_lemma](bol_lemma.md#start) feature instead of this one to circumvent potential issues arising from a slightly different handling of Unicode codepoints. More information regarding Unicode can be [found here](../characterencoding.md#start).
 
 See also features:
  * [lemma](lemma.md#start): lexical lemma according to BDAG.
  * [lemmatranslit](lemmatranslit.md#start): transliteration of the lexical lemma.
 
+ And the following [add-on features](..additions/README.md#start):
+
+* [bol_lemma](additions/bol_lemma.md#start): Bible Online Learner (BOL) based lexeme.
+* [bol_lemma_dict](additions/bol_lemma_dict.md#start): BOL based lexeme as it appears in the dictionary.
+* [lemma_dict](additions/lemma_dict.md#start): Lexeme as it appears in the dictionary.
 
 ## Source description
 
-This feature is derived from external data obtained from [Bible Online Learner](https://learner.bible/).
+This feature is derived from the XML attribute `lemma` of the tag `w` (word).
 
 ---
 #### *Browse all features by [name](featuresbyname.md#start), [node type](featuresbynodetype.md#start), [data type](featuresbydatatype.md#start), [feature group](featuresbygroup.md#start) or [feature type](featuresbyfeaturetype.md#start).*

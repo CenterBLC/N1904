@@ -40,7 +40,7 @@ The full featureset of this Text-Fabric dataset can also be viewed by different 
      * [`integer`](featuresbydatatype.md#integer-datatype): Datatype of feature is integer.
      * [`configuration`](featuresbydatatype.md#configuration-data): Configuration data.
 
-## Additional (optional) features
+## Add-on (optional) features
 
 This repository also contains a set approximate fourty [additional features](../additions/README.md#start) `word` node related to the following:
 * [Andrews University](../additions/featuresbyfeaturegroup.md#andrews-university) specific usage of Text-Fabric.

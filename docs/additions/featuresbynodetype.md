@@ -1,5 +1,5 @@
 <a name="start"></a>
-<div class="hidden-content"><a href="../transcription.md">Transcription</a> | <a href="README.md/#start">Features</a> | Additions | <a href="../viewtypes.md#start">Viewtypes</a> | <a href="../textformats.md#start">Textformats</a> |  <a href="../syntaxtrees.md#start">Syntaxtrees</a> | <a href="../tutorial/README.md#start">Tutorial</a>  | <a href="../about.md#start">About</a></div>
+<div class="hidden-content"><a href="../transcription.md">Transcription</a> | <a href="../features/README.md#start">Features</a> | Additions | <a href="../viewtypes.md#start">Viewtypes</a> | <a href="../textformats.md#start">Textformats</a> |  <a href="../syntaxtrees.md#start">Syntaxtrees</a> | <a href="../tutorial/README.md#start">Tutorial</a>  | <a href="../about.md#start">About</a></div>
 
 # Overview optional features by node type
 Overview by [name](featuresbyname.md#start), [data type](featuresbydatatype.md#start), or [feature group](featuresbyfeaturegroup.md#start).
@@ -46,7 +46,7 @@ Feature|Feature type|Data type|Description|Examples
 [`clause_number`](clause_number.md#start)|[`Node`](featuresbynodetype.md#Node)|[`Integer`](featuresbydatatype.md#Integer)|Clause number|`4040` `10990` `5327` `16796`
 [`gloss_BGVB`](gloss_BGVB.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|English gloss|`the` `and, also, likewise` `he, she, it, himself, herself, itself; even, very; same` `you`
 [`lemma_dict`](lemma_dict.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|Lexeme as it appears in the dictionary|`ὁ, ἡ, τό` `καί` `αὐτός, -ή, -ό` `σύ`
-[`lemma_noaccent`](lemma_noaccent.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|Lemma stripped of accents"|`ο` `και` `αυτος` `συ`
+[`lemma_noaccent`](lemma_noaccent.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|Lemma stripped of accents|`ο` `και` `αυτος` `συ`
 [`lemma_translit`](lemma_translit.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|Lexeme transliterated|`o` `kai` `autos` `su`
 [`normalized_noaccent`](normalized_noaccent.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|Surface word stripped of punctations and accents|`και` `ο` `δε` `εν`
 [`sentence_number`](sentence_number.md#start)|[`Node`](featuresbynodetype.md#Node)|[`Integer`](featuresbydatatype.md#Integer)|Sentence number|`2288` `7536` `7232` `7229`

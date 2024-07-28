@@ -5,11 +5,11 @@ Transcription | <a href="features/README.md#start">Features</a> | <a href="addit
 
 # Nestle 1904 GNT - Transcription
 
-This page offers a brief overview of the transcription of the Nestle 1904 Greek New Testament (GNT) corpus, detailing how the original Greek texts is available in Text-Fabric format for digital accessibility, and outlines the types of linguistic annotations that are available.
+This page offers an overview of the transcription of the Nestle 1904 Greek New Testament (GNT) corpus, detailing how the original Greek text was made available as a dataset that can be used in [Text-Fabric](tf.md#start). It outlines the databse organisation and provides an overview of the linguistic annotations that are available.
 
 ## The database organization
 
-A main design consideration during development of this database was achieving a high level of compatibility with the [Bible Online Learner (Bible OL)](https://learner.bible/), which utilizes the Nestle 1904 as its base text. A second requirement was that this database should wherever possible mimick the [Biblia Hebraica Stuttgartensia Amstelodamensis (BHSA)](https://etcbc.github.io/bhsa/), the ETCBC implementation of the Hebrew Bible, in terms of user experience, nomenclature and data presentation. 
+A main design consideration during development of this database was achieving a high level of compatibility with the [Bible Online Learner (Bible OL)](https://learner.bible/), which utilizes the Nestle 1904 as its base text. This compatibility allowed for including a set of [add-on features](additions/README.md#start) that can be optionaly loaded. A second requirement was that this database should wherever possible mimick the [Biblia Hebraica Stuttgartensia Amstelodamensis (BHSA)](https://etcbc.github.io/bhsa/), the ETCBC implementation of the Hebrew Bible, in terms of user experience, nomenclature and data presentation. 
 
 Text-Fabric, true to its name, implements a concepts of 'warp' and 'weft', inspired by textile weaving, to represent its data. The 'warp' denotes the foundational structured data, encompassing linguistic annotations like words, and phrases, while the 'weft' refers to the additional layers of information, known as features. These features encompass linguistic data, annotations, and metadata, seamlessly woven into the 'warp' data, resulting in a strict separation between structure and content. This approach enables Text-Fabric to efficiently handle complex linguistic datasets with versatility.
 
@@ -31,7 +31,7 @@ Additionally, an alphabetical list of feature names can be found [here](features
 
 ### Additional (optional) features 
 
-This repository also contains a set approximate fourty additional features related to the following:
+This repository also contains a set approximate fourty additional word node related features covering the following areas:
 * [Andrews University](additions/featuresbyfeaturegroup.md#andrews-university) specific usage of Text-Fabric.
 * [Aland Synoptics](additions/featuresbyfeaturegroup.md#aland-synoptics).
 * [Bible Online Learner](additions/featuresbyfeaturegroup.md#bible-online-learner) related details.
@@ -48,6 +48,10 @@ The concept of [viewtypes](viewtypes.md#start) is important to this dataset. Thi
 ### Textformats
 
 Text-Fabric allows the corpus text to be formatted in different ways, depending on the intended use. This Text-Fabric database has a number of formats defined, which are discussed in the section [textformats](textformats.md#start).
+
+### Character encoding
+
+All Greek text in this Text-Fabric dataset is encoded in Unicode. However, there are specific aspects that may require attention when querying, particularly those involving polytonic accents and "pseudo-characters" like the iota subscript. For a detailed discussion on character encoding, please refer to the documentation [here](characterencoding.md#start).
 
 ## Implementation note
 

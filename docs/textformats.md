@@ -68,3 +68,7 @@ fmt=text-orig-plain      : Ἀρχὴ τοῦ εὐαγγελίου Ἰησο�
 fmt=text-translit-plain  : Arkhe tou euaggeliou Iesou Khristou Uiou Theou.
 fmt=text-unaccent-plain  : Αρχη του ευαγγελιου Ιησου Χριστου Υιου Θεου.
 ```
+
+## Character encoding
+
+All Greek text in this Text-Fabric dataset is encoded in Unicode. However, there are specific aspects that may require attention when querying, particularly those involving polytonic accents and "pseudo-characters" like the iota subscript. For a detailed discussion on character encoding, please refer to the documentation [here](characterencoding.md#start).
