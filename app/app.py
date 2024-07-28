@@ -36,7 +36,7 @@ class TfApp(App):
            OptionDict = {'hiddenTypes' : 'clause,phrase,subphrase,group', 'condensed': {True}, 'queryFeatures': {False}, 'suppress' : {''}}
            # Pass the dictionary (with a variable number of pairs) to the displaySetup function to unpack and apply.
            displaySetup(app,**OptionDict)
-           feedback+='[wg-view](https://github.com/saulocantanhede/tfgreek2/blob/main/docs/wg-view.md#start)'
+           feedback+='[wg-view](https://github.com/CenterBLC/N1904/blob/main/docs/wg-view.md#start)'
 
         if viewName=='syntax':
            # modify some labels for sentence nodes
@@ -45,7 +45,7 @@ class TfApp(App):
            OptionDict = {'hiddenTypes' : 'wg', 'condensed': {True}, 'queryFeatures': {False},  'suppress' : {''}, 'condenseType': 'verse'}
            # Pass a dictionary (with a variable number of pairs) to the displaySetup function to unpack and apply.
            displaySetup(app,**OptionDict)
-           feedback+='[syntax-view](https://github.com/saulocantanhede/tfgreek2/blob/main/docs/syntax-view.md#start)'
+           feedback+='[syntax-view](https://github.com/CenterBLC/N1904/blob/main/docs/syntax-view.md#start)'
         
         if viewName=='reset': #reset display viewtype options configured previously
             OptionDict = ['hiddenTypes', 'condensed', 'queryFeatures', 'suppress', 'condenseType']
@@ -56,4 +56,4 @@ class TfApp(App):
     def __init__(app, *args, **kwargs):
         super().__init__(*args, **kwargs)
         app.viewtype('syntax') #default option as syntax view
-        app.dm('See [here](https://github.com/saulocantanhede/tfgreek2/blob/main/docs/viewtypes.md#start) for more information on viewtypes')
+        app.dm('See [here](https://github.com/CenterBLC/N1904/blob/main/docs/viewtypes.md#start) for more information on viewtypes')
