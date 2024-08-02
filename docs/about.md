@@ -5,7 +5,7 @@
 
 # Nestle 1904 GNT - About
 
-This is the [Text-Fabric](tf.md#start) version of the Nestle 1904 Greek New Testament, containing the Greek text augmented with linguistic annotations. This Text-Fabric dataset was created by the 'GNT Conversion Project,' a collaboration between the [Eep Talstra Centre for Bible and Computer (ETCBC)](https://github.com/ETCBC/) at the Vrije Universiteit (VU) Amsterdam, Netherlands, and the [Center of Biblical Languages and Computing (CBLC)](https://github.com/CenterBLC/) at Andrews University, USA.
+This is the [Text-Fabric](tf.md#start) version of the Nestle 1904 Greek New Testament (seventh edition: reprint 1913), containing the Greek text augmented with linguistic annotations. This Text-Fabric dataset was created by the 'GNT Conversion Project,' a collaboration between the [Eep Talstra Centre for Bible and Computer (ETCBC)](https://github.com/ETCBC/) at the Vrije Universiteit (VU) Amsterdam, Netherlands, and the [Center of Biblical Languages and Computing (CBLC)](https://github.com/CenterBLC/) at Andrews University, USA.
 
 ## About Text-Fabric
 
