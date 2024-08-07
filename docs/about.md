@@ -7,8 +7,11 @@
 
 This is the [Text-Fabric](tf.md#start) version of the Nestle 1904 Greek New Testament (seventh edition: reprint 1913), containing the Greek text augmented with linguistic annotations. This Text-Fabric dataset was created by the 'GNT Conversion Project,' a collaboration between the [Eep Talstra Centre for Bible and Computer (ETCBC)](https://github.com/ETCBC/) at the Vrije Universiteit (VU) Amsterdam, Netherlands, and the [Center of Biblical Languages and Computing (CBLC)](https://github.com/CenterBLC/) at Andrews University, USA.
 
-## About Text-Fabric
+## Citation
 
+Tony Jurg, Saulo de Oliveira Cantanhêde, & Oliver Glanz.  (2024). *CenterBLC/N1904: Nestle 1904 Text-Fabric data*. Zenodo. [doi.org/10.5281/zenodo.13117911](https://doi.org/10.5281/zenodo.13117911).
+
+## About Text-Fabric
 
 Text-Fabric, as described by its developer [Dirk Roorda](https://github.com/dirkroorda), is a "data model, a file format, and a tool on the one hand, and a strategy, even an ethos on the other hand."<sup>1</sup>  The Text-Fabric framework is designed to facilitate the analysis and manipulation of large-scale textual data, particularly in the context of ancient languages and biblical texts. The engine of Text-Fabric is its powerful Python library, which provides a comprehensive set of tools for processing and querying structured text data efficiently. The software package is accessible at [https://github.com/annotation/text-fabric](https://github.com/annotation/text-fabric).
 
@@ -47,5 +50,4 @@ This Text-Fabric conversion is based on the datasets from Clear, [MACULA linguis
 
 <sup>1</sup> Dirk Roorda. "Coding the Hebrew Bible" in *Research Data Journal for the Humanities and Social Sciences Volume 3: Issue 1*, 30 [DOI: doi.org/10.1163/24523666-01000011](https://doi.org/10.1163/24523666-01000011)
 
-DOI: TBD
 
