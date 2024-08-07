@@ -19,7 +19,7 @@ This syntax tree representation of the data of John 1:1 contains the indication 
 
 ## Creation of syntax trees
 
-This Text-Fabric dataset is based upon the [MACULA Greek treebank](https://github.com/Clear-Bible/macula-greek). This treebank was initially generated using an automatic parser that used machine-readable Greek grammar, which was then manually reviewed and edited. This process is described in [this publication](https://tidsskrift.dk/hiphilnovum/article/view/142738/186440). The resulting treebank is further documented in Randall Tan and Andi Wu, *Documentation for the MACULA Greek Treebank for the Nestle 1904 Greek New Testament* (2022) [available here](https://github.com/Clear-Bible/macula-greek/raw/main/doc/MACULA%20Greek%20Treebank%20for%20the%20Nestle%201904%20Greek%20New%20Testament.pdf)
+This Text-Fabric dataset is based upon the [MACULA Greek treebank](https://github.com/Clear-Bible/macula-greek). This treebank was initially generated using an automatic parser that used machine-readable Greek grammar using the Nestle 1904 text with Urik Peterson's morphology, which was then manually reviewed and edited. This process is described in [this publication](https://tidsskrift.dk/hiphilnovum/article/view/142738/186440). The resulting treebank is further documented in Randall Tan and Andi Wu, *Documentation for the MACULA Greek Treebank for the Nestle 1904 Greek New Testament* (2022) [available here](https://github.com/Clear-Bible/macula-greek/raw/main/doc/MACULA%20Greek%20Treebank%20for%20the%20Nestle%201904%20Greek%20New%20Testament.pdf)
 
 ## This database implementation
 

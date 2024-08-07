@@ -26,7 +26,7 @@ For licence details [see here](https://github.com/CenterBLC/N1904/blob/main/LICE
 
 When citing this dataset, please include reference to the DOI (either the generic or release specific). For example:
 
-Tony Jurg, Saulo de Oliveira Cantanhêde, & Oliver Glanz.  (2024). *CenterBLC/N1904: Nestle 1904 Text-Fabric data*. Zenodo. [doi.org/10.5281/zenodo.13117911](https://doi.org/10.5281/zenodo.13117911).
+Tony Jurg, Saulo de Oliveira Cantanhêde, & Oliver Glanz.  (2024). *CenterBLC/N1904: Nestle 1904 Text-Fabric data*. Zenodo. [DOI: 10.5281/zenodo.13117911](https://doi.org/10.5281/zenodo.13117911).
 
 ## Provenance
 
@@ -50,4 +50,4 @@ This source dataset includes data from:
 
 ## Footnotes
 
-<sup>1</sup> Dirk Roorda. "Coding the Hebrew Bible" in *Research Data Journal for the Humanities and Social Sciences Volume 3: Issue 1*, 30 [DOI: doi.org/10.1163/24523666-01000011](https://doi.org/10.1163/24523666-01000011)
+<sup>1</sup> Dirk Roorda. "Coding the Hebrew Bible" in *Research Data Journal for the Humanities and Social Sciences Volume 3: Issue 1*, 30 [DOI: 10.1163/24523666-01000011](https://doi.org/10.1163/24523666-01000011)
