@@ -8,10 +8,10 @@ This website contains the following main sections:
 
 - [About the Dataset](about.md#start): General information on Text-Fabric, the Nestle text, source data, license, and attribution.
 - [Transcription](transcription.md#start): Details on how the Greek text was transcribed in this Text-Fabric dataset.
-- [Featureset](features/index.md#start): Overview and detailed description of the standard features available in the dataset.
-- [Optional Features](additions/index.md#start): Overview and detailed description of optional features for enhanced analysis.
+- [Featureset](features/README.md#start): Overview and detailed description of the standard features available in the dataset.
+- [Optional Features](additions/README.md#start): Overview and detailed description of optional features for enhanced analysis.
 - [Viewtypes](viewtypes.md#start): Different visualization methods for the text.
 - [Textformats](textformats.md#start): Available formats for displaying the text data.
 - [Syntaxtrees](syntaxtrees.md#start): Representation of text as syntax trees.
-- [Tutorial](tutorial/index.md#start): Guide on how to use the dataset effectively.
+- [Tutorial](tutorial/README.md#start): Guide on how to use the dataset effectively.
 - [Latest release](https://github.com/CenterBLC/N1904/releases/latest): Link to the latest release data on GitHub.
