@@ -5,8 +5,7 @@
 
 # Nestle 1904 GNT - Tutorial
 
-This directory contains a few Jupyter notebooks with examples showing how to use the Nestle 1904 Text-Fabric dataset. Since Text-Fabric is implemented as a Python package, it can be employed in any stand-alone Python script. However it is commonly utilized within a Jupyter Notebook — an interactive web-based computational environment enabling users to create and share documents with live code, visualizations, and text. This allows for the inclusion of explanatory notes alongside queries and results obtained from Text-Fabric. The following Notebooks are grouped into specific focus areas and topics, albeit somewhat arbitrarily.
-
+This directory contains several Jupyter notebooks with examples showing how to use the Nestle 1904 Text-Fabric dataset. Since Text-Fabric is implemented as a Python package, it can be employed in any stand-alone Python script. However, it is commonly utilized within a [Jupyter Notebook](https://jupyter.org) — an interactive web-based computational environment that enables users to create and share documents with live code, visualizations, and text. This allows for the inclusion of explanatory notes alongside queries and results obtained from Text-Fabric. The following notebooks are grouped into specific focus areas and topics, albeit somewhat arbitrarily.
 
 ## Setting up the environment
 
