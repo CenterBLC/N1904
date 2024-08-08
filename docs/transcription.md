@@ -5,7 +5,7 @@ Transcription | <a href="features/README.md#start">Features</a> | <a href="addit
 
 # Nestle 1904 GNT - Transcription
 
-This page offers an overview of the transcription of the Nestle 1904 Greek New Testament (GNT) corpus, detailing how the original Greek text was made available as a dataset that can be used in [Text-Fabric](tf.md#start). It outlines the databse organisation and provides an overview of the linguistic annotations that are available.
+This page offers an overview of the transcription of the Nestle 1904 Greek New Testament (GNT) corpus, detailing how the original Greek text was made available as a dataset that can be used in [Text-Fabric](tf.md#start). It outlines the datasets organisation and provides an overview of the linguistic annotations that are available. More information on the underlying data model is [found here](https://annotation.github.io/text-fabric/tf/about/datamodel.html). 
 
 ## The database organization
 
