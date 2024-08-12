@@ -4,7 +4,7 @@
 # Nestle 1904 GNT - Optional features (grouped by data type)
 Overview by [name](featuresbyname.md#start), [node type](featuresbynodetype.md#start), or [feature group](featuresbyfeaturegroup.md#start).
 
-Note: These features are not loaded by default and must be invoked using the mod option when initializing the TF dataset. For more details, refer to this [guide](../additions#adding-the-features].
+Note: These features are not loaded by default and must be invoked using the mod option when initializing the TF dataset. For more details, refer to this [guide](../additions#adding-the-features).
 
 ## String
 
