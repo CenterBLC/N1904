@@ -28,7 +28,7 @@ The information is also relevant to the following [add-on features](..additions/
 
 ## Example of Unicode related mismatches 
 
-There are a few differences in Unicode encoding between the base features and some add-on BOL features. These differences may be difficult to  notice when compared on a screen. When using a small piece of Python code, the differences can be made visable, for example, for the word θεὸς in Romans 1:19.
+There are some differences in Unicode encoding between the base features and certain add-on BOL features, particularly concerning homoglyphs—characters that look identical or very similar but have different Unicode values. These subtle differences can be difficult to spot on screen. However, using a small Python script, these distinctions can be revealed, such as in the word θεὸς in Romans 1:19.
 
 ```python
 for char in item:    # stores the unicode encoded string
@@ -53,13 +53,13 @@ See also the following [notebook](https://nbviewer.org/github/tonyjurg/Nestle190
 
 ## Background
 
-The unicode, text, after, before, and punctuation data were encoded using polytonic accents over the vowels (oxia, varia, and perispomeni). For instance, considering the vowel η, we have, respectively, ή [(U+1F75)](https://www.codetable.net/hex/1f75), ὴ [(U+1F74)](https://www.codetable.net/hex/1f75), and ῆ [(U+1FC6)](https://www.codetable.net/hex/1fc6). However, since 1982, in Modern Greek, polytonic accents should be replaced by the monotonic accent tonos ◌̍  [(U+030D)](https://www.codetable.net/hex/30d). Later, in 1986, the Greek government decreed that the tonos be represented as the acute accent ◌́ (U+0301). Therefore, it is not possible to distinguish visually the difference between the characters with tonos or the acute accent in the writing of ancient Greek. 
+The [unicode](features/unicode.md#start), [text](features/text.md#start), [after](features/after.md#start), [before](features/before.md#start), and [punctuation](features/punctuation.md#start) features were encoded using polytonic accents over the vowels (oxia, varia, and perispomeni). For instance, considering the vowel η, we have, respectively, ή [(U+1F75)](https://www.codetable.net/hex/1f75), ὴ [(U+1F74)](https://www.codetable.net/hex/1f75), and ῆ [(U+1FC6)](https://www.codetable.net/hex/1fc6). However, since 1982, in Modern Greek, polytonic accents should be replaced by the monotonic accent tonos ◌̍  [(U+030D)](https://www.codetable.net/hex/30d). Later, in 1986, the Greek government decreed that the tonos be represented as the acute accent ◌́ (U+0301). Therefore, it is not possible to distinguish visually the difference between the characters with tonos or the acute accent in the writing of ancient Greek. 
 
 Unicode has two ways of representing a character: decomposed  and precomposed characters. For instance, the decomposed character ά (U+03AC, Greek small letter alpha with tonos) can be rendered by the character α (U+03B1) and the acute accent ◌́ (U+0301), or by equivalence, the precomposed character ά (U+1F71, Greek small letter alpha with oxia). Both of them should be rendered the same way. 
 
 ## Transcription in this Text-Fabric dataset
 
-However, Python (and thus also Text-Fabric) makes a distinction between those characters when performing string comparisons. This issue due to the codification of characters is revealed, especially when performing queries in Text-Fabric. A user can copy a Greek word for a search, and it does not appear in the results just because of the difference in the representation of characters. Therefore, we updated nine characters (ά, έ, ή, ί, ΐ, ό, ύ, ΰ, ώ) of the unicode, text, normalized, and lemma features using precomposed characters, as shown in the following table. 
+However, Python, like any other programming language, performs binary comparisons, which means it distinguishes between characters based on their exact Unicode values. This distinction becomes particularly evident when executing queries in Text-Fabric. For example, a user might copy a Greek word for a search, only to find no results because of subtle differences in character encoding. Therefore, we updated nine characters (ά, έ, ή, ί, ΐ, ό, ύ, ΰ, ώ) of the unicode, text, normalized, and lemma features using precomposed characters, as shown in the following table. 
 
 Character | Unicode decomposed character (with acute accent) | Unicode precomposed character (with oxia) | Character name 
 --- | --- | --- | ---
