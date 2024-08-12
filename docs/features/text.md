@@ -11,7 +11,7 @@ Feature group | Feature type | Data type | Available for node types | Used by vi
 
 ## Feature description 
 
-he word as it appears in the surface text without punctuations and text-critical signs encoded as Unicode.
+This feature contains the word as it appears in the surface text without punctuations and text-critical signs. This feature is coded in Unicode using polytonic accents over the vowels (oxia, varia, and perispomeni).
 
 This feature is also populated for `phrase` or `subphrase`, but only if they consist of just one `word` node.
 
@@ -44,7 +44,6 @@ The following [text-formating options](../textformats.md#start) are defined in t
      text-translit-plain word     {translit}{trailer}
      text-unaccent-plain word     {unaccent}{trailer}
 </pre>
-
 
 ## Character encoding
 
