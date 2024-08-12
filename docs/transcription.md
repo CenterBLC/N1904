@@ -65,7 +65,7 @@ Each Text-Fabric dataset release (version) stores all data related to the corpus
 
 This is a general overview of how the LowFat XML source data maps to Text-Fabrics dataset.
 
-*   TF *«slot» nodes* correspond to in XLM element content;
+*   TF *«slot» nodes* correspond to the XLM *element content*;
 *   TF *node types* generaly correspond to XML *element names (tags)*;
 *   TF *non-«slot» nodes* correspond to XML *elements in the source*;
 *   TF *node features* generaly correspond to XML *attributes*, albeit some with updated values;
