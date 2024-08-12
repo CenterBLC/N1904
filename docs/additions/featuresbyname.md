@@ -2,7 +2,8 @@
 <div class="hidden-content"><a href="../transcription.md">Transcription</a> | <a href="../features/README.md#start">Features</a> | Additions | <a href="../viewtypes.md#start">Viewtypes</a> | <a href="../textformats.md#start">Textformats</a> |  <a href="../syntaxtrees.md#start">Syntaxtrees</a> | <a href="../tutorial/README.md#start">Tutorial</a>  | <a href="../about.md#start">About</a></div>
 
 # Nestle 1904 GNT - Optional features (grouped by alphabetical order)
-Overview by [node type](featuresbynodetype.md#start), [feature group](featuresbyfeaturegroup.md#start), or [data type](featuresbydatatype.md#start).
+
+#### *Or browse by [node type](featuresbynodetype.md#start), [feature group](featuresbyfeaturegroup.md#start), or [data type](featuresbydatatype.md#start)*
 
 Feature|Feature type|Data type|Available on nodes|Description|Examples
 ---|---|---|---|---|---
@@ -48,4 +49,4 @@ Feature|Feature type|Data type|Available on nodes|Description|Examples
 [`sentence_number`](sentence_number.md#start)|[`Node`](featuresbynodetype.md#node)|[`Integer`](featuresbydatatype.md#integer)|[`word`](featuresbynodetype.md#word) |Sentence number|`2288` `7536` `7232` `7229`
 [`vocab_ReadGreekin30Days`](vocab_ReadGreekin30Days.md#start)|[`Node`](featuresbynodetype.md#node)|[`String`](featuresbydatatype.md#string)|[`word`](featuresbynodetype.md#word) |Chapter categoried vocab as it appears in Larry Richards Textbook "Learning Greek in 30 days"|`3a` <span>` `</span> `3b` `4b`
 
-
+#### *Or browse by [node type](featuresbynodetype.md#start), [feature group](featuresbyfeaturegroup.md#start), or [data type](featuresbydatatype.md#start)*
