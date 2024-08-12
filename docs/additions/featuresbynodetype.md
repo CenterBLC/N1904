@@ -1,10 +1,8 @@
 <a name="start"></a>
 <div class="hidden-content"><a href="../transcription.md">Transcription</a> | <a href="../features/README.md#start">Features</a> | Additions | <a href="../viewtypes.md#start">Viewtypes</a> | <a href="../textformats.md#start">Textformats</a> |  <a href="../syntaxtrees.md#start">Syntaxtrees</a> | <a href="../tutorial/README.md#start">Tutorial</a>  | <a href="../about.md#start">About</a></div>
 
-# Overview optional features by node type
+# Nestle 1904 GNT - Optional features (grouped by node type)
 Overview by [name](featuresbyname.md#start), [data type](featuresbydatatype.md#start), or [feature group](featuresbyfeaturegroup.md#start).
-
-
 
 ## word
 
