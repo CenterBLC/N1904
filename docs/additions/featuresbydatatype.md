@@ -49,7 +49,7 @@ Feature|Featuretype|Available on nodes|Description|Examples
 
 ## Integer
 
-*Python datatype: [int]https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex]*
+*Python datatype: [int]https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex)*
 
 Feature|Featuretype|Available on nodes|Description|Examples
 ---|---|---|---|---
