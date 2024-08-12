@@ -5,6 +5,8 @@
 
 #### *Or browse by [node type](featuresbynodetype.md#start), [feature group](featuresbyfeaturegroup.md#start), or [data type](featuresbydatatype.md#start)*
 
+Note: These features are not loaded by default and must be invoked using the mod option when initializing the TF dataset. For more details, refer to this [guide](../additions#adding-the-features).
+
 Feature|Feature type|Data type|Available on nodes|Description|Examples
 ---|---|---|---|---|---
 [`AU_declension`](AU_declension.md#start)|[`Node`](featuresbynodetype.md#node)|[`String`](featuresbydatatype.md#string)|[`word`](featuresbynodetype.md#word) |AU declension selection for exercises|<span>` `</span> `2nd` `3rd` `1st`
