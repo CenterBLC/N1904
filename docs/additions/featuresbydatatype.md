@@ -2,7 +2,9 @@
 <div class="hidden-content"><a href="../transcription.md">Transcription</a> | <a href="../features/README.md#start">Features</a> | Additions | <a href="../viewtypes.md#start">Viewtypes</a> | <a href="../textformats.md#start">Textformats</a> |  <a href="../syntaxtrees.md#start">Syntaxtrees</a> | <a href="../tutorial/README.md#start">Tutorial</a>  | <a href="../about.md#start">About</a></div>
 
 # Nestle 1904 GNT - Optional features (grouped by data type)
-Overview by [name](featuresbyname.md#start), [node type](featuresbynodetype.md#start), or [feature type](featuresbytype.md#start).
+Overview by [name](featuresbyname.md#start), [node type](featuresbynodetype.md#start), or [feature group](featuresbyfeaturegroup.md#start).
+
+Note: These features are not loaded by default and must be invoked using the mod option when initializing the TF dataset. For more details, refer to this [guide](../additions#adding-the-features].
 
 ## String
 
