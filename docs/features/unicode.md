@@ -11,7 +11,7 @@ Feature group | Feature type | Data type | Available for node types | Used by vi
 
 ## Feature description
 
-Surface Greek form of the word in Unicode, containing all material before and after it.
+This feature contains the containing the Greek form of the word including all material before and after it. This feature is coded in Unicode using polytonic accents over the vowels (oxia, varia, and perispomeni).
 
 This feature is also populated for `phrase` or `subphrase`, but only if they consist of just one `word` node.
 
