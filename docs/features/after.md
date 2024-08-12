@@ -11,7 +11,7 @@ Feature group | Feature type | Data type | Available for node types | Used by vi
 
 ## Feature description 
 
-The `after` feature includes all material found after a word, such as regular space characters, punctuation marks followed by a space, and text-critical markers. This feature is essential for preserving the context and formatting of the text.
+The `after` feature includes all material found after a word, such as regular space characters, punctuation marks followed by a space, and text-critical markers. This feature is essential for preserving the context and formatting of the text. This feature is coded in Unicode using polytonic accents over the vowels (oxia, varia, and perispomeni).
 
 This feature is also populated for `phrase` or `subphrase`, but only if they consist of just one `word` node.
 
