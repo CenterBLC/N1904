@@ -2,8 +2,10 @@
 <div class="hidden-content"><a href="../transcription.md">Transcription</a> | <a href="../features/README.md#start">Features</a> | Additions | <a href="../viewtypes.md#start">Viewtypes</a> | <a href="../textformats.md#start">Textformats</a> |  <a href="../syntaxtrees.md#start">Syntaxtrees</a> | <a href="../tutorial/README.md#start">Tutorial</a>  | <a href="../about.md#start">About</a></div>
 
 # Nestle 1904 GNT - Optional features (grouped by feature group)
-Overview by [name](featuresbyname.md), [node type](featuresbynodetype.md), or [data type](featuresbydatatype.md#start).
 
+#### *Or browse by [name](featuresbyname.md), [node type](featuresbynodetype.md), or [data type](featuresbydatatype.md#start)*
+
+Note: These features are not loaded by default and must be invoked using the mod option when initializing the TF dataset. For more details, refer to this [guide](../additions#adding-the-features).
 
 ## Andrews University
 
@@ -67,4 +69,4 @@ Feature|Datatype|Available on nodes|Description|Examples
 [`sentence_number`](sentence_number.md#start)|[`Integer`](featuresbydatatype.md#integer)|[`word`](featuresbynodetype.md#word) |Sentence number|`2288` `7536` `7232` `7229`
 [`vocab_ReadGreekin30Days`](vocab_ReadGreekin30Days.md#start)|[`String`](featuresbydatatype.md#string)|[`word`](featuresbynodetype.md#word) |Chapter categoried vocab as it appears in Larry Richards Textbook "Learning Greek in 30 days"|`3a` <span>` `</span> `3b` `4b`
 
-
+#### *Or browse by [name](featuresbyname.md), [node type](featuresbynodetype.md), or [data type](featuresbydatatype.md#start)*
