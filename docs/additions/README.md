@@ -11,7 +11,7 @@ The following pages provide an overview of these add-on features:
   * [by name](featuresbyname.md#start): alphabeticaly sorted.
   * [by node type](featuresbynodetype.md#start): (only) `word`.
   * [by data type](featuresbydatatype.md#start): `string` or `integer`.
-  * [by feature group](featuresbyfeaturegroup.md#start): e.g., `Bible Online Learner related`.
+  * [by feature group](featuresbyfeaturegroup.md#start): e.g., `Bible Online Learner` or `Aland Synoptics`.
   
 # Adding the features
 
