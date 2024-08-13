@@ -73,4 +73,4 @@ This is a general overview of how the LowFat XML source data maps to Text-Fabric
 
 See also the following image mapping LowFat XML to TF data:
 
-<img src="features/images/mapping.jpg" width="600px">
+<img src="features/images/mapping.png" width="600px">
