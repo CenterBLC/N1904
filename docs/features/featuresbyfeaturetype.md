@@ -90,6 +90,8 @@ Name | Feature group | Data type | Available on node | Description | Exampes
 
 ## Config features
 
+#### *The Node feature [otype](otype.md) and Edge feature [oslots](oslots.md) also contain config data. Together with otext, they are the Warp features.*
+
 Name | Feature group | Data type | Available on node | Description | Examples
 ---|---|---|---|--- |---
 [otext](otext.md) | [`Warp`](featuresbygroup.md#warp-features) | *not applicable* | *not applicable* | Textformatting and corpus segmenting configuration used by the text API | *no data, only specifications*  
