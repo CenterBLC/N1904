@@ -10,7 +10,7 @@ The features in this Text-Fabric dataset can be grouped according to their datat
 
 * [String datatype features](#string-datatype)
 * [Integer datatype features](#integer-datatype)
-* [Configuration data](featuresbydatatype.md#configuration-data)
+* [Configuration data](featuresbydatatype.md#configuration-data)  (the *warp* features)
 
 ## String datatype
 <sup>Python datatype: [str](https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str)</sup>
