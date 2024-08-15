@@ -15,7 +15,7 @@ The full featureset of this Text-Fabric dataset can also be viewed by different 
      * [`Edge`](featuresbyfeaturetype.md#edge-features): relationships or links, establishing connections between nodes in the data model.
      * [`Config`](featuresbyfeaturetype.md#config-features): contains the configuration or settings that define the behavior and parameters of the data processing or analysis.
 * [Grouped by feature group](featuresbygroup.md#start):
-     * [`Grid`](featuresbygroup.md#grid-features): features pertaining to the arrangement and organization of the database.
+     * [`Warp`](featuresbygroup.md#warp-features): features pertaining to the arrangement and organization of the database.
      * [`Sectional`](featuresbygroup.md#sectional-features): features related to structural divisions within the text.
      * [`Orthograpic`](featuresbygroup.md#orthograpic-features): features related to the visual representation of the text.
      * [`Lexical`](featuresbygroup.md#lexical-features): features related to individual words and their lexical properties.
