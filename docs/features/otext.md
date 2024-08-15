@@ -7,7 +7,7 @@
 
 Feature group | Feature type | Data type | Available for node types | Used by viewtypes
 ---  | --- | --- | --- | ---
-[`Grid`](featuresbygroup.md#grid-features) | [`Config`](featuresbyfeaturetype.md#config-features) | *not applicable* | *not applicable* | [`syntax-view`](../syntax-view.md#start) [`wg-view`](../wg-view.md#start)
+[`Warp`](featuresbygroup.md#warp-features) | [`Config`](featuresbyfeaturetype.md#config-features) | *not applicable* | *not applicable* | [`syntax-view`](../syntax-view.md#start) [`wg-view`](../wg-view.md#start)
 
 ## Feature description
 
