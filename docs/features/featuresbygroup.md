@@ -8,7 +8,7 @@
 
 This is the key to the meaning of the features in this TextFabric dataset. The available features can be grouped together as following: 
 
-* [Grid features](#grid-features): features pertaining to the arrangement and organization of the database.
+* [Warp features](#warp-features): features pertaining to the arrangement and organization of the database.
 * [Sectional features](#sectional-features): features related to structural divisions within the text.
 * [Orthograpic features](#orthograpic-features): features related to the visual representation of the text.
 * [Lexical features](#lexical-features): features related to individual words and their lexical properties.
