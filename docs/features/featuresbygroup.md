@@ -18,7 +18,7 @@ This is the key to the meaning of the features in this TextFabric dataset. The a
 * [Semantic features](#semantic-features): features related to semantic meaning and roles of words and phrases. 
 * [Relational features](#relational-features): features describing relationships or connections between nodes.
 
-## Grid features
+## Warp features
 
 <sup>These features pertains to the arrangement and organization of the database and its presentation.</sup>
 
