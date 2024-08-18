@@ -24,6 +24,26 @@ The information is also relevant to the following [add-on features](..additions/
 * [bol_surface](additions/bol_surface.md#start): BOL based word as it appears in the text.
 * [lemma_dict](additions/lemma_dict.md#start): Lexeme as it appears in the dictionary.
 
+# All used special characters
+
+To view all the special characters used in this dataset, run the following command (e.g., in a Jupyter Notebook cell):
+
+```python
+A.specialCharacters()
+```
+This command will return the following details:
+
+<pre>
+<b>Special characters in</b> text-orig-full
+
+· Α α ὰ ά ᾴ ἀ Ἀ ἂ ἄ Ἄ ᾄ ἆ Ἆ ἁ Ἁ ἃ Ἃ ἅ Ἅ ᾶ ᾷ ᾳ Β β Γ γ Δ δ Ε ε ὲ έ ἐ Ἐ ἔ Ἔ ἑ Ἑ ἓ Ἓ ἕ Ἕ Ζ ζ Η η ὴ
+ή ῄ ἠ Ἠ ἢ Ἢ ἤ Ἤ ᾔ ἦ Ἦ ᾖ ᾐ ἡ ἣ ἥ Ἥ ἧ ᾗ ᾑ ῆ ῇ ῃ Θ θ Ι ι ὶ ί ϊ ῒ ΐ ἰ Ἰ ἴ Ἴ ἶ ἱ Ἱ ἳ ἵ Ἵ ἷ ῖ Κ κ Λ λ 
+Μ μ Ν ν Ξ ξ Ο ο ὸ ό ὀ Ὀ ὂ ὄ Ὄ ὁ Ὁ ὃ Ὃ ὅ Ὅ Π π Ρ ρ ῥ Ῥ Σ ς σ Τ τ Υ υ ὺ ύ ϋ ῢ ΰ ὐ ὒ ὔ ὖ ὑ Ὑ ὓ ὕ Ὕ 
+ὗ Ὗ ῦ Φ φ Χ χ Ψ ψ Ω ω ὼ ώ ῴ ὠ ὢ ὤ Ὤ ὦ Ὦ ᾠ ὡ Ὡ ὥ Ὥ ὧ Ὧ ᾧ ῶ ῷ ῳ — ’
+</pre>
+
+These characters can be used directly to build queries without the need to look up Unicode codepoints.
+
 # Unicode related matters of concern
 
 ## Example of Unicode related mismatches 
