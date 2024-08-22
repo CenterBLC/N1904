@@ -5,11 +5,14 @@
 
 Feature Group | Feature type |Data type |Available for node types | Used by Viewtype 
 ---|---|---|---|---
-[`Other`](featuresbyfeaturegroup.md#other)|[`Integer`](featuresbydatatype.md#integer)|[`Node`](featuresbynodetype.md#node)| [`word`](featuresbynodetype.md#word) |[`syntax-view`](../syntax-view.md#start) [`wg-view`](../wg-view.md#start) 
+[`Other`](featuresbyfeaturegroup.md#other)|`Node`|[`Integer`](featuresbydatatype.md#integer)| [`word`](featuresbynodetype.md#word) |[`syntax-view`](../syntax-view.md#start) [`wg-view`](../wg-view.md#start) 
 
 ## Description
+
 Clause number.
+
 ## Feature Values
+
 ### Frequency for nodetype [word](featuresbynodetype.md#word)
 
 Value|Occurences
