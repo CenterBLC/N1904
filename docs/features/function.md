@@ -11,7 +11,7 @@ Feature group | Feature type | Data type | Available for node types | Used by vi
 
 ## Feature description
 
-The `function` feature describes the syntactic functions of words, groups of words (phrases, clauses, etc.), or the composition of (sub)sentences. This feature mimicks BHSA nomenclature for feature [function](https://etcbc.github.io/bhsa/features/function/).
+The `function` feature describes the syntactic functions of words, groups of words (phrases, clauses, etc.), or the composition of (sub)sentences. This feature mimicks BHSA nomenclature for feature [function](https://etcbc.github.io/bhsa/features/function/) and is designed to be used in the [`syntax-view`](../syntax-view.md#start).
 
 ## Feature values
 
@@ -104,6 +104,10 @@ Cmpl|7552
 Objc|4813
 Subj|4458
 PreC|1904
+
+## See also
+
+The matching feature for use in the [`wg-view`](../wg-view.md#start) is [role](role.md#start).
 
 ## Source description
 
