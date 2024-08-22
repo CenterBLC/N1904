@@ -7,7 +7,7 @@ Transcription | <a href="features/README.md#start">Features</a> | <a href="addit
 
 This page offers an overview of the transcription of the Nestle 1904 Greek New Testament (GNT) corpus, detailing how the original Greek text was made available as a dataset that can be used in [Text-Fabric](tf.md#start). It outlines the datasets organisation and provides an overview of the linguistic annotations that are available. More information on the underlying data model is [found here](https://annotation.github.io/text-fabric/tf/about/datamodel.html). 
 
-## The database organization
+## The Text-Fabric data model
 
 A main design consideration during development of this database was achieving a high level of compatibility with the [Bible Online Learner (Bible OL)](https://learner.bible/), which utilizes the Nestle 1904 as its base text. This compatibility allowed for including a set of [add-on features](additions/README.md#start) that can be optionaly loaded. A second requirement was that this database should wherever possible mimick the [Biblia Hebraica Stuttgartensia Amstelodamensis (BHSA)](https://etcbc.github.io/bhsa/), the ETCBC implementation of the Hebrew Bible, in terms of user experience, nomenclature and data presentation. 
 
@@ -53,7 +53,7 @@ Text-Fabric allows the corpus text to be formatted in different ways, depending 
 
 All Greek text in this Text-Fabric dataset is encoded in Unicode. However, there are specific aspects that may require attention when querying, particularly those involving polytonic accents and "pseudo-characters" like the iota subscript. For a detailed discussion on character encoding, please refer to the documentation [here](characterencoding.md#start).
 
-## Implementation note
+## Implementation notes
 
 ### General
 
