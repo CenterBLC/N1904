@@ -5,7 +5,7 @@
 
 Feature Group | Feature type |Data type |Available for node types | Used by Viewtype 
 ---|---|---|---|---
-[`Bible Online Learner`](featuresbyfeaturegroup.md#bible-online-learner)|[`String`](featuresbydatatype.md#string)|[`Node`](featuresbynodetype.md#node)| [`word`](featuresbynodetype.md#word) |[`syntax-view`](../syntax-view.md#start) [`wg-view`](../wg-view.md#start) 
+[`Bible Online Learner`](featuresbyfeaturegroup.md#bible-online-learner)|`Node`|[`String`](featuresbydatatype.md#string)| [`word`](featuresbynodetype.md#word) |[`syntax-view`](../syntax-view.md#start) [`wg-view`](../wg-view.md#start) 
 
 ## Description
 
@@ -17,7 +17,7 @@ Frequency for nodetype [word](featuresbynodetype.md#word):
 
 Value|Occurences
 ---|---
-|106740
+&lt;space&gt;|106740
 third_person|18549
 second_person|6753
 first_person|5737
