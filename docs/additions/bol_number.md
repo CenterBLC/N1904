@@ -18,7 +18,7 @@ Frequency for nodetype [word](featuresbynodetype.md#word):
 Value|Occurences
 ---|---
 singular|68758
-|39939
+&lt;space&gt;|39939
 plural|29082
 
 Total frequency of feature: 137779.
