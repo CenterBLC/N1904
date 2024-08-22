@@ -7,11 +7,12 @@
 
 Feature group | Feature type | Data type | Available for node types | Used by viewtypes
 ---  | --- | --- | --- | ---
-[`Syntactic`](featuresbygroup.md#syntactic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | [`word`](featuresbynodetype.md#word-nodes) [`clause`](featuresbynodetype.md#clause-nodes)  [`wg`](featuresbynodetype.md#wordgroup-nodes) [`sentence`](featuresbynodetype.md#sentence-nodes) [`subphrase`](featuresbynodetype.md#subphrase-nodes) [`phrase`](featuresbynodetype.md#phrase-nodes) | [`syntax-view`](../syntax-view.md#start) [`wg-view`](../wg-view.md#start)
+[`Syntactic`](featuresbygroup.md#syntactic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | [`word`](featuresbynodetype.md#word-nodes) [`clause`](featuresbynodetype.md#clause-nodes)  [`wg`](featuresbynodetype.md#wordgroup-nodes) [`sentence`](featuresbynodetype.md#sentence-nodes) [`subphrase`](featuresbynodetype.md#subphrase-nodes) [`phrase`](featuresbynodetype.md#phrase-nodes) | [`wg-view`](../wg-view.md#start)
 
 ## Feature description
 
-The `cls` feature provides the part of speech (PoS) for `word` nodes and the category for other nodes. 
+The `cls` feature provides the part of speech (PoS) for `word` nodes and the category for other nodes. This feature preserves the source XML nomenclature and is designed to be used in the [`wg-view`](../wg-view.md#start).
+
 ## Feature values
 
 Frequency for nodetype [`word`](featuresbynodetype.md#word-nodes):
