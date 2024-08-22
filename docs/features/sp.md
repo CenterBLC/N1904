@@ -7,11 +7,13 @@
 
 Feature group | Feature type | Data type | Available for node types | Used by viewtypes
 ---  | --- | --- | --- | ---
-[`Syntactic`](featuresbygroup.md#syntactic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | [`word`](featuresbynodetype.md#word-nodes) [`subphrase`](featuresbynodetype.md#subphrase-nodes) [`phrase`](featuresbynodetype.md#phrase-nodes)| [`syntax-view`](../syntax-view.md#start) [`wg-view`](../wg-view.md#start)
+[`Syntactic`](featuresbygroup.md#syntactic-features) | [`Node`](featuresbyfeaturetype.md#node-features) | [`String`](featuresbydatatype.md#string-datatype) | [`word`](featuresbynodetype.md#word-nodes) [`subphrase`](featuresbynodetype.md#subphrase-nodes) [`phrase`](featuresbynodetype.md#phrase-nodes)| [`syntax-view`](../syntax-view.md#start)
 
 ## Description
 
 The `sp` feature provides the part-of-speech (POS), which classifies words based on their function in a sentence.
+
+This feature mimicks BHSA nomenclature for feature function and is designed to be used in the [`syntax-view`](../syntax-view.md#start).
 
 ## Feature Values
 
