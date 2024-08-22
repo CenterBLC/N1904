@@ -6,7 +6,7 @@ This dataset was created as part of the conversion of Eberhard Nestle's 1904 Gre
 
 This website contains the following main sections:
 
-- [About the Dataset](about.md#start): General information on Text-Fabric, the Nestle text, source data, license, and attribution.
+- [About this dataset](about.md#start): General information on Text-Fabric, the Nestle 1904 text, source data, citation, license, and attribution.
 - [Transcription](transcription.md#start): Details on how the Greek text was transcribed in this Text-Fabric dataset.
 - [Featureset](features/README.md#start): Overview and detailed description of the standard features available in the dataset.
 - [Optional Features](additions/README.md#start): Overview and detailed description of optional features for enhanced analysis.
