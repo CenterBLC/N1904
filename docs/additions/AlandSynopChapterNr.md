@@ -5,7 +5,7 @@
 
 Feature Group | Feature type |Data type |Available for node types | Used by Viewtype 
 ---|---|---|---|---
-[`Aland Synopsis`](featuresbyfeaturegroup.md#aland-synoptics)|[`Integer`](featuresbydatatype.md#integer)|[`Node`](featuresbynodetype.md#node)| [`word`](featuresbynodetype.md#word) |[`syntax-view`](../syntax-view.md#start) [`wg-view`](../wg-view.md#start) 
+[`Aland Synopsis`](featuresbyfeaturegroup.md#aland-synoptics)|`Node`|[`Integer`](featuresbydatatype.md#integer)| [`word`](featuresbynodetype.md#word) |[`syntax-view`](../syntax-view.md#start) [`wg-view`](../wg-view.md#start) 
 
 ## Description
 
