@@ -5,7 +5,7 @@
 
 Feature Group | Feature type |Data type |Available for node types | Used by Viewtype 
 ---|---|---|---|---
-[`Bible Online Learner`](featuresbyfeaturegroup.md#bible-online-learner)|[`String`](featuresbydatatype.md#string)|[`Node`](featuresbynodetype.md#node)| [`word`](featuresbynodetype.md#word) |[`syntax-view`](../syntax-view.md#start) [`wg-view`](../wg-view.md#start) 
+[`Bible Online Learner`](featuresbyfeaturegroup.md#bible-online-learner)|`Node`|[`String`](featuresbydatatype.md#string)| [`word`](featuresbynodetype.md#word) |[`syntax-view`](../syntax-view.md#start) [`wg-view`](../wg-view.md#start) 
 
 ## Description
 Bible Online Learner based verbal voice.
@@ -14,7 +14,7 @@ Bible Online Learner based verbal voice.
 
 Value|Occurences
 ---|---
-|109427
+&lt;empty&gt;|109427
 active|20665
 middle_or_passive|2147
 middle_or_passive_deponent|1678
