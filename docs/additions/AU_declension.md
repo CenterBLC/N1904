@@ -5,7 +5,7 @@
 
 Feature Group | Feature type |Data type |Available for node types | Used by Viewtype 
 ---|---|---|---|---
-[`Andrews University`](featuresbyfeaturegroup.md#andrews-university)|[`Node`](featuresbynodetype.md#node)| [`String`](featuresbydatatype.md#string)| [`word`](featuresbynodetype.md#word) |[`syntax-view`](../syntax-view.md#start) [`wg-view`](../wg-view.md#start) 
+[`Andrews University`](featuresbyfeaturegroup.md#andrews-university)|`Node`| [`String`](featuresbydatatype.md#string)| [`word`](featuresbynodetype.md#word) |[`syntax-view`](../syntax-view.md#start) [`wg-view`](../wg-view.md#start) 
 
 ## Description
 
