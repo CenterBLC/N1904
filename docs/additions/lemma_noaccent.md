@@ -5,11 +5,14 @@
 
 Feature Group | Feature type |Data type |Available for node types | Used by Viewtype 
 ---|---|---|---|---
-[`Other`](featuresbyfeaturegroup.md#other)|[`String`](featuresbydatatype.md#string)|[`Node`](featuresbynodetype.md#node)| [`word`](featuresbynodetype.md#word) |[`syntax-view`](../syntax-view.md#start) [`wg-view`](../wg-view.md#start) 
+[`Other`](featuresbyfeaturegroup.md#other)|`Node`|[`String`](featuresbydatatype.md#string)| [`word`](featuresbynodetype.md#word) |[`syntax-view`](../syntax-view.md#start) [`wg-view`](../wg-view.md#start) 
 
 ## Description
+
 Lemma stripped of accents.
+
 ## Feature Values
+
 ### Frequency for nodetype [word](featuresbynodetype.md#word)
 
 Value|Occurences
