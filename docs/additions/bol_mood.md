@@ -17,7 +17,7 @@ Frequency for nodetype [word](featuresbynodetype.md#word):
 
 Value|Occurences
 ---|---
-&lt;empty&gt;|109427
+&lt;space&gt;|109427
 indicative|15615
 participle|6653
 infinitive|2285
