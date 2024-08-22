@@ -5,7 +5,7 @@
 
 Feature Group | Feature type |Data type |Available for node types | Used by Viewtype 
 ---|---|---|---|---
-[`Bible Online Learner`](featuresbyfeaturegroup.md#bible-online-learner)|[`Integer`](featuresbydatatype.md#integer)|[`Node`](featuresbynodetype.md#node)| [`word`](featuresbynodetype.md#word) |[`syntax-view`](../syntax-view.md#start) [`wg-view`](../wg-view.md#start) 
+[`Bible Online Learner`](featuresbyfeaturegroup.md#bible-online-learner)|`Node`|[`Integer`](featuresbydatatype.md#integer)| [`word`](featuresbynodetype.md#word) |[`syntax-view`](../syntax-view.md#start) [`wg-view`](../wg-view.md#start) 
 
 ## Description
 
