@@ -25,23 +25,23 @@ adv | Adverbial | 43154
 v | Verb | 50344
 p | Predicate | 7348
 io | Indirect object | 5316
-vc | Verbal Copula  | 5186
+vc | Verbal copula  | 5186
 apposition | Apposition | 4878
 aux | Auxiliar | 2112
 o2 | Second object | 718
 
-## Mapping between role and function feature
+## Mapping between role and feature 'function'
 
-feature `role` ([`wg-view`](../wg-view.md#start)) | feature [`function`](function.md#start) ([`syntax-view`](../syntax-view.md#start))
----|---
-io | Cmpl
-o | Objc
-o2 | Objc
-p | PreD
-s | Subj
-vc (wg nodes) | Pred
-v (word nodes) | Pred
-apposition | Appo
+feature `role` ([`wg-view`](../wg-view.md#start)) | `role` description |  feature [`function`](function.md#start) ([`syntax-view`](../syntax-view.md#start))
+---|---|---
+io | Indirect object | Cmpl
+o | Object | Objc
+o2 | Secondary Object | Objc
+p | Predicate | PreD
+s | Subject | Subj
+vc (wg nodes) | Verbal copula | Pred
+v (word nodes) | Verb | Pred
+apposition | Apposition | Appo
 
 ## Note
 See also the description in [MACULA Greek Treebank for the Nestle 1904 Greek New Testament.pdf](https://nbviewer.org/github/biblicalhumanities/greek-new-testament/blob/master/syntax-trees/nestle1904/doc/Nestle%201904%20Treebank%20Documentation.pdf) on page 4 and 5 (section 2.2. Syntactic Categories at Word Level: Part of Speech Labels).
