@@ -11,7 +11,7 @@ Feature group | Feature type | Data type | Available for node types | Used by vi
 
 ## Feature description
 
-The `role` feature indicates the syntactic role of a word or word group within a sentence. It provides information about whether the word or group is acting as a subject, object, verb, etc.
+The `role` feature indicates the syntactic role of a word or word group within a sentence. It provides information about whether the word or group is acting as a subject, object, verb, etc. This feature preserves the source XML nomenclature and is designed to be used in the [`wg-view`](../wg-view.md#start).
 
 ## Feature values
 
@@ -43,7 +43,12 @@ vc (wg nodes) | Verbal copula | Pred
 v (word nodes) | Verb | Pred
 apposition | Apposition | Appo
 
+## See also
+
+The matching feature for use in the [`syntax-view`](../syntax-view.md#start) is [function](function.md#start).
+
 ## Note
+
 See also the description in [MACULA Greek Treebank for the Nestle 1904 Greek New Testament.pdf](https://nbviewer.org/github/biblicalhumanities/greek-new-testament/blob/master/syntax-trees/nestle1904/doc/Nestle%201904%20Treebank%20Documentation.pdf) on page 4 and 5 (section 2.2. Syntactic Categories at Word Level: Part of Speech Labels).
 
 ## Source description
