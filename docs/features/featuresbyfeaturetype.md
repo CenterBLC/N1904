@@ -8,13 +8,13 @@
 
 The features of this Text-Fabric dataset can be grouped by the following feature types:
 
-* [Node features](#node-features): the fundamental units or entities in the data model.
-* [Edge features](#edge-features): relationships or links, establishing connections between nodes in the data model.
+* [Node features](#node-features): provide information about individual nodes.
+* [Edge features](#edge-features):  describe relationships or links between nodes.
 * [Config features](#config-features): contains the configuration or settings that define the behavior and parameters of the data processing or analysis.
 
 ## Node features
 
-##### *Use Text-Fabric Node feature methods: [N](https://annotation.github.io/text-fabric/tf/cheatsheet.html#n-nodes) and [F](https://annotation.github.io/text-fabric/tf/cheatsheet.html#f-node-features). See [tf.core.nodefeature](https://annotation.github.io/text-fabric/tf/core/nodefeature.html) for more details on Node features.*
+##### *These features provide information about individual nodes. Use Text-Fabric Node feature methods: [N](https://annotation.github.io/text-fabric/tf/cheatsheet.html#n-nodes) and [F](https://annotation.github.io/text-fabric/tf/cheatsheet.html#f-node-features). See [tf.core.nodefeature](https://annotation.github.io/text-fabric/tf/core/nodefeature.html) for more details on Node features.*
 
 Name | Feature group | Data type | Available on node | Description | Examples
 ---|---|---|---|---|---
@@ -78,7 +78,7 @@ Name | Feature group | Data type | Available on node | Description | Examples
 
 ## Edge features
 
-##### *Use Text-Fabric Edge feature methods: [E](https://annotation.github.io/text-fabric/tf/cheatsheet.html#e-edge-features). See [tf.core.edgefeature](https://annotation.github.io/text-fabric/tf/core/edgefeature.html) for more details on Edge features.*
+##### *These features describe relationships or links between nodes. Use Text-Fabric Edge feature methods: [E](https://annotation.github.io/text-fabric/tf/cheatsheet.html#e-edge-features). See [tf.core.edgefeature](https://annotation.github.io/text-fabric/tf/core/edgefeature.html) for more details on Edge features.*
 
 Name | Feature group | Data type | Available on node | Description | Exampes
 ---|---|---|---|---|---
@@ -90,7 +90,7 @@ Name | Feature group | Data type | Available on node | Description | Exampes
 
 ## Config features
 
-#### *The Node feature [otype](otype.md) and Edge feature [oslots](oslots.md) also contain config data. Together with otext, they are the Warp features.*
+#### *The Node feature [otype](otype.md) and Edge feature [oslots](oslots.md) also contain config data. Together with otext, they are called the 'Warp features' and define the dataset structure.*
 
 Name | Feature group | Data type | Available on node | Description | Examples
 ---|---|---|---|--- |---
