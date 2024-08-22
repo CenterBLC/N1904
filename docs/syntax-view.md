@@ -20,8 +20,8 @@ Viewtype | Invocation | Associated node types |
 
 The following features are created to be specificaly used in this viewtype:
 
-* [function](function.md#start): syntactic functions
-* [sp](sp.md#start): part-of-speech (POS)
+* [function](features/function.md#start): syntactic functions
+* [sp](features/sp.md#start): part-of-speech (POS)
 
 
 The following images show John 1:1 using the syntas-view:
