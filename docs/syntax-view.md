@@ -18,6 +18,11 @@ Viewtype | Invocation | Associated node types |
 
 <sup>Note: the node types  [`Word`](features/featuresbynodetype.md#word-nodes), [`Sentence`](features/featuresbynodetype.md#sentence-nodes), [`verse`](features/featuresbynodetype.md#verse-nodes), [`chapter`](features/featuresbynodetype.md#chapter-nodes), and [`Book`](features/featuresbynodetype.md#book-nodes) are common for both views.</sup>
 
+The following features are created to be specificaly used in this viewtype:
+
+* [function](function.md#start): syntactic functions
+* [sp](sp.md#start): part-of-speech (POS)
+
 
 The following images show John 1:1 using the syntas-view:
 
