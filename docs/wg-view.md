@@ -18,6 +18,12 @@ Viewtype | Invocation | Associated node types |
 
 <sup>Note: the node types  [`Word`](features/featuresbynodetype.md#word-nodes), [`Sentence`](features/featuresbynodetype.md#sentence-nodes), [`verse`](features/featuresbynodetype.md#verse-nodes), [`chapter`](features/featuresbynodetype.md#chapter-nodes), and [`Book`](features/featuresbynodetype.md#book-nodes)` are common for both views.</sup>
 
+The following features are created to be specificaly used in this viewtype:
+
+* [cls](features/cls.md#start): Word and WordGroup class (Part of Speech)
+* [role](features/role.md#start): Role of word or wordgroup
+
+
 The following images show John 1:1 using the wg-view:
 
 <img src="features/images/John_1_1_wg-view.png" width="650">
