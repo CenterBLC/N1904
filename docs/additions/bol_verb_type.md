@@ -7,7 +7,9 @@ Feature Group | Feature type |Data type |Available for node types | Used by View
 [`Bible Online Learner`](featuresbyfeaturegroup.md#bible-online-learner)|`Node`|[`String`](featuresbydatatype.md#string)| [`word`](featuresbynodetype.md#word) |[`syntax-view`](../syntax-view.md#start) [`wg-view`](../wg-view.md#start) 
 
 ## Description
+
 Bible Online Learner based verb type.
+
 ## Feature Values
 
 Frequency for nodetype [word](featuresbynodetype.md#word):
