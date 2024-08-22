@@ -62,6 +62,10 @@ Value | Description | Frequency
 `advb`| Adverbial |6147
 `intj`| Interjection |788
 `num`| Number |476
+
+## See also
+
+The matching feature for use in the [`wg-view`](../wg-view.md#start) is [cls][cls.md#start].
  
 ## Source description
 
