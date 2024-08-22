@@ -11,7 +11,9 @@ Feature group | Feature type | Data type | Available for node types | Used by vi
 
 ## Feature description
 
-The `role` feature indicates the syntactic role of a word or word group within a sentence. It provides information about whether the word or group is acting as a subject, object, verb, etc. This feature preserves the source XML nomenclature and is designed to be used in the [`wg-view`](../wg-view.md#start).
+The `role` feature indicates the syntactic role of a word or word group within a sentence. It provides information about whether the word or group is acting as a subject, object, verb, etc. 
+
+This feature preserves the source XML nomenclature and is designed to be used in the [`wg-view`](../wg-view.md#start).
 
 ## Feature values
 
