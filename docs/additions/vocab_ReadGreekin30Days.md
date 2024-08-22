@@ -5,11 +5,11 @@
 
 Feature Group | Feature type |Data type |Available for node types | Used by Viewtype 
 ---|---|---|---|---
-[`Other`](featuresbyfeaturegroup.md#other)|[`String`](featuresbydatatype.md#string)|[`Node`](featuresbynodetype.md#node)| [`word`](featuresbynodetype.md#word) |[`syntax-view`](../syntax-view.md#start) [`wg-view`](../wg-view.md#start) 
+[`Other`](featuresbyfeaturegroup.md#other)|`Node`|[`String`](featuresbydatatype.md#string)| [`word`](featuresbynodetype.md#word) |[`syntax-view`](../syntax-view.md#start) [`wg-view`](../wg-view.md#start) 
 
 ## Description
 
-Chapter categoried vocab as it appears in Larry Richards Textbook "Learning Greek in 30 days".
+Chapter categoried vocab as it appears in Larry Richards Textbook ["Reading Greek in 30 days"](https://archive.org/details/readnewtestament0000rich).
 
 ## Feature Values
 
@@ -18,7 +18,7 @@ Frequency for nodetype [word](featuresbynodetype.md#word):
 Value|Occurences
 ---|---
 3a|46660
-|32598
+&lt;empty&gt;|32598
 3b|17736
 4b|5517
 6a|4637
