@@ -65,7 +65,7 @@ Value | Description | Frequency
 
 ## See also
 
-The matching feature for use in the [`wg-view`](../wg-view.md#start) is [cls][cls.md#start].
+The matching feature for use in the [`wg-view`](../wg-view.md#start) is [cls](cls.md#start).
  
 ## Source description
 
