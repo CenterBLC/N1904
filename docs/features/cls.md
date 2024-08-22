@@ -88,6 +88,10 @@ Value | Phrase Category | Frequency
 --- | --- | ---
 cl | Clause | 1476
 
+## See also
+
+The matching feature for use in the [`syntax-view`](../syntax-view.md#start) is [sp](sp.md#start).
+
 ## Note
 
 See also the description in [MACULA Greek Treebank for the Nestle 1904 Greek New Testament.pdf](https://nbviewer.org/github/biblicalhumanities/greek-new-testament/blob/master/syntax-trees/nestle1904/doc/Nestle%201904%20Treebank%20Documentation.pdf) on page 4 and 5:
