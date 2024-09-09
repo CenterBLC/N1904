@@ -11,7 +11,7 @@ Feature group | Feature type | Data type | Available for node types | Used by vi
 
 ## Feature description
 
-This feature, known as "object type" (otype), categorizes various types of textual objects within the corpus. In Text-Fabric, all objects are represented by nodes, each assigned an object type label. It associate higher-level objects (like sentences or phrases) with their constituent lower-level objects (like words). When querying or analyzing the text, you can specify the otype to focus on particular node types, corresponding to different levels of the text structure.
+In Text-Fabric, all objects are represented by nodes. Each node has a dataset-wide unique number and a label. This feature, known as "object type," maps the node's numeric value to its label (name).
 
 ## Feature values
 
