@@ -59,15 +59,16 @@ The parent-child relation can be checked using the functions `E.parent.f()`. For
 ```
 
 This output shows the word node has two parents: a `phrase` and a `wg` node. This dual parent relation is a consequence of implementing two view types:
-   * [`syntax-view`](../syntax-view.md#start) (default): Presents the syntax tree using linguistic terms like phrases and clauses.
-   * [`wg-view`](../wg-view.md#start): Presents the syntax tree in a more agnostic manner by means of word groups.
+   * [`syntax-view`](../syntax-view.md#start) (default): display syntax trees using linguistic terms like phrases and clauses.
+   * [`wg-view`](../wg-view.md#start): display syntax trees in a more agnostic manner by means of word groups.
 
 
-The following image shows how the `parent` feature operates on various node types. The node type 'subphrase' is not part of this parent-child relation schema.
+The following image shows how the parent feature operates on various node types. The node type 'subphrase' is not part of this parent-child relation schema.
 
 <img src="images/parent_nodes_views.png" width="650">
 
 Feature parent can also be used to identify the child node(s) by calling function E.parent.t(...):
+
 ```python
 E.parent.f(246649)
   (246648,)
