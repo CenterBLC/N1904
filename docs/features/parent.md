@@ -20,14 +20,13 @@ Any of the following:
    * One node value - node has one parent
    * Two node values - node has two parents
 
-
-
 ## Notes
 
-Usually, any node would have just one parent. However, in our implementation, word nodes can have two parents due to the inclusion of both the 'wg-view' and the 'syntax-view' within a single database.
+Usually, any node would have just one parent. However, in our implementation, word nodes have two parents due to the partial data duplication required to support the 'wg-view' and the 'syntax-view' within a single database.
 
 ### Example Query
-The following query demonstrates a typical use of this feature, ensuring wg2 is a child of wg1 and w1 is a child of wg1:
+
+The following query demonstrates a typical use of the parent feature. The following query selects only instances where wg2 is a child of wg1 and w1 is a child of wg1:
 
 ```python
 Query = '''
@@ -48,7 +47,7 @@ The same section is shown in the [`wg-view`](../wg-view.md#start):
 
 <img src="images/parent_query_wg_view.png" width="500">
 
-The parent-child relation can be checked using the following functions with the node numbers printed above:
+The parent-child relation can be checked using the functions `E.parent.f()`. For example the parent nodes for word node 82843:
 
 ```python
  E.parent.f(82843)
