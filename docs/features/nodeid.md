@@ -11,7 +11,7 @@ Feature group | Feature type | Data type | Available for node types | Used by vi
 
 ## Feature description 
 
-The `nodeid` feature provides a reference to a specific word groups, clauses, or sentences within the text.
+The `nodeid` feature provides a reference to the range of words inside a word group, clause, or sentence within the text.
 
 ## Feature values
 
