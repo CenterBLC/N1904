@@ -17,7 +17,7 @@ The information on this page in particular pertains to the following base featur
 * [unicode](features/unicode.md#start): Word in unicode format.
 surface text.
 
-The information is also relevant to the following [add-on features](..additions/README.md#start):
+The information is also relevant to the following [add-on features](additions/README.md#start):
 
 * [bol_lemma](additions/bol_lemma.md#start): Bible Online Learner (BOL) based lexeme.
 * [bol_lemma_dict](additions/bol_lemma_dict.md#start): BOL based lexeme as it appears in the dictionary.
