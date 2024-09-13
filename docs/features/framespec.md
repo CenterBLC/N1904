@@ -11,7 +11,7 @@ Feature group | Feature type | Data type | Available for node types | Used by vi
 
 ## Feature description
 
-The `framespec` feature provides references to the [id](id.md#start) of the subject, object, or indirect object. This feature is populated primarily for verbs (24690 out of 24767 occurrences), with a few references for other word types. Its functional equivalent edge feature is [frame](frame.md#start).
+The `framespec` feature provides the [id](id.md#start) of the referent of the subject, object, or indirect object. This feature is populated primarily for verbs (24690 out of 24767 occurrences), with a few references for other word types. Its functional equivalent edge feature is [frame](frame.md#start).
 
 This feature is also populated for `phrase` or `subphrase`, but only if they consist of just one `word` node.
 
