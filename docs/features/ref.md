@@ -27,7 +27,7 @@ This format consists of:
 - **Book**: The first three characters (e.g., `MAT` for Matthew)
 - **Chapter**: Following the book, the chapter number (e.g., `1`)
 - **Verse**: Following the chapter, the verse number (e.g., `2`)
-- **Word Sequence Number**: After the `!` symbol, the word sequence number within the verse (e.g., `11`). This will also match the value for feature [`num`](num.md#start) for each `word` node.
+- **Word Sequence Number**: This is the part after the `!` symbol, which is the word sequence number within a verse (in this example `11`), and will match the value of feature [`num`](num.md#start) for each `word` node.
 
 ### Example
 
