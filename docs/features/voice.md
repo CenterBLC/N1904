@@ -29,7 +29,7 @@ passive | The subject of the verb is being acted upon | 3493
 
 ## Notes
 
-The Bible Online Learner dataset contians additional details regarding verb types.
+The Bible Online Learner (BibleOL) dataset contians additional details regarding verb types.
 
 The following features provide ready access to eight morphological properties:
 
