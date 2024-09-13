@@ -17,16 +17,16 @@ This feature is also populated for `phrase` or `subphrase`, but only if they con
 
 ## Notes
 
-When using the [Bible Online Learner](http://www.dadel.org/) as an aid in exploring text and creating Text-Fabric queries, it is advisable to use the [bol_lemma](../additions/bol_lemma.md#start) feature instead of this one to circumvent potential issues arising from a slightly different handling of Unicode codepoints.
+When using the [Bible Online Learner (BibleOL)](https://learner.bible/) as an aid in exploring text and creating Text-Fabric queries, it is advisable to use the [bol_lemma](../additions/bol_lemma.md#start) feature instead of this one to circumvent potential issues arising from a slightly different handling of Unicode codepoints.
 
 See also features:
  * [lemmatranslit](lemmatranslit.md#start): Transliteration of the lexical lemma.
- * [variant](variant.md#start): Variant of the lexical lemma based upon [Bible Online Learner](http://www.dadel.org/).
+ * [variant](variant.md#start): Variant of the lexical lemma based upon [Bible Online Learner (BibleOL)](https://learner.bible/).
 
 And the following [add-on features](..additions/README.md#start):
 
-* [bol_lemma](additions/bol_lemma.md#start): Bible Online Learner (BOL) based lexeme.
-* [bol_lemma_dict](additions/bol_lemma_dict.md#start): BOL based lexeme as it appears in the dictionary.
+* [bol_lemma](additions/bol_lemma.md#start): BibleOL based lexeme.
+* [bol_lemma_dict](additions/bol_lemma_dict.md#start): BibleOL based lexeme as it appears in the dictionary.
 * [lemma_dict](additions/lemma_dict.md#start): Lexeme as it appears in the dictionary.
 
 ## Source description
