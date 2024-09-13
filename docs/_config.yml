@@ -3,6 +3,6 @@ plugins:
 - jekyll-remote-theme
 - jekyll-sitemap
 
-title: Nestle 1904 GNT
-description: Text-Fabric dataset for Greek New Testament based upon Nestle 1904
+title: N1904-TF
+description: Text-Fabric dataset of the Greek New Testament, based on the Nestle 1904 (7th printing) edition.
 show_downloads: false
