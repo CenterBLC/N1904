@@ -32,5 +32,5 @@ To use this feature, please load the additional feature module. You can find det
 
 # Source description
 
-Dataset of the [Bible Online Learner](https://learner.bible/).
+Dataset of the [Bible Online Learner (BibleOL)](https://learner.bible/).
  
