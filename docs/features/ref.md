@@ -17,17 +17,17 @@ This feature is also populated for `phrase` or `subphrase`, but only if they con
 
 ## Feature values
 
-A compound string indicating book (following the format of feature [bookshort](bookshort.md#start)), chapter, verse and sequence number of the word *inside the verse* formatted as follows:
+A compound string indicating book (), chapter, verse and sequence number of the word *inside the verse* formatted as follows:
 
 <pre>
   MAT 1:2!11
 </pre>
 
 This format consists of:
-- **Book**: The first three characters (e.g., `MAT` for Matthew)
+- **Book**: The first three characters (e.g., `MAT` for Matthew), matching the value of feature [bookshort](bookshort.md#start) for each `book` node.
 - **Chapter**: Following the book, the chapter number (e.g., `1`)
 - **Verse**: Following the chapter, the verse number (e.g., `2`)
-- **Word Sequence Number**: This is the part after the `!` symbol, which is the word sequence number within a verse (in this example `11`), and will match the value of feature [num](num.md#start) for each `word` node.
+- **Word Sequence Number**: This is the part after the `!` symbol, which is the word sequence number within a verse (in this example `11`), matching the value of feature [num](num.md#start) for each `word` node.
 
 ### Example
 
