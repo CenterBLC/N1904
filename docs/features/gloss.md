@@ -38,7 +38,7 @@ See also the related feature [trans](trans.md#start) wich contains the text from
 
 ## Source description
 
-The `gloss` feature is based on information from Oliver Glanz, Cedric Vine, and Oleg Kostyuk, *Biblical Greek Vocabulary Builder* (Berrien Springs: MI, Andrews University Press, 2024). This  integrates the vocabulary presented in the Bible Online Learner.
+The `gloss` feature is based on information from Oliver Glanz, Cedric Vine, and Oleg Kostyuk, *Biblical Greek Vocabulary Builder* (Berrien Springs: MI, Andrews University Press, 2024). This  integrates the vocabulary presented in the Bible Online Learner (BibleOL).
 
 ---
 #### *Browse all features by [name](featuresbyname.md#start), [node type](featuresbynodetype.md#start), [data type](featuresbydatatype.md#start), [feature group](featuresbygroup.md#start) or [feature type](featuresbyfeaturetype.md#start).*
