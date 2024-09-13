@@ -17,8 +17,9 @@ This feature provides the sequential number for the various node type. The conte
 
 For node type:
   * [`book`](featuresbynodetype.md#book-nodes): Sequence within the Greek New Testament corpus (Matthew=1, Mark=2, ..., Revelation=27)
-  * [`chapter`](featuresbynodetype.md#chapter-nodes): Chapter number within a book.
   * [`sentence`](featuresbynodetype.md#sentence-nodes): Sentence sequence number within a book.
+  * [`group`](featuresbynodetype.md#group-nodes): Group number within a book.
+  * [`clause`](featuresbynodetype.md#clause-nodes): Clause number within a book.
   * [`phrase`](featuresbynodetype.md#phrase-nodes): Phrase sequence number within a book.
   * [`subphrase`](featuresbynodetype.md#subphrase-nodes): Subprrase sequence number within a book.
   * [`word`](featuresbynodetype.md#word-nodes): Word numbered inside the verse (matching the last part of feature [ref](ref.md)).
