@@ -7,7 +7,7 @@ Transcription</a> | <a href="features/README.md#start">Features</a> | <a href="a
 
 A computer cannot interpret text without first converting it into a binary format. Historically, this was done using ASCII, which mapped Latin characters to 7-bit codes. Various schemes existed for encoding characters in non-Latin languages, such as Greek. To standardize the encoding of these non-Latin characters, Unicode was introduced. This standardization aims to ensure full portability of text across computers with different operating systems. All Greek text in this Text-Fabric dataset has been encoded in Unicode.
 
-However, in practice, this is not without complications, especially for languages, like Greek, that use characters augmented with polytonic accents. These complexities can lead to inconsistencies in text representation and processing.
+However, in practice, this is not without complications, especially for languages, like Greek, that use characters augmented with polytonic accents. These complexities can lead to inconsistencies in text representation and can lead to errors in querie results when working with the dataset.
 
 The information on this page in particular pertains to the following base features:
 
@@ -48,7 +48,7 @@ These characters can be used directly to build queries without the need to look 
 
 ## Example of Unicode related mismatches 
 
-There are some differences in Unicode encoding between the base features and certain add-on BOL features, particularly concerning homoglyphs—characters that look identical or very similar but have different Unicode values. These subtle differences can be difficult to spot on screen. However, using a small Python script, these distinctions can be revealed, such as in the word θεὸς in Romans 1:19.
+There are some differences in Unicode encoding between the base features and certain add-on BOL features, particularly concerning homoglyphs—characters that look identical or very similar but have different Unicode values. These subtle differences can be difficult to spot on screen. However, using a small Python script, these distinctions can be revealed, such as in the word θεὸς in Romans 1:19. This following code snippet identifies the Unicode code points for each character in that word.
 
 ```python
 for char in item:    # stores the unicode encoded string
@@ -61,7 +61,7 @@ Character: 'ε'	Unicode Code Point: 949
 Character: 'ό'	Unicode Code Point: 972
 Character: 'ς'	Unicode Code Point: 962
 </pre>
-The Python code prints the the follwong for the BOL based feature, where the differences are highlighted:
+The Python code prints the following for the BOL based feature, where the differences are highlighted:
 <pre>
 Character: 'Θ'	Unicode Code Point: <span style="background-color: yellow;">920</span>
 Character: 'ε'	Unicode Code Point: 949
@@ -95,4 +95,6 @@ Character | Unicode decomposed character (with acute accent) | Unicode precompos
 
 ## More information on Unicode
 
-Valuable information on Unicode usage is available in [The Unicode Cookbook for Linguists](https://langsci-press.org/catalog/book/176/).
+* Information on Unicode usage is available in [The Unicode Cookbook for Linguists](https://langsci-press.org/catalog/book/176/).
+* [Unicode Group 'Greek Extended' (codetable.net)](https://www.codetable.net/Group/greek-extended).
+
