@@ -61,7 +61,7 @@ Character: 'ε'	Unicode Code Point: 949
 Character: 'ό'	Unicode Code Point: 972
 Character: 'ς'	Unicode Code Point: 962
 </pre>
-The Python code prints the following for the BOL based feature, where the differences are highlighted:
+The Python code prints the following for the BibleOL based feature, where the differences are highlighted:
 <pre>
 Character: 'Θ'	Unicode Code Point: <span style="background-color: yellow;">920</span>
 Character: 'ε'	Unicode Code Point: 949
