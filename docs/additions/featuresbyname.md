@@ -9,9 +9,9 @@ Note: These features are not loaded by default and must be invoked using the mod
 
 Feature|Feature type|Data type|Available on nodes|Description|Examples
 ---|---|---|---|---|---
-[`AU_declension`](AU_declension.md#start)|[`Node`](featuresbynodetype.md#node)|[`String`](featuresbydatatype.md#string)|[`word`](featuresbynodetype.md#word) |Andrews Univesity declension selection for exercises|<span>` `</span> `2nd` `3rd` `1st`
-[`AU_exercise_selection`](AU_exercise_selection.md#start)|[`Node`](featuresbynodetype.md#node)|[`String`](featuresbydatatype.md#string)|[`word`](featuresbynodetype.md#word) |Andrews Univesity declension selection for exercises|<span>` `</span> `NTST551_no1`
-[`AU_vocab_builder_chapter`](AU_vocab_builder_chapter.md#start)|[`Node`](featuresbynodetype.md#node)|[`String`](featuresbydatatype.md#string)|[`word`](featuresbynodetype.md#word) |Andrews Univesity vocab builder booklet chapter|`1a` `1b` `absent` `1c`
+[`AU_declension`](AU_declension.md#start)|[`Node`](featuresbynodetype.md#node)|[`String`](featuresbydatatype.md#string)|[`word`](featuresbynodetype.md#word) |Andrews University declension selection for exercises|<span>` `</span> `2nd` `3rd` `1st`
+[`AU_exercise_selection`](AU_exercise_selection.md#start)|[`Node`](featuresbynodetype.md#node)|[`String`](featuresbydatatype.md#string)|[`word`](featuresbynodetype.md#word) |Andrews University declension selection for exercises|<span>` `</span> `NTST551_no1`
+[`AU_vocab_builder_chapter`](AU_vocab_builder_chapter.md#start)|[`Node`](featuresbynodetype.md#node)|[`String`](featuresbydatatype.md#string)|[`word`](featuresbynodetype.md#word) |Andrews University vocab builder booklet chapter|`1a` `1b` `absent` `1c`
 [`AlandSynopChapter`](AlandSynopChapter.md#start)|[`Node`](featuresbynodetype.md#node)|[`String`](featuresbydatatype.md#string)|[`word`](featuresbynodetype.md#word) |Aland Synoptic Parallel Chapter|<span>` `</span> `Jesus’ Ministry in Galilee Continued` `The Passion Narrative` `Last Journey to Jerusalem (According to Luke)`
 [`AlandSynopChapterNr`](AlandSynopChapterNr.md#start)|[`Node`](featuresbynodetype.md#node)|[`Integer`](featuresbydatatype.md#integer)|[`word`](featuresbynodetype.md#word) |Aland Synoptic Parallel Number|`8` `16` `10` `13`
 [`AlandSynopEvent`](AlandSynopEvent.md#start)|[`Node`](featuresbynodetype.md#node)|[`String`](featuresbydatatype.md#string)|[`word`](featuresbynodetype.md#word) |Aland Synoptic Parallel Event|<span>` `</span> `Jesus before the Sanhedrin (Peter’s Denial)` `The Healing at the Pool` `Jairus’ Daughter and the Woman with a Hemorrhage`
