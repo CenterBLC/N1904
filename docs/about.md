@@ -15,7 +15,7 @@ Text-Fabric, as described by its developer [Dirk Roorda](https://github.com/dirk
 
 A brief functional overview of Text-Fabric functions can be found [here](tf.md#start). 
 
-More detailed information regarding Text-Fabric can be found in it's [package description](https://annotation.github.io/text-fabric/tf/index.html).
+More detailed information regarding Text-Fabric can be found in its [package description](https://annotation.github.io/text-fabric/tf/index.html).
 
 ### License
 
