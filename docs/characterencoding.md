@@ -19,9 +19,9 @@ surface text.
 
 The information is also relevant to the following [add-on features](additions/README.md#start):
 
-* [bol_lemma](additions/bol_lemma.md#start): Bible Online Learner (BOL) based lexeme.
-* [bol_lemma_dict](additions/bol_lemma_dict.md#start): BOL based lexeme as it appears in the dictionary.
-* [bol_surface](additions/bol_surface.md#start): BOL based word as it appears in the text.
+* [bol_lemma](additions/bol_lemma.md#start): BibleOL (Bible Online Learner) based lexeme.
+* [bol_lemma_dict](additions/bol_lemma_dict.md#start): BibleOL based lexeme as it appears in the dictionary.
+* [bol_surface](additions/bol_surface.md#start): BibleOL based word as it appears in the text.
 * [lemma_dict](additions/lemma_dict.md#start): Lexeme as it appears in the dictionary.
 
 # All used special characters
@@ -48,7 +48,7 @@ These characters can be used directly to build queries without the need to look 
 
 ## Example of Unicode related mismatches 
 
-There are some differences in Unicode encoding between the base features and certain add-on BOL features, particularly concerning homoglyphs—characters that look identical or very similar but have different Unicode values. These subtle differences can be difficult to spot on screen. However, using a small Python script, these distinctions can be revealed, such as in the word θεὸς in Romans 1:19. This following code snippet identifies the Unicode code points for each character in that word.
+There are some differences in Unicode encoding between the base features and certain add-on BibleOL features, particularly concerning homoglyphs—characters that look identical or very similar but have different Unicode values. These subtle differences can be difficult to spot on screen. However, using a small Python script, these distinctions can be revealed, such as in the word θεὸς in Romans 1:19. This following code snippet identifies the Unicode code points for each character in that word.
 
 ```python
 for char in item:    # stores the unicode encoded string
