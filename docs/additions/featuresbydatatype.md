@@ -42,11 +42,11 @@ Feature|Featuretype|Available on nodes|Description|Examples
 [`bol_verb_type`](bol_verb_type.md#start)|[`Node`](featuresbytype.md#node)|[`word`](featuresbynodetype.md#word) |BibleOL based verb_type|<span>` `</span> `epsilon` `irregular` `gamma`
 [`bol_voice`](bol_voice.md#start)|[`Node`](featuresbytype.md#node)|[`word`](featuresbynodetype.md#word) |BibleOL based voice|<span>` `</span> `active` `middle_or_passive` `middle_or_passive_deponent`
 [`gloss_BGVB`](gloss_BGVB.md#start)|[`Node`](featuresbytype.md#node)|[`word`](featuresbynodetype.md#word) |English gloss|`the` `and, also, likewise` `he, she, it, himself, herself, itself; even, very; same` `you`
-[`lemma_dict`](lemma_dict.md#start)|[`Node`](featuresbytype.md#node)|[`word`](featuresbynodetype.md#word) |lexeme as it appears in the dictionary|`ὁ, ἡ, τό` `καί` `αὐτός, -ή, -ό` `σύ`
-[`lemma_noaccent`](lemma_noaccent.md#start)|[`Node`](featuresbytype.md#node)|[`word`](featuresbynodetype.md#word) |lemma stripped of accents|`ο` `και` `αυτος` `συ`
-[`lemma_translit`](lemma_translit.md#start)|[`Node`](featuresbytype.md#node)|[`word`](featuresbynodetype.md#word) |lexeme transliterated|`o` `kai` `autos` `su`
-[`normalized_noaccent`](normalized_noaccent.md#start)|[`Node`](featuresbytype.md#node)|[`word`](featuresbynodetype.md#word) |surface word stripped of punctations and accents|`και` `ο` `δε` `εν`
-[`vocab_ReadGreekin30Days`](vocab_ReadGreekin30Days.md#start)|[`Node`](featuresbytype.md#node)|[`word`](featuresbynodetype.md#word) |chapter categoried vocab as it appears in Larry Richards Textbook "Learning Greek in 30 days"|`3a` <span>` `</span> `3b` `4b`
+[`lemma_dict`](lemma_dict.md#start)|[`Node`](featuresbytype.md#node)|[`word`](featuresbynodetype.md#word) |Lexeme as it appears in the dictionary|`ὁ, ἡ, τό` `καί` `αὐτός, -ή, -ό` `σύ`
+[`lemma_noaccent`](lemma_noaccent.md#start)|[`Node`](featuresbytype.md#node)|[`word`](featuresbynodetype.md#word) |Lemma stripped of accents|`ο` `και` `αυτος` `συ`
+[`lemma_translit`](lemma_translit.md#start)|[`Node`](featuresbytype.md#node)|[`word`](featuresbynodetype.md#word) |Lexeme transliterated|`o` `kai` `autos` `su`
+[`normalized_noaccent`](normalized_noaccent.md#start)|[`Node`](featuresbytype.md#node)|[`word`](featuresbynodetype.md#word) |Surface word stripped of punctations and accents|`και` `ο` `δε` `εν`
+[`vocab_ReadGreekin30Days`](vocab_ReadGreekin30Days.md#start)|[`Node`](featuresbytype.md#node)|[`word`](featuresbynodetype.md#word) |Chapter categoried vocab as it appears in Larry Richards Textbook "Learning Greek in 30 days"|`3a` <span>` `</span> `3b` `4b`
 
 ## Integer
 
@@ -56,10 +56,10 @@ Feature|Featuretype|Available on nodes|Description|Examples
 ---|---|---|---|---
 [`AlandSynopChapterNr`](AlandSynopChapterNr.md#start)|[`Node`](featuresbytype.md#node)|[`word`](featuresbynodetype.md#word) |Aland Synoptic Parallel Number|`8` `16` `10` `13`
 [`AlandSynopEventNr`](AlandSynopEventNr.md#start)|[`Node`](featuresbytype.md#node)|[`word`](featuresbynodetype.md#word) |Aland Synoptic Parallel Event|`332` `141` `95` `146`
-[`abc_order`](abc_order.md#start)|[`Node`](featuresbytype.md#node)|[`word`](featuresbynodetype.md#word) |the dictionary position of a given word|`3418` `2493` `835` `4575`
+[`abc_order`](abc_order.md#start)|[`Node`](featuresbytype.md#node)|[`word`](featuresbynodetype.md#word) |The dictionary position of a given word|`3418` `2493` `835` `4575`
 [`bol_frequency_rank`](bol_frequency_rank.md#start)|[`Node`](featuresbytype.md#node)|[`word`](featuresbynodetype.md#word) |BibleOL based frequency rank of a given lexeme|`1` `2` `3` `4`
 [`bol_lemma_occ`](bol_lemma_occ.md#start)|[`Node`](featuresbytype.md#node)|[`word`](featuresbynodetype.md#word) |BibleOL based number of occurence of a given lexeme|`19783` `8978` `5550` `2892`
-[`clause_number`](clause_number.md#start)|[`Node`](featuresbytype.md#node)|[`word`](featuresbynodetype.md#word) |clause number|`4040` `10990` `5327` `16796`
-[`sentence_number`](sentence_number.md#start)|[`Node`](featuresbytype.md#node)|[`word`](featuresbynodetype.md#word) |sentence number|`2288` `7536` `7232` `7229`
+[`clause_number`](clause_number.md#start)|[`Node`](featuresbytype.md#node)|[`word`](featuresbynodetype.md#word) |Clause number|`4040` `10990` `5327` `16796`
+[`sentence_number`](sentence_number.md#start)|[`Node`](featuresbytype.md#node)|[`word`](featuresbynodetype.md#word) |Sentence number|`2288` `7536` `7232` `7229`
 
 #### *Or browse by  [name](featuresbyname.md#start), [node type](featuresbynodetype.md#start), or [feature group](featuresbyfeaturegroup.md#start)*
