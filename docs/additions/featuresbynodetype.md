@@ -21,29 +21,29 @@ Feature|Feature type|Data type|Description|Examples
 [`AlandSynopNo`](AlandSynopNo.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|Aland Synoptic Parallel Number|<span>` `</span> `8` `16` `10`
 [`BGVB`](BGVB.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|Chapter categoried vocab as it appears in Larry Richards Textbook "Learning Greek in 30 days"|`1a` `1b` `0` `1c`
 [`abc_order`](abc_order.md#start)|[`Node`](featuresbynodetype.md#Node)|[`Integer`](featuresbydatatype.md#Integer)|The dictionary position of a given word|`3418` `2493` `835` `4575`
-[`bol_case`](bol_case.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|BOL based case|<span>` `</span> `nominative` `accusative` `genitive`
-[`bol_dict_abc`](bol_dict_abc.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|BOL based dictionary position of a given word|`3438` `2506` `839` `4603`
-[`bol_frequency_rank`](bol_frequency_rank.md#start)|[`Node`](featuresbynodetype.md#Node)|[`Integer`](featuresbydatatype.md#Integer)|BOL based frequency rank of a given lexeme|`1` `2` `3` `4`
-[`bol_gender`](bol_gender.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|BOL based gender|<span>` `</span> `masculine` `feminine` `neuter`
-[`bol_gloss_EN`](bol_gloss_EN.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|BOL based English gloss|`the` `and, even, also, namely` `he, she, it, they, them, same` `you`
-[`bol_gloss_PT`](bol_gloss_PT.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|BOL based Portuguese gloss|`a, o, as, os` `e, até mesmo, também, nomeadamente` `ele, ela, eles, elas, mesmo, mesma` `tu`
-[`bol_lemma`](bol_lemma.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|BOL based lexeme|`ὁ` `καί` `αὐτός` `σύ`
-[`bol_lemma_dict`](bol_lemma_dict.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|BOL based lexeme as it appears in the dictionary|`ὁ, ἡ, τό` `καί` `αὐτός, -ή, -ό` `σύ`
-[`bol_lemma_occ`](bol_lemma_occ.md#start)|[`Node`](featuresbynodetype.md#Node)|[`Integer`](featuresbydatatype.md#Integer)|BOL based number of occurence of a given lexeme|`19783` `8978` `5550` `2892`
-[`bol_monad_num`](bol_monad_num.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|BOL based word order within corpus|`1` `10` `100` `1000`
-[`bol_mood`](bol_mood.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|BOL based mood|<span>` `</span> `indicative` `participle` `infinitive`
-[`bol_noun_declension`](bol_noun_declension.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|BOL based noun declension|<span>` `</span> `second_d` `third_d` `first_alpha_macron`
-[`bol_noun_stem`](bol_noun_stem.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|BOL based noun stem/noun_type|<span>` `</span> `omicron` `alpha` `tau`
-[`bol_number`](bol_number.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|BOL based number|`singular` <span>` `</span> `plural`
-[`bol_person`](bol_person.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|BOL based person|<span>` `</span> `third_person` `second_person` `first_person`
-[`bol_possessor_number`](bol_possessor_number.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|BOL based number of posessor|<span>` `</span> `singular` `plural`
-[`bol_psp`](bol_psp.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|BOL based part of speech|`noun` `verb` `prep` `art`
-[`bol_ref`](bol_ref.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|BOL based Bible reference|`Rev 20:4` `Rev 3:12` `Rev 5:13` `Rev 9:20`
-[`bol_suffix`](bol_suffix.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|BOL based suffix|<span>` `</span> `negative` `comparative` `superlative`
-[`bol_surface`](bol_surface.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|BOL based word as it appears in the text|`καὶ` `ὁ` `ἐν` `δὲ`
-[`bol_tense`](bol_tense.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|BOL based tense|<span>` `</span> `present` `aorist` `second_aorist`
-[`bol_verb_type`](bol_verb_type.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|BOL based verb_type|<span>` `</span> `epsilon` `irregular` `gamma`
-[`bol_voice`](bol_voice.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|BOL based voice|<span>` `</span> `active` `middle_or_passive` `middle_or_passive_deponent`
+[`bol_case`](bol_case.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|BibleOL based case|<span>` `</span> `nominative` `accusative` `genitive`
+[`bol_dict_abc`](bol_dict_abc.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|BibleOL based dictionary position of a given word|`3438` `2506` `839` `4603`
+[`bol_frequency_rank`](bol_frequency_rank.md#start)|[`Node`](featuresbynodetype.md#Node)|[`Integer`](featuresbydatatype.md#Integer)|BibleOL based frequency rank of a given lexeme|`1` `2` `3` `4`
+[`bol_gender`](bol_gender.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|BibleOL based gender|<span>` `</span> `masculine` `feminine` `neuter`
+[`bol_gloss_EN`](bol_gloss_EN.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|BibleOL based English gloss|`the` `and, even, also, namely` `he, she, it, they, them, same` `you`
+[`bol_gloss_PT`](bol_gloss_PT.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|BibleOL based Portuguese gloss|`a, o, as, os` `e, até mesmo, também, nomeadamente` `ele, ela, eles, elas, mesmo, mesma` `tu`
+[`bol_lemma`](bol_lemma.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|BibleOL based lexeme|`ὁ` `καί` `αὐτός` `σύ`
+[`bol_lemma_dict`](bol_lemma_dict.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|BibleOL based lexeme as it appears in the dictionary|`ὁ, ἡ, τό` `καί` `αὐτός, -ή, -ό` `σύ`
+[`bol_lemma_occ`](bol_lemma_occ.md#start)|[`Node`](featuresbynodetype.md#Node)|[`Integer`](featuresbydatatype.md#Integer)|BibleOL based number of occurence of a given lexeme|`19783` `8978` `5550` `2892`
+[`bol_monad_num`](bol_monad_num.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|BibleOL based word order within corpus|`1` `10` `100` `1000`
+[`bol_mood`](bol_mood.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|BibleOL based mood|<span>` `</span> `indicative` `participle` `infinitive`
+[`bol_noun_declension`](bol_noun_declension.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|BibleOL based noun declension|<span>` `</span> `second_d` `third_d` `first_alpha_macron`
+[`bol_noun_stem`](bol_noun_stem.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|BibleOL based noun stem/noun_type|<span>` `</span> `omicron` `alpha` `tau`
+[`bol_number`](bol_number.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|BibleOL based number|`singular` <span>` `</span> `plural`
+[`bol_person`](bol_person.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|BibleOL based person|<span>` `</span> `third_person` `second_person` `first_person`
+[`bol_possessor_number`](bol_possessor_number.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|BibleOL based number of posessor|<span>` `</span> `singular` `plural`
+[`bol_psp`](bol_psp.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|BibleOL based part of speech|`noun` `verb` `prep` `art`
+[`bol_ref`](bol_ref.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|BibleOL based Bible reference|`Rev 20:4` `Rev 3:12` `Rev 5:13` `Rev 9:20`
+[`bol_suffix`](bol_suffix.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|BibleOL based suffix|<span>` `</span> `negative` `comparative` `superlative`
+[`bol_surface`](bol_surface.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|BibleOL based word as it appears in the text|`καὶ` `ὁ` `ἐν` `δὲ`
+[`bol_tense`](bol_tense.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|BibleOL based tense|<span>` `</span> `present` `aorist` `second_aorist`
+[`bol_verb_type`](bol_verb_type.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|BibleOL based verb_type|<span>` `</span> `epsilon` `irregular` `gamma`
+[`bol_voice`](bol_voice.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|BibleOL based voice|<span>` `</span> `active` `middle_or_passive` `middle_or_passive_deponent`
 [`clause_number`](clause_number.md#start)|[`Node`](featuresbynodetype.md#Node)|[`Integer`](featuresbydatatype.md#Integer)|Clause number|`4040` `10990` `5327` `16796`
 [`gloss_BGVB`](gloss_BGVB.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|English gloss|`the` `and, also, likewise` `he, she, it, himself, herself, itself; even, very; same` `you`
 [`lemma_dict`](lemma_dict.md#start)|[`Node`](featuresbynodetype.md#Node)|[`String`](featuresbydatatype.md#String)|Lexeme as it appears in the dictionary|`ὁ, ἡ, τό` `καί` `αὐτός, -ή, -ό` `σύ`
