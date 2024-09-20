@@ -93,8 +93,8 @@ Character | Unicode decomposed character (with acute accent) | Unicode precompos
 ΰ | [U+038E](https://www.codetable.net/hex/38e) | [U+1FE3](https://www.codetable.net/hex/1fe3) | Small letter upsilon with dialytika and oxia
 ώ | [U+03CE](https://www.codetable.net/hex/3ce) | [U+1F7D](https://www.codetable.net/hex/1f7d) | Small letter omega with tonos
 
-## More information on Unicode
+## More resources on Unicode
 
-* Information on Unicode usage is available in [The Unicode Cookbook for Linguists](https://langsci-press.org/catalog/book/176/).
+* [The Unicode Cookbook for Linguists](https://langsci-press.org/catalog/book/176/).
 * [Unicode Group 'Greek Extended' (codetable.net)](https://www.codetable.net/Group/greek-extended).
 
