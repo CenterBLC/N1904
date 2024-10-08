@@ -35,7 +35,7 @@ A related feature, albeit referencing wordgroups, clauses and sentences, is [`no
 
 ## Source description
 
-The ID is derived from the XML attribute `xml:id` of the `w` (word) node.
+The ID is derived from the XML attribute `xml:id` of the `w` (word) node. When loading the XML source in Python note that the the xml:id attribute is part of an XML namespace, so it should be referenced in the code using [{http://www.w3.org/XML/1998/namespace}id](https://www.w3.org/TR/xml-id/).
 
 ---
 #### *Browse all features by [name](featuresbyname.md#start), [node type](featuresbynodetype.md#start), [data type](featuresbydatatype.md#start), [feature group](featuresbygroup.md#start) or [feature type](featuresbyfeaturetype.md#start).*
