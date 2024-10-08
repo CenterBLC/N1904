@@ -31,7 +31,7 @@ The letter 'n' (node) followed by a 11-digit unique id in the format
 
 ## Notes
 
-The feature `id` contains identical information as the feature [`ref`](ref.md#start), albeit in a different format.
+The feature [`ref`](ref.md#start) contains identical information as the feature `id`, albeit in a different format.
 
 A related feature, which references not individual words but word groups, clauses, and sentences, is [`nodeid`](nodeid.md#start).
 
