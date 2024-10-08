@@ -31,13 +31,15 @@ This format consists of:
 
 ### Example
 
-To extract the word sequence number from the identifier `MAT 1:2!11`, use the following Python code:
+To extract all components in this feature using Python, the following code snippet can be used:
 
 ```python
-<pre>
-ref = "MAT 1:2!11"
-print ('word sequence number: ', ref.split("!")[1])
-# Output: Word sequence number:  11
+    ref = "MAT 1:2!11" # example content
+    # Regular expression pattern to match the book, chapter, verse, and position of the word in the verse
+    pattern = r"(\w+)\s(\d+):(\d+)!(\d+)"
+    # Using re.match to extract the parts based on the pattern
+    match = re.match(pattern, ref)
+    book, chapter, verse, positionInVerse = match.groups()
 ```
 
 ## Notes
