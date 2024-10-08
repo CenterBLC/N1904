@@ -60,9 +60,9 @@ feature [role](features/role.md#start)|feature [function](features/function.md#s
 
 ## Implementation notes
 
-The implementation of this viewtype concept is done by adding a small portion of Python code to the app's [app.py](../app/app.py) file. The function of this file is to allows for functional enhancements which are required to effectively handle a corpus. The viewtypes are defined by adding labels to various node types, as specifies in the [config.yaml](../app/config.yaml) file. After loading all corpus data and creating the API object, [A.viewtype('syntax')](syntax-view.md#start) is called in order to set viewtype to 'syntax', making it the *de facto* default viewtype. 
+The implementation of this viewtype concept is done by adding a small portion of Python code to the app's [app.py](https://github.com/CenterBLC/N1904/tree/main/app/app.py) file. The function of this file is to allows for functional enhancements which are required to effectively handle a corpus. The viewtypes are defined by adding labels to various node types, as specifies in the [config.yaml](https://github.com/CenterBLC/N1904/tree/main/app/config.yaml) file. After loading all corpus data and creating the API object, [A.viewtype('syntax')](syntax-view.md#start) is called in order to set viewtype to 'syntax', making it the *de facto* default viewtype. 
 
-If for some reason it is necessary to display all nodes, the command A.viewtype('reset') can be issued. This also resets all node labels to their definitions found in the [config.yaml](../app/config.yaml) file. 
+If for some reason it is necessary to display all nodes, the command A.viewtype('reset') can be issued. This also resets all node labels to their definitions found in the [config.yaml](https://github.com/CenterBLC/N1904/blob/main/app/config.yaml) file.
 
 
 
