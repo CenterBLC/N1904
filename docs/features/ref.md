@@ -46,7 +46,7 @@ To extract all components in this feature using Python, the following code snipp
 
 This first three characters of this feature value are identical to the feature [bookshort](bookshort.md#start).
 
-See also the related feature [id](id.md#start).
+The feature ['id'](id.md#start) contains identical information as the feature `ref`, albeit in a different format.
 
 ## Source description
 
