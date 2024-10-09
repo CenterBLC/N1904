@@ -22,6 +22,8 @@ The relation between these features in relation to the surface text is shown in 
 
 <img src="features/images/details_surface_features.png" width="400" >
 
+## Naming schema for text formating
+
 The text formats in this Text-Fabric database are identified by unique names that reflect their actual formats. These names follow a structured naming schema, consisting of a string of keywords separated by hyphens (-).
 
 ```
