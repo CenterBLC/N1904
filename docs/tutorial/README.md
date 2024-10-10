@@ -9,13 +9,14 @@ This directory contains several Jupyter notebooks with examples showing how to u
 
 ## Setting up the environment
 
-* [Install Python](https://nbviewer.org/github/CenterBLC/N1904/tree/main/docs/tutorial/Install_Python.ipynb): Setting up a Python environment in Jupyter Notebook using Anaconda
-* [Install TF on Python](https://nbviewer.org/github/CenterBLC/N1904/tree/main/docs/tutorial/Install_Text-Fabric.ipynb): Making the TF package available for loading in Python
-* [Update the TF package](https://nbviewer.org/github/CenterBLC/N1904/tree/main/docs/tutorial/Update_Text-Fabric.ipynb): Managing the Text-Fabric package versions
-* [Increase GitHub rate limit](https://nbviewer.org/github/CenterBLC/N1904/tree/main/docs/tutorial/Increase_GitHub_rate_limit.ipynb): use of personal access token (usualy not required)
+* [Install Python](https://nbviewer.org/github/CenterBLC/N1904/tree/main/docs/tutorial/Install_Python.ipynb): Setting up a Python environment in Jupyter Notebook using Anaconda.
+* [Install TF on Python](https://nbviewer.org/github/CenterBLC/N1904/tree/main/docs/tutorial/Install_Text-Fabric.ipynb): Making the TF package available for loading in Python.
+* [Update the TF package](https://nbviewer.org/github/CenterBLC/N1904/tree/main/docs/tutorial/Update_Text-Fabric.ipynb): Managing the Text-Fabric package versions.
+* [Increase GitHub rate limit](https://nbviewer.org/github/CenterBLC/N1904/tree/main/docs/tutorial/Increase_GitHub_rate_limit.ipynb): use of personal access token (usualy not required).
 
 ## Basic/general
 
 * [Load Text-Fabric](https://nbviewer.org/github/CenterBLC/N1904/tree/main/docs/tutorial/Load_the_Text-Fabric_dataset.ipynb): basic usage example of function`use()`.
+* [Various text formats](https://nbviewer.org/github/CenterBLC/N1904/tree/main/docs/tutorial/various_text_formats.ipynb): demonstration of the text formating features.
 
 The Jupyter notebooks can easily be viewed in [Jupyter nbviewer](https://nbviewer.org/github/CenterBLC/N1904/tree/main/docs/tutorial/).
