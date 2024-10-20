@@ -19,4 +19,8 @@ This directory contains several Jupyter notebooks with examples showing how to u
 * [Load Text-Fabric](https://nbviewer.org/github/CenterBLC/N1904/tree/main/docs/tutorial/Load_the_Text-Fabric_dataset.ipynb): basic usage example of function`use()`.
 * [Various text formats](https://nbviewer.org/github/CenterBLC/N1904/tree/main/docs/tutorial/various_text_formats.ipynb): demonstration of the text formating features.
 
+## Advanced
+
+* [Using n-gram in Text-Fabric](https://nbviewer.org/github/CenterBLC/N1904/tree/main/docs/tutorial/using_n-gram_in_text-fabric.ipynb): example of n-gram using this Text-Fabric dataset.
+
 The Jupyter notebooks can easily be viewed in [Jupyter nbviewer](https://nbviewer.org/github/CenterBLC/N1904/tree/main/docs/tutorial/).
