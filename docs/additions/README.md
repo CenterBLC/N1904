@@ -15,9 +15,31 @@ The following pages provide an overview of these add-on features:
   
 # Adding the features
 
-The additional features are not loaded by default upon invocation of the Nestle 1904 Text-Fabric dataset. They need to be loaded using the 'mod' option during invocation, as shown by the following example:
+By default, the additional features of the Nestle 1904 Text-Fabric dataset are not loaded. To include them, use the `mod` option during invocation, as shown below:
 
 ```python
-# load the app and data
+# Load the app and data with additional features
 A = use ("CenterBLC/N1904", version="1.0", mod="CenterBLC/N1904/BOLcomplement/tf/", hoist=globals())
 ```
+
+To use this functionality, the Text-Fabric package must support downloading files from GitHub. If it was installed without GitHub functionality, you might encounter the following error when trying to load the additional features:
+
+```
+The requested data is not available offline
+	~/text-fabric-data/github/CenterBLC/N1904/BOLcomplement/tf/1.0.0 not found
+Backend provider github not supported.
+Cannot reach online data on github
+Try installing text-fabric one of the following:
+pip install text-fabric[github]
+pip install text-fabric[all]
+```
+
+To resolve this issue, ensure that GitHub support is added to Text-Fabric by running:
+
+```
+!pip install text-fabric[github]
+```
+
+Since GitHub implemented a API rate limit of 60 requests per hour, it is recommended to use a personal access token to increase this rate limit. Refer to the following resources for guidance:
+- [Jupyter Notebook: Increase GitHub API Rate Limit](https://nbviewer.org/github/CenterBLC/N1904/blob/main/docs/tutorial/Increase_GitHub_rate_limit.ipynb)
+- [Text-Fabric Documentation: Using GitHub Tokens](https://annotation.github.io/text-fabric/tf/advanced/repo.html#token-in-environment-variables)
