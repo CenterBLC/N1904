@@ -19,7 +19,7 @@ By default, the additional features of the Nestle 1904 Text-Fabric dataset are n
 
 ```python
 # Load the app and data with additional features
-A = use ("CenterBLC/N1904", version="1.0", mod="CenterBLC/N1904/BOLcomplement/tf/", hoist=globals())
+A = use ("CenterBLC/N1904", version="1.0.0", mod="CenterBLC/N1904/BOLcomplement/tf/", hoist=globals())
 ```
 
 To use this functionality, the Text-Fabric package must support downloading files from GitHub. If it was installed without GitHub functionality, you might encounter the following error when trying to load the additional features:
