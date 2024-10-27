@@ -9,19 +9,25 @@ This directory contains several Jupyter notebooks with examples showing how to u
 
 ## Setting up the environment
 
-* [Install Python](https://nbviewer.org/github/CenterBLC/N1904/tree/main/docs/tutorial/Install_Python.ipynb): Setting up a Python environment in Jupyter Notebook using Anaconda.
-* [Install TF on Python](https://nbviewer.org/github/CenterBLC/N1904/tree/main/docs/tutorial/Install_Text-Fabric.ipynb): Making the TF package available for loading in Python.
-* [Update the TF package](https://nbviewer.org/github/CenterBLC/N1904/tree/main/docs/tutorial/Update_Text-Fabric.ipynb): Managing the Text-Fabric package versions.
-* [Increase GitHub rate limit](https://nbviewer.org/github/CenterBLC/N1904/tree/main/docs/tutorial/Increase_GitHub_rate_limit.ipynb): use of personal access token (usualy not required).
+<ul>
+    <li><a href="https://nbviewer.org/github/CenterBLC/N1904/tree/main/docs/tutorial/Install_Python.ipynb" target="_blank">Install Python</a>: Setting up a Python environment in Jupyter Notebook using Anaconda.</li>
+    <li><a href="https://nbviewer.org/github/CenterBLC/N1904/tree/main/docs/tutorial/Install_Text-Fabric.ipynb" target="_blank">Install TF on Python</a>: Making the TF package available for loading in Python.</li>
+    <li><a href="https://nbviewer.org/github/CenterBLC/N1904/tree/main/docs/tutorial/Update_Text-Fabric.ipynb" target="_blank">Update the TF package</a>: Managing the Text-Fabric package versions.</li>
+    <li><a href="https://nbviewer.org/github/CenterBLC/N1904/tree/main/docs/tutorial/Increase_GitHub_rate_limit.ipynb" target="_blank">Increase GitHub rate limit</a>: use of personal access token (usually not required).</li>
+</ul>
 
 ## Basic/general
 
-* [Load Text-Fabric](https://nbviewer.org/github/CenterBLC/N1904/tree/main/docs/tutorial/Load_the_Text-Fabric_dataset.ipynb): basic usage example of function`use()`.
-* [Various text formats](https://nbviewer.org/github/CenterBLC/N1904/tree/main/docs/tutorial/various_text_formats.ipynb): demonstration of the text formating features.
+<ul>
+    <li><a href="https://nbviewer.org/github/CenterBLC/N1904/tree/main/docs/tutorial/Load_the_Text-Fabric_dataset.ipynb" target="_blank">Load Text-Fabric</a>: basic usage example of function <code>use()</code>.</li>
+    <li><a href="https://nbviewer.org/github/CenterBLC/N1904/tree/main/docs/tutorial/various_text_formats.ipynb" target="_blank">Various text formats</a>: demonstration of the text formatting features.</li>
+</ul>
 
 ## Advanced
 
-* [Hapax Legomana](https://nbviewer.org/github/CenterBLC/N1904/tree/main/docs/tutorial/hapax_legomena.ipynb): Grouping hapax legomana with their semantic clasification.
-* [Using n-gram in Text-Fabric](https://nbviewer.org/github/CenterBLC/N1904/tree/main/docs/tutorial/using_n-gram_in_text-fabric.ipynb): example of n-gram using this Text-Fabric dataset.
+<ul>
+    <li><a href="https://nbviewer.org/github/CenterBLC/N1904/tree/main/docs/tutorial/hapax_legomena.ipynb" target="_blank">Hapax Legomena</a>: Grouping hapax legomena with their semantic classification.</li>
+    <li><a href="https://nbviewer.org/github/CenterBLC/N1904/tree/main/docs/tutorial/using_n-gram_in_text-fabric.ipynb" target="_blank">Using n-gram in Text-Fabric</a>: example of n-gram using this Text-Fabric dataset.</li>
+</ul>
 
 The Jupyter notebooks can easily be viewed in [Jupyter nbviewer](https://nbviewer.org/github/CenterBLC/N1904/tree/main/docs/tutorial/).
