@@ -21,6 +21,7 @@ This directory contains several Jupyter notebooks with examples showing how to u
 
 ## Advanced
 
+* [Hapax Legomana](https://nbviewer.org/github/CenterBLC/N1904/tree/main/docs/tutorial/hapax_legomena.ipynb): Grouping hapax legomana with their semantic clasification.
 * [Using n-gram in Text-Fabric](https://nbviewer.org/github/CenterBLC/N1904/tree/main/docs/tutorial/using_n-gram_in_text-fabric.ipynb): example of n-gram using this Text-Fabric dataset.
 
 The Jupyter notebooks can easily be viewed in [Jupyter nbviewer](https://nbviewer.org/github/CenterBLC/N1904/tree/main/docs/tutorial/).
