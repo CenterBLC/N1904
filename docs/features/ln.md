@@ -36,7 +36,7 @@ Given that the Louw-Nida feature may contain multiple classifications, using a r
 # The preceding 'r' before the template allows for a raw strings, preventing Python from altering the regex.
 findLouwNida =r'''
 phrase
-    word ln~(^|\s)49[.]5($|\s)
+    word ln~\b49[.]5\b
 '''
 louwNidaResults=A.search(findLouwNida)
 ```
