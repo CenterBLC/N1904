@@ -33,12 +33,15 @@ The Louw-Nida Lexical Classification, developed by Johannes P. Louw and Eugene A
 Given that the Louw-Nida feature may contain multiple classifications, using a regular expression rather than a simple comparison is sensible. However, this approach requires caution; merely replacing `=` with `~` will yield all wanted matches but may also introduce unintended ones. To filter out these unwanted results, the following template can be used, illustrated here with the example classification 49.5.
 
 ```python
-findLouwNida ='''
+# The preceding 'r' before the template allows for a raw strings, preventing Python from altering the regex.
+findLouwNida =r'''
 phrase
-    word ln~(^|\\s)49[.]5($|\\s)
+    word ln~(^|\s)49[.]5($|\s)
 '''
 louwNidaResults=A.search(findLouwNida)
 ```
+
+
 
 ## Notes
 
