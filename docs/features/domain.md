@@ -38,7 +38,7 @@ Given that the domain feature may contain multiple entries, using a regular expr
 # The preceding 'r' before the template allows for a raw strings, preventing Python from altering the regex.
 findDomain =r'''
 phrase
-    word domain~(^|\s)088015($|\s)
+    word domain~\b088015\b
 '''
 domainResults=A.search(findDomain)
 ```
