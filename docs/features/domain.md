@@ -35,9 +35,10 @@ It is important to realize that the granularity of feature 'domain' is less than
 Given that the domain feature may contain multiple entries, using a regular expression rather than a simple comparison is sensible. However, this approach requires caution; merely replacing `=` with `~` will yield all wanted matches but may also introduce unintended ones. To filter out these unwanted results, the following template can be used, illustrated here with the example value 088015.
 
 ```python
-findDomain ='''
+# The preceding 'r' before the template allows for a raw strings, preventing Python from altering the regex.
+findDomain =r'''
 phrase
-    word domain~(^|\\s)088015($|\\s)
+    word domain~(^|\s)088015($|\s)
 '''
 domainResults=A.search(findDomain)
 ```
