@@ -19,7 +19,7 @@ This feature is also populated for `phrase` or `subphrase`, but only if they con
 
 Value | Description | Frequency<sup>1</sup>
 --- | --- | ---
-xx.yy  | One or more entries for the Louw-Nida references | 126756
+xx.yy  | One **or more** entries for the Louw-Nida references | 126756
 &lt;empty&gt; | Data not provided | 11023
 
 <sup>1</sup> Frequency figures are listed for `word` nodes only. 
@@ -27,6 +27,18 @@ xx.yy  | One or more entries for the Louw-Nida references | 126756
 ## Interpreting the data
 
 The Louw-Nida Lexical Classification, developed by Johannes P. Louw and Eugene A. Nida, categorizes New Testament Greek vocabulary into 93 semantic domains based on meaning and context. This system emphasizes the importance of context in understanding word nuances. Lookup of values for the `ln` feature can be performed in the [Louw-Nida Lexicon](https://www.laparola.net/greco/louwnida.php).
+
+## Using the Louw-Nida feature in Text-Fabric queries
+
+Given that the Louw-Nida feature may contain multiple classifications, using a regular expression rather than a simple comparison is sensible. However, this approach requires caution; merely replacing `=` with `~` will yield all wanted matches but may also introduce unintended ones. To filter out these unwanted results, the following template can be used, illustrated here with the example classification 49.5.
+
+```python
+findLouwNida ='''
+phrase
+    word ln~(^|\\s)49[.]5($|\\s)
+'''
+louwNidaResults=A.search(findLouwNida)
+```
 
 ## Notes
 
