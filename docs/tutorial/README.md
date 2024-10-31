@@ -27,6 +27,7 @@ This directory contains several Jupyter notebooks with examples showing how to u
 
 <ul>
     <li><a href="https://nbviewer.org/github/CenterBLC/N1904/tree/main/docs/tutorial/hapax_legomena.ipynb" target="_blank">Hapax Legomena</a>: Grouping hapax legomena with their semantic classification.</li>
+    <li><a href="https://nbviewer.org/github/CenterBLC/N1904/tree/main/docs/tutorial/louw-nida.ipynb" target="_blank">Louw-Nida</a>: demonstration of the use of the Louw-Nida semantic classification feature.</li>
     <li><a href="https://nbviewer.org/github/CenterBLC/N1904/tree/main/docs/tutorial/using_n-gram_in_text-fabric.ipynb" target="_blank">Using n-gram in Text-Fabric</a>: example of n-gram using this Text-Fabric dataset.</li>
 </ul>
 
