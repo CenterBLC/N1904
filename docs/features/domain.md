@@ -30,6 +30,19 @@ This feature is *to some extent* equivalent to a numerical representation of fea
 
 It is important to realize that the granularity of feature 'domain' is less than that of feature ['ln'](ln.md#readme). Consider for example the Greek word ἀρχή in John 1:1. According to Louw-Nida Lexicon this can map to either a:beginning (aspect)=>68.1 or b:beginning (time)=>67.65. In Text-Fabric one value is attached to feature 'domain', which is '067003'. Using the above explained method, this breaks down to '067' and '003' where the last part refers to section 'C', which is actualy a range [(67.65-67.72)](https://www.laparola.net/greco/louwnida.php#67) within Louw Nida's classification.
 
+## Using the domain feature in Text-Fabric queries
+
+Given that the domain feature may contain multiple entries, using a regular expression rather than a simple comparison is sensible. However, this approach requires caution; merely replacing `=` with `~` will yield all wanted matches but may also introduce unintended ones. To filter out these unwanted results, the following template can be used, illustrated here with the example value 088015.
+
+```python
+# The preceding 'r' before the template allows for a raw strings, preventing Python from altering the regex.
+findDomain =r'''
+phrase
+    word domain~\b088015\b
+'''
+domainResults=A.search(findDomain)
+```
+
 ## Note
 
 See also related feature [ln](ln.md#readme) (Louw-Nida lexical classification).
