@@ -40,4 +40,4 @@ See also [Gospel Parallels overview](https://www.bible-researcher.com/parallels.
 
 ## Source description
 
-Kurt Aland's *Synopsis Quattuor Evangeliorum*.
+Kurt Aland. *Synopsis Quattuor Evangeliorum*, 15<sup>th</sup> ed. Stuttgart: Deutsche Bibelgesellschaft, 1996.
