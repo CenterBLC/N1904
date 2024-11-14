@@ -36,4 +36,4 @@ To use this feature, please load the additional feature module. You can find det
 
 ## Source description
 
-Kurt Aland's *Synopsis Quattuor Evangeliorum*.
+Kurt Aland. *Synopsis Quattuor Evangeliorum*, 15<sup>th</sup> ed. Stuttgart: Deutsche Bibelgesellschaft, 1996.

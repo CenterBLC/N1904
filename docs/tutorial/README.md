@@ -7,6 +7,12 @@
 
 This directory contains several Jupyter notebooks with examples showing how to use the Nestle 1904 Text-Fabric dataset. Since Text-Fabric is implemented as a Python package, it can be employed in any stand-alone Python script. However, it is commonly utilized within a [Jupyter Notebook](https://jupyter.org) — an interactive web-based computational environment that enables users to create and share documents with live code, visualizations, and text. This allows for the inclusion of explanatory notes alongside queries and results obtained from Text-Fabric. The following notebooks are grouped into specific focus areas and topics, albeit somewhat arbitrarily.
 
+## Python and Text-Fabric introduction
+
+<ul>
+    <li><a href="https://nbviewer.org/github/ETCBC/Tutorials/blob/master/Text-Fabric-Tutorial_Python_TF.ipynb" target="_blank">Introduction to Text-Fabric</a>: Course on Text-Fabric teaching basic Python and how to extract data from a Text-Fabric dataset.</li>
+</ul>
+
 ## Setting up the environment
 
 <ul>
