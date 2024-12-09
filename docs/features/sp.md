@@ -55,7 +55,7 @@ Value | Description | Frequency
 `subs`| Substantive |28455
 `verb`| Verb |28357
 `art`| Article |19786
-`conj`| Conjunctio |18227
+`conj`| Conjunction |18227
 `pron`| Pronoun |16177
 `prep`| Preposition |10914
 `adjv`| Adjective |8452
