@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morphological Tag Decoder</title>
+</head>
+<body>
+    <h1>Morphological Tag Decoder</h1>
+    <p>Enter a parsing tag below to decode it:</p>
+    <input type="text" id="tagInput" placeholder="Enter parsing tag" />
+    <button onclick="decodeTag()">Decode</button>
+    <h2>Decoded Information</h2>
+    <pre id="decodedOutput"></pre>
+
+    <script>
+        const posMap = {
+            "N-": "Noun",
+            "A-": "Adjective",
+            "T-": "Article",
+            "V-": "Verb",
+            "P-": "Personal Pronoun",
+            "R-": "Relative Pronoun",
+            "C-": "Reciprocal Pronoun",
+            "D-": "Demonstrative Pronoun",
+            "K-": "Correlative Pronoun",
+            "I-": "Interrogative Pronoun",
+            "X-": "Indefinite Pronoun",
+            "Q-": "Correlative/Interrogative Pronoun",
+            "F-": "Reflexive Pronoun",
+            "S-": "Possessive Pronoun",
+            "ADV": "Adverb",
+            "CONJ": "Conjunction",
+            "COND": "Conditional",
+            "PRT": "Particle",
+            "PREP": "Preposition",
+            "INJ": "Interjection",
+            "ARAM": "Aramaic",
+            "HEB": "Hebrew",
+            "N-PRI": "Proper Noun Indeclinable",
+            "A-NUI": "Numeral Indeclinable",
+            "N-LI": "Letter Indeclinable",
+            "N-OI": "Noun Other Type Indeclinable",
+            "PUNCT": "Punctuation"
+        };
+
+        const caseMap = {
+            "N": "Nominative",
+            "V": "Vocative",
+            "G": "Genitive",
+            "D": "Dative",
+            "A": "Accusative"
+        };
+
+        const numberMap = {
+            "S": "Singular",
+            "P": "Plural"
+        };
+
+        const genderMap = {
+            "M": "Masculine",
+            "F": "Feminine",
+            "N": "Neuter"
+        };
+
+        const tenseMap = {
+            "P": "Present",
+            "I": "Imperfect",
+            "F": "Future",
+            "2F": "Second Future",
+            "A": "Aorist",
+            "2A": "Second Aorist",
+            "R": "Perfect",
+            "2R": "Second Perfect",
+            "L": "Pluperfect",
+            "2L": "Second Pluperfect",
+            "X": "No Tense Stated"
+        };
+
+        const voiceMap = {
+            "A": "Active",
+            "M": "Middle",
+            "P": "Passive",
+            "E": "Middle or Passive",
+            "D": "Middle Deponent",
+            "O": "Passive Deponent",
+            "N": "Middle or Passive Deponent",
+            "Q": "Impersonal Active",
+            "X": "No Voice"
+        };
+
+        const moodMap = {
+            "I": "Indicative",
+            "S": "Subjunctive",
+            "O": "Optative",
+            "M": "Imperative",
+            "N": "Infinitive",
+            "P": "Participle",
+            "R": "Imperative Participle"
+        };
+
+        const personMap = {
+            "1": "First Person",
+            "2": "Second Person",
+            "3": "Third Person"
+        };
+
+        function decodeTag() {
+            let input = document.getElementById("tagInput").value.trim();
+            const output = {};
+
+            if (!input) {
+                document.getElementById("decodedOutput").textContent = "Please enter a parsing tag.";
+                return;
+            }
+
+            // Decode part of speech
+            const pos = Object.keys(posMap).find(key => input.startsWith(key));
+            if (pos) {
+                output["Part of Speech"] = posMap[pos];
+                input = input.slice(pos.length);
+            } else {
+                output["Part of Speech"] = "Unknown";
+                document.getElementById("decodedOutput").textContent = JSON.stringify(output, null, 2);
+                return;
+            }
+
+            // Further decoding based on the detected part of speech
+            if (["N-", "A-", "T-"].includes(pos)) {
+                output["Case"] = caseMap[input[0]] || "Unknown";
+                output["Number"] = numberMap[input[1]] || "Unknown";
+                output["Gender"] = genderMap[input[2]] || "Unknown";
+            } else if (pos === "V-") {
+                output["Tense"] = tenseMap[input.slice(0, 1)] || "Unknown";
+                output["Voice"] = voiceMap[input[1]] || "Unknown";
+                output["Mood"] = moodMap[input[2]] || "Unknown";
+
+                if (input.length > 3) {
+                    output["Person"] = personMap[input[3]] || "Unknown";
+                    output["Number"] = numberMap[input[4]] || "Unknown";
+                }
+            }
+
+            document.getElementById("decodedOutput").textContent = JSON.stringify(output, null, 2);
+        }
+    </script>
+</body>
+</html>
