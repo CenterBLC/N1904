@@ -23,11 +23,21 @@ Some examples:
  - T-DSN decodes as [cls](cls.md#start)=determiner (here: article), [case](case.md#start)=dative, [number](number.md#start)=singular, [gender](gender.md#start)=neuter.
  - V-AAI-3S decodes as [cls](cls.md#start)=verb, [tense](tense.md#start)=aorist, [voice](voice.md#start)=active, [mood](mood.md#start)=indicative, [person](person.md#start)=third, [number](number.md#start)=singular.
 
+ <script>
+    function openMinimalWindow() {
+      window.open(
+        'https://centerblc.github.io/N1904/features/SP-Morph-decode.html',
+        '_blank',
+        'toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=800,height=600'
+      );
+    }
+  </script>
+  
+<button onclick="openMinimalWindow()">Open Morph decoder</button>
+
 ## Notes
 
 For detailed information on how to decode the feature values, see [biblicalhumanities/Nestle1904/morph/parsing.txt](https://github.com/biblicalhumanities/Nestle1904/blob/master/morph/parsing.txt).
-
-The morph tags can also be decoded using the following [decoder](SP-Morph-decode.html).
 
 This feature enables selection based on a wide range of grammatical properties. For example, to find all Attic words, you can use the following snippet, which utilizes a regular expression:
 
