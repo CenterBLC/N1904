@@ -8,8 +8,9 @@
 <body>
     <h1>Morphological Tag Decoder</h1>
     <p>Enter a parsing tag below to decode it:</p>
+    <label for="tagInput">Parsing Tag:</label>
     <input type="text" id="tagInput" placeholder="Enter parsing tag" />
-    <button onclick="decodeTag()">Decode</button>
+    <button id="decodeButton">Decode</button>
     <h2>Decoded Information</h2>
     <pre id="decodedOutput"></pre>
 
@@ -44,69 +45,49 @@
             "PUNCT": "Punctuation"
         };
 
-        const caseMap = {
-            "N": "Nominative",
-            "V": "Vocative",
-            "G": "Genitive",
-            "D": "Dative",
-            "A": "Accusative"
-        };
-
-        const numberMap = {
-            "S": "Singular",
-            "P": "Plural"
-        };
-
-        const genderMap = {
-            "M": "Masculine",
-            "F": "Feminine",
-            "N": "Neuter"
-        };
-
-        const tenseMap = {
-            "P": "Present",
-            "I": "Imperfect",
-            "F": "Future",
-            "2F": "Second Future",
-            "A": "Aorist",
-            "2A": "Second Aorist",
-            "R": "Perfect",
-            "2R": "Second Perfect",
-            "L": "Pluperfect",
-            "2L": "Second Pluperfect",
-            "X": "No Tense Stated"
-        };
-
+        const caseMap = { "N": "Nominative", "V": "Vocative", "G": "Genitive", "D": "Dative", "A": "Accusative" };
+        const numberMap = { "S": "Singular", "P": "Plural" };
+        const genderMap = { "M": "Masculine", "F": "Feminine", "N": "Neuter" };
+		const tenseMap = {
+			"P": "Present",
+			"I": "Imperfect",
+			"F": "Future",
+			"2F": "Second Future",
+			"A": "Aorist",
+			"2A": "Second Aorist",
+			"R": "Perfect",
+			"2R": "Second Perfect",
+			"L": "Pluperfect",
+			"2L": "Second Pluperfect",
+			"X": "No Tense Stated"
+		};
         const voiceMap = {
-            "A": "Active",
-            "M": "Middle",
-            "P": "Passive",
-            "E": "Middle or Passive",
-            "D": "Middle Deponent",
-            "O": "Passive Deponent",
-            "N": "Middle or Passive Deponent",
-            "Q": "Impersonal Active",
-            "X": "No Voice"
+            "A": "Active", "M": "Middle", "P": "Passive", "E": "Middle or Passive",
+            "D": "Middle Deponent", "O": "Passive Deponent", "N": "Middle or Passive Deponent",
+            "Q": "Impersonal Active", "X": "No Voice"
         };
-
         const moodMap = {
-            "I": "Indicative",
-            "S": "Subjunctive",
-            "O": "Optative",
-            "M": "Imperative",
-            "N": "Infinitive",
-            "P": "Participle",
-            "R": "Imperative Participle"
+            "I": "Indicative", "S": "Subjunctive", "O": "Optative", "M": "Imperative",
+            "N": "Infinitive", "P": "Participle", "R": "Imperative Participle"
+        };
+        const personMap = { "1": "First Person", "2": "Second Person", "3": "Third Person" };
+
+        const suffixMap = {
+            "-K": "Crasis",
+            "-N": "Negative",
+            "-S": "Superlative",
+            "-C": "Comparative",
+            "-ABB": "Abbreviated",
+            "-I": "Interrogative",
+            "-ATT": "Attic",
+            "-P": "Particle Attached"
         };
 
-        const personMap = {
-            "1": "First Person",
-            "2": "Second Person",
-            "3": "Third Person"
-        };
+        document.getElementById("decodeButton").addEventListener("click", decodeTag);
 
         function decodeTag() {
-            let input = document.getElementById("tagInput").value.trim();
+            const inputElement = document.getElementById("tagInput");
+            let input = inputElement.value.trim();
             const output = {};
 
             if (!input) {
@@ -120,9 +101,16 @@
                 output["Part of Speech"] = posMap[pos];
                 input = input.slice(pos.length);
             } else {
-                output["Part of Speech"] = "Unknown";
+                output["Part of Speech"] = "Unknown or Unsupported";
                 document.getElementById("decodedOutput").textContent = JSON.stringify(output, null, 2);
                 return;
+            }
+
+            // Decode suffix if present
+            const suffix = Object.keys(suffixMap).find(suf => input.endsWith(suf));
+            if (suffix) {
+                output["Suffix"] = suffixMap[suffix];
+                input = input.slice(0, -suffix.length);
             }
 
             // Further decoding based on the detected part of speech
@@ -131,13 +119,45 @@
                 output["Number"] = numberMap[input[1]] || "Unknown";
                 output["Gender"] = genderMap[input[2]] || "Unknown";
             } else if (pos === "V-") {
-                output["Tense"] = tenseMap[input.slice(0, 1)] || "Unknown";
-                output["Voice"] = voiceMap[input[1]] || "Unknown";
-                output["Mood"] = moodMap[input[2]] || "Unknown";
+					// Handle multi-character tenses
+					const tenseKey = Object.keys(tenseMap).find(key => input.startsWith(key));
+					if (tenseKey) {
+						output["Tense"] = tenseMap[tenseKey];
+						input = input.slice(tenseKey.length); // Remove the multi-character tense key
+					} else {
+						output["Tense"] = "Unknown";
+					}
 
-                if (input.length > 3) {
-                    output["Person"] = personMap[input[3]] || "Unknown";
-                    output["Number"] = numberMap[input[4]] || "Unknown";
+					output["Voice"] = voiceMap[input[0]] || "Unknown";
+					output["Mood"] = moodMap[input[1]] || "Unknown";
+
+					const dashIndex = input.indexOf('-');
+					if (dashIndex !== -1) {
+						const suffix = input.slice(dashIndex + 1);
+
+						if (output["Mood"] === "Participle") {
+							output["Case"] = caseMap[suffix[0]] || "Unknown";
+							output["Number"] = numberMap[suffix[1]] || "Unknown";
+							output["Gender"] = genderMap[suffix[2]] || "Unknown";
+						} else {
+							output["Person"] = personMap[suffix[0]] || "Unknown";
+							output["Number"] = numberMap[suffix[1]] || "Unknown";
+						}
+					}
+            } else if (pos === "S-") {
+                if (input.length >= 5) {
+                    output["Person of Possessor"] = personMap[input[0]] || "Unknown";
+                    output["Number of Possessor"] = numberMap[input[1]] || "Unknown";
+                    output["Case of Possessed"] = caseMap[input[2]] || "Unknown";
+                    output["Number of Possessed"] = numberMap[input[3]] || "Unknown";
+                    output["Gender of Possessed"] = genderMap[input[4]] || "Unknown";
+                }
+            } else if (["P-", "R-", "C-", "D-", "K-", "I-", "X-", "Q-", "F-", "S-"].includes(pos)) {
+                if (input.length >= 3) {
+                    output["Person"] = personMap[input[0]] || "Unknown";
+                    output["Case"] = caseMap[input[1]] || "Unknown";
+                    output["Number"] = numberMap[input[2]] || "Unknown";
+                    output["Gender"] = genderMap[input[3]] || "Unknown";
                 }
             }
 
