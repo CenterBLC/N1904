@@ -28,7 +28,7 @@ Some examples:
       window.open(
         'https://centerblc.github.io/N1904/features/SP-Morph-decode.html',
         '_blank',
-        'toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=800,height=600'
+        'toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=450,height=400'
       );
     }
   </script>
