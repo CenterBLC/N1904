@@ -27,6 +27,8 @@ Some examples:
 
 For detailed information on how to decode the feature values, see [biblicalhumanities/Nestle1904/morph/parsing.txt](https://github.com/biblicalhumanities/Nestle1904/blob/master/morph/parsing.txt).
 
+The morph tags can also be decoded using the following [decoder](SP-Morph-decode.html).
+
 This feature enables selection based on a wide range of grammatical properties. For example, to find all Attic words, you can use the following snippet, which utilizes a regular expression:
 
 ```python
