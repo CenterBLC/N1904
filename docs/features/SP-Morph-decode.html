@@ -45,22 +45,27 @@
             "PUNCT": "Punctuation"
         };
 
+
+
+        const suffixMap = {
+            "-K": "Crasis",
+            "-N": "Negative",
+            "-S": "Superlative",
+            "-C": "Comparative",
+            "-ABB": "Abbreviated",
+            "-I": "Interrogative",
+            "-ATT": "Attic",
+            "-P": "Particle Attached"
+        };
+		
         const caseMap = { "N": "Nominative", "V": "Vocative", "G": "Genitive", "D": "Dative", "A": "Accusative" };
         const numberMap = { "S": "Singular", "P": "Plural" };
         const genderMap = { "M": "Masculine", "F": "Feminine", "N": "Neuter" };
-		const tenseMap = {
-			"P": "Present",
-			"I": "Imperfect",
-			"F": "Future",
-			"2F": "Second Future",
-			"A": "Aorist",
-			"2A": "Second Aorist",
-			"R": "Perfect",
-			"2R": "Second Perfect",
-			"L": "Pluperfect",
-			"2L": "Second Pluperfect",
-			"X": "No Tense Stated"
-		};
+        const tenseMap = {
+            "P": "Present", "I": "Imperfect", "F": "Future", "2F": "Second Future",
+            "A": "Aorist", "2A": "Second Aorist", "R": "Perfect", "2R": "Second Perfect",
+            "L": "Pluperfect", "2L": "Second Pluperfect", "X": "No Tense Stated"
+        };
         const voiceMap = {
             "A": "Active", "M": "Middle", "P": "Passive", "E": "Middle or Passive",
             "D": "Middle Deponent", "O": "Passive Deponent", "N": "Middle or Passive Deponent",
@@ -72,15 +77,14 @@
         };
         const personMap = { "1": "First Person", "2": "Second Person", "3": "Third Person" };
 
-        const suffixMap = {
-            "-K": "Crasis",
-            "-N": "Negative",
-            "-S": "Superlative",
-            "-C": "Comparative",
-            "-ABB": "Abbreviated",
-            "-I": "Interrogative",
+        const verbExtraMap = {
+            "-M": "Middle significance",
+            "-C": "Contracted form",
+            "-T": "Transitive",
+            "-A": "Aeolic",
             "-ATT": "Attic",
-            "-P": "Particle Attached"
+            "-AP": "Apocopated form",
+            "-IRR": "Irregular or impure form"
         };
 
         document.getElementById("decodeButton").addEventListener("click", decodeTag);
@@ -114,53 +118,77 @@
             }
 
             // Further decoding based on the detected part of speech
-            if (["N-", "A-", "T-"].includes(pos)) {
-                output["Case"] = caseMap[input[0]] || "Unknown";
-                output["Number"] = numberMap[input[1]] || "Unknown";
-                output["Gender"] = genderMap[input[2]] || "Unknown";
-            } else if (pos === "V-") {
-					// Handle multi-character tenses
-					const tenseKey = Object.keys(tenseMap).find(key => input.startsWith(key));
+			if (["N-", "A-", "T-"].includes(pos) && input.length >= 3) {
+				output["Case"] = caseMap[input[0]] || "Unknown";
+				output["Number"] = numberMap[input[1]] || "Unknown";
+				output["Gender"] = genderMap[input[2]] || "Unknown";
+			} 
+			
+			else if (pos === "V-") {
+				// Split the remaining tag into parts
+				const parts = input.split('-');
+
+				// Analyze each part sequentially
+				if (parts.length > 0) {
+					// Analyze the first part: Tense, Voice, and Mood
+					const firstPart = parts[0];
+					const tenseKey = Object.keys(tenseMap).find(key => firstPart.startsWith(key));
 					if (tenseKey) {
 						output["Tense"] = tenseMap[tenseKey];
-						input = input.slice(tenseKey.length); // Remove the multi-character tense key
+						const remaining = firstPart.slice(tenseKey.length);
+						if (remaining.length >= 2) {
+							output["Voice"] = voiceMap[remaining[0]] || "Unknown";
+							output["Mood"] = moodMap[remaining[1]] || "Unknown";
+						}
 					} else {
 						output["Tense"] = "Unknown";
 					}
+				}
 
-					output["Voice"] = voiceMap[input[0]] || "Unknown";
-					output["Mood"] = moodMap[input[1]] || "Unknown";
-
-					const dashIndex = input.indexOf('-');
-					if (dashIndex !== -1) {
-						const suffix = input.slice(dashIndex + 1);
-
-						if (output["Mood"] === "Participle") {
-							output["Case"] = caseMap[suffix[0]] || "Unknown";
-							output["Number"] = numberMap[suffix[1]] || "Unknown";
-							output["Gender"] = genderMap[suffix[2]] || "Unknown";
-						} else {
-							output["Person"] = personMap[suffix[0]] || "Unknown";
-							output["Number"] = numberMap[suffix[1]] || "Unknown";
-						}
+				if (parts.length > 1) {
+					// Analyze the second part: Person, Number (for finite verbs) or Case, Number, Gender (for participles)
+					const secondPart = parts[1];
+					if (output["Mood"] === "Participle" && secondPart.length >= 3) {
+						output["Case"] = caseMap[secondPart[0]] || "Unknown";
+						output["Number"] = numberMap[secondPart[1]] || "Unknown";
+						output["Gender"] = genderMap[secondPart[2]] || "Unknown";
+					} else if (secondPart.length >= 2) {
+						output["Person"] = personMap[secondPart[0]] || "Unknown";
+						output["Number"] = numberMap[secondPart[1]] || "Unknown";
 					}
-            } else if (pos === "S-") {
-                if (input.length >= 5) {
-                    output["Person of Possessor"] = personMap[input[0]] || "Unknown";
-                    output["Number of Possessor"] = numberMap[input[1]] || "Unknown";
-                    output["Case of Possessed"] = caseMap[input[2]] || "Unknown";
-                    output["Number of Possessed"] = numberMap[input[3]] || "Unknown";
-                    output["Gender of Possessed"] = genderMap[input[4]] || "Unknown";
-                }
-            } else if (["P-", "R-", "C-", "D-", "K-", "I-", "X-", "Q-", "F-", "S-"].includes(pos)) {
-                if (input.length >= 3) {
-                    output["Person"] = personMap[input[0]] || "Unknown";
-                    output["Case"] = caseMap[input[1]] || "Unknown";
-                    output["Number"] = numberMap[input[2]] || "Unknown";
-                    output["Gender"] = genderMap[input[3]] || "Unknown";
-                }
-            }
+				}
 
+				if (parts.length > 2) {
+					// Analyze the third part: Verb extra information or suffix
+					const thirdPart = parts[2];
+					const extraKey = Object.keys(verbExtraMap).find(key => thirdPart.includes(key));
+					if (extraKey) {
+						output["Verb Extra"] = verbExtraMap[extraKey];
+					} else {
+						output["Suffix"] = suffixMap[thirdPart] || "Unknown";
+					}
+				}
+			}
+
+
+
+
+			else if (pos === "S-" && input.length >= 5) {
+				output["Person of Possessor"] = personMap[input[0]] || "Unknown";
+				output["Number of Possessor"] = numberMap[input[1]] || "Unknown";
+				output["Case of Possessed"] = caseMap[input[2]] || "Unknown";
+				output["Number of Possessed"] = numberMap[input[3]] || "Unknown";
+				output["Gender of Possessed"] = genderMap[input[4]] || "Unknown";
+			}
+			else if (["P-", "R-", "C-", "D-", "K-", "I-", "X-", "Q-", "F-", "S-"].includes(pos)) {
+				// The second part contains case, number, and gender
+				if (input.length >= 3) {
+					output["Case"] = caseMap[input[0]] || "Unknown";
+					output["Number"] = numberMap[input[1]] || "Unknown";
+					output["Gender"] = genderMap[input[2]] || "Unknown";
+				}
+			}
+			
             document.getElementById("decodedOutput").textContent = JSON.stringify(output, null, 2);
         }
     </script>
