@@ -15,8 +15,14 @@
     <pre id="decodedOutput"></pre>
 
     <script>
+	
+        // main Part of Speech mapping
         const posMap = {
-            "N-": "Noun",
+            "N-PRI": "Proper Noun Indeclinable", // subset of Nouns
+            "N-LI": "Letter Indeclinable", 
+            "N-OI": "Noun Other Type Indeclinable", 
+            "N-": "Noun", // generic Noun
+            "A-NUI": "Numeral Indeclinable", // subset of Adjective
             "A-": "Adjective",
             "T-": "Article",
             "V-": "Verb",
@@ -38,15 +44,89 @@
             "INJ": "Interjection",
             "ARAM": "Aramaic",
             "HEB": "Hebrew",
-            "N-PRI": "Proper Noun Indeclinable",
-            "A-NUI": "Numeral Indeclinable",
-            "N-LI": "Letter Indeclinable",
-            "N-OI": "Noun Other Type Indeclinable",
             "PUNCT": "Punctuation"
         };
 
+        // gramatical case mapping
+        const caseMap = {
+            "N": "Nominative",
+            "V": "Vocative",
+            "G": "Genitive",
+            "D": "Dative",
+            "A": "Accusative" 
+        };
 
+        // gramatical number mapping
+        const numberMap = {
+            "S": "Singular",
+            "P": "Plural"
+        };
 
+        // gramatical gender mapping
+        const genderMap = {
+            "M": "Masculine",
+            "F": "Feminine",
+            "N": "Neuter" 
+        };
+
+        // verb tense mapping
+        const tenseMap = {
+            "P": "Present",
+            "I": "Imperfect", 
+            "F": "Future",
+            "2F": "Second Future",
+            "A": "Aorist",
+            "2A": "Second Aorist",
+            "R": "Perfect",
+            "2R": "Second Perfect",
+            "L": "Pluperfect", 
+            "2L": "Second Pluperfect",
+            "X": "No Tense Stated"
+        };
+
+        // verb voice mapping
+        const voiceMap = {
+            "A": "Active", 
+            "M": "Middle", 
+            "P": "Passive", 
+            "E": "Middle or Passive",
+            "D": "Middle Deponent", 
+            "O": "Passive Deponent", 
+            "N": "Middle or Passive Deponent",
+            "Q": "Impersonal Active", 
+            "X": "No Voice"
+        };
+
+        // verb mode mapping
+        const moodMap = {
+            "I": "Indicative", 
+            "S": "Subjunctive", 
+            "O": "Optative", 
+            "M": "Imperative",
+            "N": "Infinitive", 
+            "P": "Participle", 
+            "R": "Imperative Participle"
+        };
+
+        // gramatical person mapping
+        const personMap = {
+            "1": "First Person",
+            "2": "Second Person",
+            "3": "Third Person" 
+        };
+
+        // Exra verb info mapping
+        const verbExtraMap = {
+            "-M": "Middle significance",
+            "-C": "Contracted form",
+            "-T": "Transitive",
+            "-A": "Aeolic",
+            "-ATT": "Attic",
+            "-AP": "Apocopated form",
+            "-IRR": "Irregular or impure form"
+        };
+
+        // suffix mapping (for ...)
         const suffixMap = {
             "-K": "Crasis",
             "-N": "Negative",
@@ -56,35 +136,6 @@
             "-I": "Interrogative",
             "-ATT": "Attic",
             "-P": "Particle Attached"
-        };
-		
-        const caseMap = { "N": "Nominative", "V": "Vocative", "G": "Genitive", "D": "Dative", "A": "Accusative" };
-        const numberMap = { "S": "Singular", "P": "Plural" };
-        const genderMap = { "M": "Masculine", "F": "Feminine", "N": "Neuter" };
-        const tenseMap = {
-            "P": "Present", "I": "Imperfect", "F": "Future", "2F": "Second Future",
-            "A": "Aorist", "2A": "Second Aorist", "R": "Perfect", "2R": "Second Perfect",
-            "L": "Pluperfect", "2L": "Second Pluperfect", "X": "No Tense Stated"
-        };
-        const voiceMap = {
-            "A": "Active", "M": "Middle", "P": "Passive", "E": "Middle or Passive",
-            "D": "Middle Deponent", "O": "Passive Deponent", "N": "Middle or Passive Deponent",
-            "Q": "Impersonal Active", "X": "No Voice"
-        };
-        const moodMap = {
-            "I": "Indicative", "S": "Subjunctive", "O": "Optative", "M": "Imperative",
-            "N": "Infinitive", "P": "Participle", "R": "Imperative Participle"
-        };
-        const personMap = { "1": "First Person", "2": "Second Person", "3": "Third Person" };
-
-        const verbExtraMap = {
-            "-M": "Middle significance",
-            "-C": "Contracted form",
-            "-T": "Transitive",
-            "-A": "Aeolic",
-            "-ATT": "Attic",
-            "-AP": "Apocopated form",
-            "-IRR": "Irregular or impure form"
         };
 
         document.getElementById("decodeButton").addEventListener("click", decodeTag);
@@ -100,6 +151,11 @@
             }
 
             // Decode part of speech
+            // The first line retrieve an array of all the keys from posMap.
+            // The .find() method iterates through the array of keys.
+            // For each key, the callback function checks if the input string starts with that key using input.startsWith(key)
+            // If a match is found, .find() returns the key. If no key matches, it returns undefined.
+            // If a matching key is found (i.e., pos is not undefined), the input corresponds to one of the keys in posMap.
             const pos = Object.keys(posMap).find(key => input.startsWith(key));
             if (pos) {
                 output["Part of Speech"] = posMap[pos];
@@ -110,23 +166,17 @@
                 return;
             }
 
-            // Decode suffix if present
-            const suffix = Object.keys(suffixMap).find(suf => input.endsWith(suf));
-            if (suffix) {
-                output["Suffix"] = suffixMap[suffix];
-                input = input.slice(0, -suffix.length);
-            }
-
             // Further decoding based on the detected part of speech
-			if (["N-", "A-", "T-"].includes(pos) && input.length >= 3) {
-				output["Case"] = caseMap[input[0]] || "Unknown";
-				output["Number"] = numberMap[input[1]] || "Unknown";
-				output["Gender"] = genderMap[input[2]] || "Unknown";
-			} 
-			
-			else if (pos === "V-") {
-				// Split the remaining tag into parts
-				const parts = input.split('-');
+            if (["N-", "A-", "T-"].includes(pos) && input.length >= 3) {
+                output["Case"] = caseMap[input[0]] || "Unknown";  // maybe leave out when no case/number/gender is included in the tag?
+                output["Number"] = numberMap[input[1]] || "Unknown";
+                output["Gender"] = genderMap[input[2]] || "Unknown";
+            } 
+
+            // Verbs
+            else if (pos === "V-") {
+                // Split the remaining tag into parts
+                const parts = input.split('-');
 
 				// Analyze each part sequentially
 				if (parts.length > 0) {
@@ -170,9 +220,16 @@
 				}
 			}
 
-
-
-
+            // Reflexive Pronoun
+			else if (["F-"].includes(pos)) {
+				if (input.length >= 4) {
+					output["Person"] = personMap[input[0]] || "Unknown";
+					output["Case"] = caseMap[input[1]] || "Unknown";
+					output["Number"] = numberMap[input[2]] || "Unknown";
+					output["Gender"] = genderMap[input[3]] || "Unknown";
+				}
+			}
+            // Possessive Pronoun
 			else if (pos === "S-" && input.length >= 5) {
 				output["Person of Possessor"] = personMap[input[0]] || "Unknown";
 				output["Number of Possessor"] = numberMap[input[1]] || "Unknown";
@@ -180,7 +237,7 @@
 				output["Number of Possessed"] = numberMap[input[3]] || "Unknown";
 				output["Gender of Possessed"] = genderMap[input[4]] || "Unknown";
 			}
-			else if (["P-", "R-", "C-", "D-", "K-", "I-", "X-", "Q-", "F-", "S-"].includes(pos)) {
+			else if (["P-", "R-", "C-", "D-", "K-", "I-", "X-", "Q-", "S-"].includes(pos)) {
 				// The second part contains case, number, and gender
 				if (input.length >= 3) {
 					output["Case"] = caseMap[input[0]] || "Unknown";
@@ -188,7 +245,14 @@
 					output["Gender"] = genderMap[input[2]] || "Unknown";
 				}
 			}
-			
+
+            // Decode suffix if present
+            const suffix = Object.keys(suffixMap).find(suf => input.endsWith(suf));
+            if (suffix) {
+                output["Suffix"] = suffixMap[suffix];
+                input = input.slice(0, -suffix.length);
+            }
+
             document.getElementById("decodedOutput").textContent = JSON.stringify(output, null, 2);
         }
     </script>
