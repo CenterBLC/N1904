@@ -9,13 +9,13 @@
     <h1>Morphological Tag Decoder</h1>
     <p>Enter a parsing tag below to decode it:</p>
     <label for="tagInput">Parsing Tag:</label>
-    <input type="text" id="tagInput" placeholder="Enter parsing tag" />
+    <input type="text" id="tagInput" placeholder="Enter parsing tag" style="text-transform:uppercase;"/>
     <button id="decodeButton">Decode</button>
     <h2>Decoded Information</h2>
     <pre id="decodedOutput"></pre>
 
     <script>
-	
+
         // main Part of Speech mapping
         const posMap = {
             "N-PRI": "Proper Noun Indeclinable", // subset of Nouns
@@ -142,7 +142,7 @@
 
         function decodeTag() {
             const inputElement = document.getElementById("tagInput");
-            let input = inputElement.value.trim();
+            let input = inputElement.value.trim().toUpperCase();
             const output = {};
 
             if (!input) {
