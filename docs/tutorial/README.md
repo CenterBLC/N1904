@@ -48,6 +48,10 @@ This directory contains several Jupyter notebooks with examples showing how to u
         <a href="https://nbviewer.org/github/CenterBLC/N1904/tree/main/docs/tutorial/various_text_formats.ipynb" target="_blank">Various text formats (nbviewer)</a> | 
         <a href="https://github.com/CenterBLC/N1904/blob/main/docs/tutorial/various_text_formats.ipynb" target="_blank">GitHub Version</a>: Demonstration of the text formatting features.
     </li>
+    <li>
+        <a href="https://nbviewer.org/github/CenterBLC/N1904/tree/main/docs/tutorial/Agape.ipynb" target="_blank">Agape (nbviewer)</a> | 
+        <a href="https://github.com/CenterBLC/N1904/blob/main/docs/tutorial/Agape.ipynb" target="_blank">GitHub Version</a>: Exploring the use of the term Agapé in the Greek New Testament.
+    </li>
 </ul>
 
 ## Advanced
