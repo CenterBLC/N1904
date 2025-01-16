@@ -63,7 +63,7 @@ This directory contains several Jupyter notebooks with examples showing how to u
 <ul>
     <li>
         <a href="https://nbviewer.org/github/CenterBLC/N1904/tree/main/docs/tutorial/crasis.ipynb" target="_blank">Crasis (nbviewer)</a> | 
-        <a href="https://github.com/CenterBLC/N1904/blob/main/docs/tutorial/crasis.ipynb" target="_blank">GitHub Version</a>: Exploring Crasis using the additional features.
+        <a href="https://github.com/CenterBLC/N1904/blob/main/docs/tutorial/crasis.ipynb" target="_blank">GitHub Version</a>: Exploring crasis using the additional features.
     </li>
     <li>
         <a href="https://nbviewer.org/github/CenterBLC/N1904/tree/main/docs/tutorial/hapax_legomena.ipynb" target="_blank">Hapax Legomena (nbviewer)</a> | 
