@@ -45,6 +45,10 @@ This directory contains several Jupyter notebooks with examples showing how to u
         <a href="https://github.com/CenterBLC/N1904/blob/main/docs/tutorial/Load_the_Text-Fabric_dataset.ipynb" target="_blank">GitHub Version</a>: Basic usage example of function <code>use()</code>.
     </li>
     <li>
+        <a href="https://nbviewer.org/github/CenterBLC/N1904/tree/main/docs/tutorial/print_verse.ipynb" target="_blank">Show verse (nbviewer)</a> | 
+        <a href="https://github.com/CenterBLC/N1904/blob/main/docs/tutorial/print_verse.ipynb" target="_blank">GitHub Version</a>: Show the syntax tree and text of a specifi verse.
+    </li>   
+    <li>
         <a href="https://nbviewer.org/github/CenterBLC/N1904/tree/main/docs/tutorial/various_text_formats.ipynb" target="_blank">Various text formats (nbviewer)</a> | 
         <a href="https://github.com/CenterBLC/N1904/blob/main/docs/tutorial/various_text_formats.ipynb" target="_blank">GitHub Version</a>: Demonstration of the text formatting features.
     </li>
