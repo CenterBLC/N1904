@@ -19,7 +19,7 @@ More detailed information regarding Text-Fabric can be found in its [package des
 
 ### License
 
-Copyright (c) 2024 Center of Biblical Languages and Computing (CBLC).
+> Copyright (c) 2024 Center of Biblical Languages and Computing (CBLC).
 For licence details [see here](https://github.com/CenterBLC/N1904/blob/main/LICENSE.md).
 
 ### Citation
