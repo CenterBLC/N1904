@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Morphological Tag Decoder</title>
+    <title>Sandborg-Petersen Morphology Decoder</title>
 </head>
 <body>
-    <h1>Morphological Tag Decoder</h1>
+    <h1>Sandborg-Petersen Morphology Decoder</h1>
     <p>Enter a parsing tag below to decode it:</p>
     <label for="tagInput">Parsing Tag:</label>
     <input type="text" id="tagInput" placeholder="Enter parsing tag" style="text-transform:uppercase;"/>
@@ -16,13 +16,13 @@
 
     <script>
 
-        // main Part of Speech mapping
+        // Main Part of Speech mapping
         const posMap = {
-            "N-PRI": "Proper Noun Indeclinable", // subset of Nouns
+            "N-PRI": "Proper Noun Indeclinable", // first the subset since decoding is based on 'first match'
             "N-LI": "Letter Indeclinable", 
             "N-OI": "Noun Other Type Indeclinable", 
             "N-": "Noun", // generic Noun
-            "A-NUI": "Numeral Indeclinable", // subset of Adjective
+            "A-NUI": "Numeral Indeclinable",
             "A-": "Adjective",
             "T-": "Article",
             "V-": "Verb",
@@ -49,8 +49,8 @@
 
         // gramatical case mapping
         const caseMap = {
-            "N": "Nominative",
             "V": "Vocative",
+            "N": "Nominative",
             "G": "Genitive",
             "D": "Dative",
             "A": "Accusative" 
@@ -126,7 +126,7 @@
             "-IRR": "Irregular or impure form"
         };
 
-        // suffix mapping (for ...)
+        // suffix mapping
         const suffixMap = {
             "-K": "Crasis",
             "-N": "Negative",
@@ -238,8 +238,14 @@
 				output["Gender of Possessed"] = genderMap[input[4]] || "Unknown";
 			}
 			else if (["P-", "R-", "C-", "D-", "K-", "I-", "X-", "Q-", "S-"].includes(pos)) {
-				// The second part contains case, number, and gender
-				if (input.length >= 3) {
+				// The second part contains person, case , and number if it starts with a digit [1-3]
+				if (input.length >= 3 && /^[123]$/.test(input[0])) {
+					output["Person"] = personMap[input[0]] || "Unknown";
+					output["Case"] = caseMap[input[1]] || "Unknown";
+					output["Number"] = numberMap[input[2]] || "Unknown";
+				}
+				// Else the second part contains case, number, and gender
+				else if (input.length >= 3) {
 					output["Case"] = caseMap[input[0]] || "Unknown";
 					output["Number"] = numberMap[input[1]] || "Unknown";
 					output["Gender"] = genderMap[input[2]] || "Unknown";
@@ -250,7 +256,6 @@
             const suffix = Object.keys(suffixMap).find(suf => input.endsWith(suf));
             if (suffix) {
                 output["Suffix"] = suffixMap[suffix];
-                input = input.slice(0, -suffix.length);
             }
 
             document.getElementById("decodedOutput").textContent = JSON.stringify(output, null, 2);
