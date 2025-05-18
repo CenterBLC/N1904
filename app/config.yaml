@@ -62,4 +62,5 @@ typeDisplay:
     features:
     - lemma
     - sp
+    - morph
 writing: grc
