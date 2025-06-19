@@ -11,15 +11,15 @@ Feature group | Feature type | Data type | Available for node types | Used by vi
 
 ## Feature description
 
-The verbal frames are defined as the arguments of predicates. Hence, this feature provides semantic role labeling (SRL) information, answering the question "Who does what to whom?" in the Nestle 1904 Greek New Testament.
+The verbal frames are defined as the arguments of predicates. Hence, this feature provide Semantic Role Labeling (SRL) information. The feature is called `frame` since it follows Frame Semantics. It can be used to answer questions like "Who does what to whom?".
 
 ## Feature values:
 
 Value | Description | Frequency
 ---|---|---
-A0 | Agent or subject of the action | 25654
-A1 | Direct object or the entity directly affected by the action | 15570
-A2 | Indirect object or secondary entity affected by the action | 2577
+A0 | Agent or subject of the action (prototypical agent) | 25654
+A1 | Direct object or the entity directly affected by the action (prototypical patient) | 15570
+A2 | Indirect object or secondary entity affected by the action (prototypical recipient) | 2577
 AA2 | Adverbial roles in a sentence | 92
 
 ## Note
