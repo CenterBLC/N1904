@@ -11,7 +11,7 @@ Feature group | Feature type | Data type | Available for node types | Used by vi
 
 ## Feature description
 
-The `framespec` feature provides the [id](id.md#start) of the referent of the subject, object, or indirect object. This feature is populated primarily for verbs (24690 out of 24767 occurrences), with a few references for other word types. Its functional equivalent edge feature is [frame](frame.md#start).
+The `framespec` feature provides Semantic Role Labeling (SRL) information by providing the [id](id.md#start) of the referent of the subject, object, or indirect object. This feature is populated primarily for verbs (24690 out of 24767 occurrences), with a few references for other word types. Its functional equivalent edge feature is [frame](frame.md#start).
 
 This feature is also populated for `phrase` or `subphrase`, but only if they consist of just one `word` node.
 
@@ -26,9 +26,9 @@ The labels can be decoded using the following table.
 
 Value | Description | Frequency
 ---|---|---
-A0 | Agent or subject of the action | 25654
-A1 | Direct object or the entity directly affected by the action | 15570
-A2 | Indirect object or secondary entity affected by the action | 2577
+A0 | Agent or subject of the action (prototypical agent) | 25654
+A1 | Direct object or the entity directly affected by the action (prototypical patient) | 15570
+A2 | Indirect object or secondary entity affected by the action (prototypical recipient) | 2577
 AA2 | Adverbial roles in a sentence | 92
 
 The values behind these identifiers are in the following format:
