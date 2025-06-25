@@ -11,12 +11,12 @@ This Text-Fabric database offers its users two distinct view types to display th
 
 Viewtype | Display syntax tree | Invocation | Associated node types | 
 --- | --- | --- | ---
-[`wg-view`](wg-view.md#start) | In agnostic terms like word groups | A.viewtype('wg') |  [`wg`](features/featuresbynodetype.md#wordgroup-nodes) 
-[`syntax-view`](syntax-view.md#start) | In linguistic terms like phrases and clauses | A.viewtype('syntax') | [`subphrase`](features/featuresbynodetype.md#subphrase-nodes) [`phrase`](featuresbynodetype.md#phrase-nodes) [`clause`](features/featuresbynodetype.md#clause-nodes) [`group`](featuresbynodetype.md#group-nodes)
+[`wg-view`](wg-view.md#start) | In agnostic terms like word groups | A.viewtype(&#39;wg&#39;) |  [`wg`](features/featuresbynodetype.md#wordgroup-nodes) 
+[`syntax-view`](syntax-view.md#start) | In linguistic terms like phrases and clauses | A.viewtype(&#39;syntax&#39;) | [`subphrase`](features/featuresbynodetype.md#subphrase-nodes) [`phrase`](featuresbynodetype.md#phrase-nodes) [`clause`](features/featuresbynodetype.md#clause-nodes) [`group`](featuresbynodetype.md#group-nodes)
 
 <sup>Note: the node types  [`word`](features/featuresbynodetype.md#word-nodes), [`sentence`](features/featuresbynodetype.md#sentence-nodes), [`verse`](featuresbynodetype.md#verse-nodes), [`chapter`](features/featuresbynodetype.md#chapter-nodes), and [`book`](features/featuresbynodetype.md#book-nodes) are common for both views.</sup>
 
-Note that it is also possible to reset the display and show all nodes by entering the the command A.viewtype('reset').
+Note that it is also possible to reset the display and show all nodes by entering the the command A.viewtype(&#39;reset&#39;).
 
 ## User impact
 
