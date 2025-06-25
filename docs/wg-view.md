@@ -13,8 +13,8 @@ Selecting a viewtype defines which nodes are displayed. The relation between nod
 
 Viewtype | Invocation | Associated node types | 
 --- | --- | ---
-`wg-view` (this view) | A.viewtype('wg') | [`wg`](featuresbynodetype.md#wordgroup-nodes) 
-[`syntax-view`](syntax-view.md#start) | A.viewtype('syntax') | [`subphrase`](features/featuresbynodetype.md#subphrase-nodes) [`phrase`](features/featuresbynodetype.md#phrase-nodes) [`clause`](features/featuresbynodetype.md#clause-nodes) [`group`](features/featuresbynodetype.md#group-nodes)
+`wg-view` (this view) | A.viewtype(&#39;wg&#39;) | [`wg`](featuresbynodetype.md#wordgroup-nodes) 
+[`syntax-view`](syntax-view.md#start) | A.viewtype(&#39;syntax&#39;) | [`subphrase`](features/featuresbynodetype.md#subphrase-nodes) [`phrase`](features/featuresbynodetype.md#phrase-nodes) [`clause`](features/featuresbynodetype.md#clause-nodes) [`group`](features/featuresbynodetype.md#group-nodes)
 
 <sup>Note: the node types  [`Word`](features/featuresbynodetype.md#word-nodes), [`Sentence`](features/featuresbynodetype.md#sentence-nodes), [`verse`](features/featuresbynodetype.md#verse-nodes), [`chapter`](features/featuresbynodetype.md#chapter-nodes), and [`Book`](features/featuresbynodetype.md#book-nodes)` are common for both views.</sup>
 
@@ -30,7 +30,7 @@ The following images show John 1:1 using the wg-view:
 
 ## Implementatation
 
-The following actions are performed when the command A.viewtype('wg') is issued:
+The following actions are performed when the command A.viewtype(&#39;wg&#39;) is issued:
   * clause, phrase, subphrase, and group node types will be hidden.
   * The label for sentence nodes is updates with features matching a wordgroup view
   * The display parameter 'condensed' is set to True and 'queryFeatures' to False, respectively.
