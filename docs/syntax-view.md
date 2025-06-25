@@ -13,8 +13,8 @@ The relation between node types and view types is shown in the following table.
 
 Viewtype | Invocation | Associated node types | 
 --- | --- | ---
-[`wg-view`](wg-view.md#start) | A.viewtype('wg') |  [`wg`](features/featuresbynodetype.md#wordgroup-nodes) 
-`syntax-view` (this view) | A.viewtype('syntax') | [`subphrase`](features/featuresbynodetype.md#subphrase-nodes) [`phrase`](features/featuresbynodetype.md#phrase-nodes) [`clause`](features/featuresbynodetype.md#clause-nodes) [`group`](features/featuresbynodetype.md#group-nodes)
+[`wg-view`](wg-view.md#start) | A.viewtype(&#39;wg&#39;) |  [`wg`](features/featuresbynodetype.md#wordgroup-nodes) 
+`syntax-view` (this view) | A.viewtype(&#39;syntax&#39;) | [`subphrase`](features/featuresbynodetype.md#subphrase-nodes) [`phrase`](features/featuresbynodetype.md#phrase-nodes) [`clause`](features/featuresbynodetype.md#clause-nodes) [`group`](features/featuresbynodetype.md#group-nodes)
 
 <sup>Note: the node types  [`Word`](features/featuresbynodetype.md#word-nodes), [`Sentence`](features/featuresbynodetype.md#sentence-nodes), [`verse`](features/featuresbynodetype.md#verse-nodes), [`chapter`](features/featuresbynodetype.md#chapter-nodes), and [`Book`](features/featuresbynodetype.md#book-nodes) are common for both views.</sup>
 
@@ -40,7 +40,7 @@ This image compares the parent (arrows) and sibling features (connector with cir
 
 ## Implementatation
 
-The following actions are performed when the command A.viewtype('syntax') is issued:
+The following actions are performed when the command A.viewtype(&#39;syntax&#39;) is issued:
   * wg (wordgroup) node types will be hidden.
   * The label for sentence nodes is updates with features matching a syntax view
   * The display parameter 'condensed' is set to True and 'queryFeatures' to False, respectively.
