@@ -23,11 +23,11 @@ See also features:
  * [lemmatranslit](lemmatranslit.md#start): Transliteration of the lexical lemma.
  * [variant](variant.md#start): Variant of the lexical lemma based upon [Bible Online Learner (BibleOL)](https://learner.bible/).
 
-And the following [add-on features](..additions/README.md#start):
+And the following [add-on features](../additions/README.md#start):
 
-* [bol_lemma](additions/bol_lemma.md#start): BibleOL based lexeme.
-* [bol_lemma_dict](additions/bol_lemma_dict.md#start): BibleOL based lexeme as it appears in the dictionary.
-* [lemma_dict](additions/lemma_dict.md#start): Lexeme as it appears in the dictionary.
+* [bol_lemma](../additions/bol_lemma.md#start): BibleOL based lexeme.
+* [bol_lemma_dict](../additions/bol_lemma_dict.md#start): BibleOL based lexeme as it appears in the dictionary.
+* [lemma_dict](../additions/lemma_dict.md#start): Lexeme as it appears in the dictionary.
 
 ## Source description
 
