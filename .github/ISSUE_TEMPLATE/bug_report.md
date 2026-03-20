@@ -23,13 +23,13 @@ A clear and concise description of what you expected to happen.
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
+**Desktop configuration (please complete the following information when applicable):**
+ - OS: [e.g. Windows, Linux]
+ - Browser [e.g. chrome, firefox]
  - Version [e.g. 22]
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
+**Smartphone configuration (please complete the following information when applicable):**
+ - Device: [e.g. iPhone6, android]
  - OS: [e.g. iOS8.1]
  - Browser [e.g. stock browser, safari]
  - Version [e.g. 22]
